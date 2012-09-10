@@ -1030,8 +1030,7 @@
         <item id="901600">
             <label>42245</label>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
-            <onclick condition="!System.HasAddon(plugin.moviesets)">ActivateWindow(Videos,MovieSets,return)</onclick>
-            <onclick condition="System.HasAddon(plugin.moviesets)">XBMC.RunAddon(plugin.moviesets)</onclick>
+            <onclick>ActivateWindow(Videos,MovieSets,return)</onclick>
             <visible>Container(9000).HasFocus(10) + !Skin.HasSetting(MoviesSub11)</visible>
         </item>
         <include condition="System.HasAddon(script.randommovie) + Skin.HasSetting(MoviesSub10)">RandomMovieScriptButton</include>
@@ -1560,14 +1559,14 @@
     </include>
     <include name="Furniture_ClassicHomeGradient">
         <control type="image">
-            <posx>0</posx>
-            <posy>455</posy>
+            
+            <posy>453</posy>
             <width>1920</width>
             <height>225</height>
             <texture>home/homemenu_gradient.png</texture>
         </control>
         <control type="image">
-            <posx>0</posx>
+            
             <posy>453</posy>
             <width>1920</width>
             <height>225</height>
@@ -1992,7 +1991,7 @@
         <itemlayout width="225" height="50">
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
@@ -2006,7 +2005,7 @@
         <focusedlayout width="225" height="50">
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
@@ -2019,7 +2018,7 @@
             </control>
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
@@ -2919,7 +2918,7 @@
         <itemlayout width="225" height="50">
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
@@ -2940,7 +2939,7 @@
         <focusedlayout width="225" height="50">
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
@@ -2954,7 +2953,7 @@
             </control>
             <control type="label">
                 <posx>112</posx>
-                <posy>0</posy>
+                
                 <height>50</height>
                 <width>218</width>
                 <align>center</align>
