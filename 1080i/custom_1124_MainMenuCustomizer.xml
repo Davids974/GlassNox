@@ -82,7 +82,7 @@
             <colordiffuse>$INFO[Skin.String(BackgroundDarkness)]</colordiffuse>
             <texture>common/black.png</texture>
             <include>Animation_VisibleChange400</include>
-            <visible>!Skin.HasTheme(White)</visible>
+            <visible>Skin.HasTheme(Black)</visible>
             <visible>!Skin.HasSetting(DisableGlowbar)</visible>
         </control>
         <control type="image">
@@ -90,7 +90,7 @@
             <colordiffuse>$INFO[Skin.String(BackgroundDarkness)]</colordiffuse>
             <texture>common/white.png</texture>
             <include>Animation_VisibleChange400</include>
-            <visible>Skin.HasTheme(White)</visible>
+            <visible>!Skin.HasTheme(Black)</visible>
             <visible>!Skin.HasSetting(DisableGlowbar)</visible>
         </control>
         <control type="image">

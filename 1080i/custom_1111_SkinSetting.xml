@@ -80,6 +80,12 @@
                         <label>470</label>
                         <onclick>-</onclick>
                     </item>
+                    <item id="10">
+						<label>Reset Skin</label>
+						<label2>and Reload</label2>
+						<onclick>Skin.ResetSettings</onclick>
+						<onclick>ReloadSkin()</onclick>
+					</item>
                 </content>
             </control>
             <control type="label">
@@ -733,6 +739,29 @@
                 </control>
             </control>
         </control>
+        <control type="group">
+                <visible>Container(9000).Hasfocus(10)</visible>
+                <posx>700</posx>
+                <posy>200</posy>
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>30</posy>
+                    <width>750</width>
+                    <heigth>652</heigth>
+                    <aspectratio>keep</aspectratio>
+                    <texture>danger.png</texture>
+                    <visible>!Player.HasAudio</visible>
+                </control>
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>30</posy>
+                    <width>750</width>
+                    <heigth>652</heigth>
+                    <aspectratio>keep</aspectratio>
+                    <texture>barberouge.png</texture>
+                    <visible>Player.HasAudio</visible>
+                </control>       
+            </control>
         <control type="image">
             <include>FullscreenDimensions</include>
             <colordiffuse>black</colordiffuse>

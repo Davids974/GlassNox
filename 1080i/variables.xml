@@ -99,8 +99,8 @@
         <value>FFAAAAAA</value>
     </variable>
     <variable name="AreaColorVar">
-        <value condition="Skin.HasTheme(White)">$VAR[WhiteAreaColorVar]</value>
-        <value>$VAR[DefaultAreaColorVar]</value>
+        <value condition="Skin.HasTheme(Black)">$VAR[DefaultAreaColorVar]</value>
+        <value>$VAR[WhiteAreaColorVar]</value>
     </variable>
     <variable name="DefaultFontColorVar">
         <value condition="[Window.IsActive(1128) | Window.IsActive(1138)] + !IsEmpty(Skin.String(font_color))">$INFO[Skin.String(font_color)]</value>
@@ -135,8 +135,8 @@
         <value>white2</value>
     </variable>
     <variable name="FontColorVar">
-        <value condition="Skin.HasTheme(White)">$VAR[WhiteFontColorVar]</value>
-        <value>$VAR[DefaultFontColorVar]</value>
+        <value condition="Skin.HasTheme(Black)">$VAR[DefaultFontColorVar]</value>
+        <value>$VAR[WhiteFontColorVar]</value>
     </variable>
     <variable name="SpotColorVar">
         <value condition="Skin.HasTheme(White)">$VAR[ColorDiffuseVar]</value>
@@ -158,8 +158,8 @@
         <value>$VAR[AreaColorVar]</value>
     </variable>
     <variable name="SpotColorVar2">
-        <value condition="Skin.HasTheme(White)">FFAAAAAA</value>
-        <value>$VAR[SpotColorVar]</value>
+        <value condition="Skin.HasTheme(Black)">$VAR[SpotColorVar]</value>
+        <value>FFAAAAAA</value>
     </variable>
     <variable name="ColorDiffuseVar">
         <value condition="Skin.HasSetting(randomcolor)">$VAR[DayTimeColorVar]</value>
