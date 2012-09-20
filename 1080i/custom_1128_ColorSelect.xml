@@ -55,7 +55,7 @@
                     <label>[UPPERCASE][B]$LOCALIZE[31176][/UPPERCASE][/B]</label>
                     <enable>no</enable>
                 </control>
-                <control type="button" id="13">
+                <control type="button" id="10">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31181]</label>
                     <label2>[COLOR $VAR[FontColorVar]]$VAR[GlowModeLabelVar][/COLOR]</label2>
@@ -64,25 +64,25 @@
                     <onclick condition="Skin.HasSetting(ExtendedGlowMode) + !Skin.HasSetting(DisableGlowbar)">Skin.SetBool(DisableGlowbar)</onclick>
                     <onclick condition="Skin.HasSetting(ExtendedGlowMode) + Skin.HasSetting(DisableGlowbar)">Skin.Reset(ExtendedGlowMode)</onclick>
                 </control>
-                <control type="radiobutton" id="10">
+                <control type="radiobutton" id="11">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31177]</label>
                     <onclick>Skin.ToggleSetting(randomcolor)</onclick>
                     <selected>Skin.HasSetting(randomcolor)</selected>
                 </control>
-                <control type="radiobutton" id="15">
+                <control type="radiobutton" id="12">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31182] $LOCALIZE[31083]</label>
                     <onclick>Skin.ToggleSetting(colortext)</onclick>
                     <selected>Skin.HasSetting(colortext)</selected>
                 </control>
-                <control type="radiobutton" id="16">
+                <control type="radiobutton" id="13">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31182] $LOCALIZE[31084]</label>
                     <onclick>Skin.ToggleSetting(colordialogs)</onclick>
                     <selected>Skin.HasSetting(colordialogs)</selected>
                 </control>
-                <control type="button" id="1603">
+               <!-- <control type="button" id="1603">
                     <colordiffuse>$VAR[FocusTextureColorVar]</colordiffuse>
                     <height>45</height>
                     <width>603</width>
@@ -98,20 +98,28 @@
                     <include>Animation_CommonFade</include>
                     <label>[UPPERCASE][B]$LOCALIZE[42285][/UPPERCASE][/B]</label>
                     <enable>no</enable>
-                </control>
-                <control type="button" id="11">
+                </control>-->
+                <control type="button" id="14">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31178]</label>
+                    <onclick>SetProperty(panel,panel,1124)</onclick>
                     <onclick>ActivateWindow(1138)</onclick>
                     <enable>!Skin.HasSetting(randomcolor)</enable>
                 </control>
-                <control type="button" id="12">
+                <control type="button" id="15">
+                    <include>ColorChooserButton</include>
+                    <label>$LOCALIZE[31178]</label>
+                    <onclick>SetProperty(diffuse,color,1124)</onclick>
+                    <onclick>ActivateWindow(1138)</onclick>
+                    <enable>!Skin.HasSetting(randomcolor)</enable>
+                </control>
+                <control type="button" id="16">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31192]</label>
                     <onclick>SetProperty(skincolor,font,1124)</onclick>
                     <onclick>ActivateWindow(1138)</onclick>
                 </control>
-                <control type="button" id="17">
+              <!--  <control type="button" id="17">
                     <include>ColorChooserButton</include>
                     <label>$LOCALIZE[31090]</label>
                     <label2>[COLOR $VAR[FontColorVar]]$INFO[Skin.String(BackgroundDarkness)][/COLOR]</label2>
@@ -127,11 +135,19 @@
                     <onclick>RunScript(script.color.picker,Skin.SetString(diffuse_color,$INFO[Skin.String(diffuse_color)]),Transparency&amp;Min=70&amp;Max=100&amp;SetStringInRealTime=true)</onclick>
                     <onclick condition="!System.HasAddon(script.color.picker)">Notification($LOCALIZE[42002],$LOCALIZE[42010])</onclick>
                     <visible>!Window.IsActive(home)</visible>
-                </control>
+                </control>-->
             </control>
             <control type="image">
                 <posx>670</posx>
-                <posy>360</posy>
+                <posy>315</posy>
+                <width>50</width>
+                <height>50</height>
+                <texture>common/white.png</texture>
+                <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
+            </control>
+            <control type="image">
+                <posx>670</posx>
+                <posy>380</posy>
                 <width>50</width>
                 <height>50</height>
                 <texture>common/white.png</texture>
@@ -139,7 +155,7 @@
             </control>
             <control type="image">
                 <posx>670</posx>
-                <posy>425</posy>
+                <posy>445</posy>
                 <width>50</width>
                 <height>50</height>
                 <texture>common/white.png</texture>
