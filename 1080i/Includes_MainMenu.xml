@@ -1,386 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
-    <include name="CustomSubsPrograms">
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub1.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub1.Type),4) + !stringcompare(Skin.String(ProgramsSub1.Type),5) + !stringcompare(Skin.String(ProgramsSub1.Type),6) + !stringcompare(Skin.String(ProgramsSub1.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub1.Type),6) | Stringcompare(Skin.String(ProgramsSub1.Type),7)">$INFO[Skin.String(ProgramsSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub1.Disable)) + !IsEmpty(Skin.String(ProgramsSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub2.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub2.Type),4) + !stringcompare(Skin.String(ProgramsSub2.Type),5) + !stringcompare(Skin.String(ProgramsSub2.Type),6) + !stringcompare(Skin.String(ProgramsSub2.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub2.Type),6) | Stringcompare(Skin.String(ProgramsSub2.Type),7)">$INFO[Skin.String(ProgramsSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub2.Disable)) + !IsEmpty(Skin.String(ProgramsSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub3.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub3.Type),4) + !stringcompare(Skin.String(ProgramsSub3.Type),5) + !stringcompare(Skin.String(ProgramsSub3.Type),6) + !stringcompare(Skin.String(ProgramsSub3.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub3.Type),6) | Stringcompare(Skin.String(ProgramsSub3.Type),7)">$INFO[Skin.String(ProgramsSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub3.Disable)) + !IsEmpty(Skin.String(ProgramsSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub4.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub4.Type),4) + !stringcompare(Skin.String(ProgramsSub4.Type),5) + !stringcompare(Skin.String(ProgramsSub4.Type),6) + !stringcompare(Skin.String(ProgramsSub4.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub4.Type),6) | Stringcompare(Skin.String(ProgramsSub4.Type),7)">$INFO[Skin.String(ProgramsSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub4.Disable)) + !IsEmpty(Skin.String(ProgramsSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub5.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub5.Type),4) + !stringcompare(Skin.String(ProgramsSub5.Type),5) + !stringcompare(Skin.String(ProgramsSub5.Type),6) + !stringcompare(Skin.String(ProgramsSub5.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub5.Type),6) | Stringcompare(Skin.String(ProgramsSub5.Type),7)">$INFO[Skin.String(ProgramsSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub5.Disable)) + !IsEmpty(Skin.String(ProgramsSub5.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub6.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub6.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub6.Type),4) + !stringcompare(Skin.String(ProgramsSub6.Type),5) + !stringcompare(Skin.String(ProgramsSub6.Type),6) + !stringcompare(Skin.String(ProgramsSub6.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub6.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub6.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub6.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub6.Type),6) | Stringcompare(Skin.String(ProgramsSub6.Type),7)">$INFO[Skin.String(ProgramsSub6.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub6.Disable)) + !IsEmpty(Skin.String(ProgramsSub6.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub7.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub7.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub7.Type),4) + !stringcompare(Skin.String(ProgramsSub7.Type),5) + !stringcompare(Skin.String(ProgramsSub7.Type),6) + !stringcompare(Skin.String(ProgramsSub7.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub7.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub7.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub7.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub7.Type),6) | Stringcompare(Skin.String(ProgramsSub7.Type),7)">$INFO[Skin.String(ProgramsSub7.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub7.Disable)) + !IsEmpty(Skin.String(ProgramsSub7.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(ProgramsSub8.Label)]</label>
-            <thumb>$INFO[Skin.String(ProgramsSub8.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(ProgramsSub8.Type),4) + !stringcompare(Skin.String(ProgramsSub8.Type),5) + !stringcompare(Skin.String(ProgramsSub8.Type),6) + !stringcompare(Skin.String(ProgramsSub8.Type),7)">RunAddon($INFO[Skin.String(ProgramsSub8.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub8.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(ProgramsSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub8.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(ProgramsSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(ProgramsSub8.Type),6) | Stringcompare(Skin.String(ProgramsSub8.Type),7)">$INFO[Skin.String(ProgramsSub8.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),programs) + IsEmpty(Skin.String(ProgramsSub8.Disable)) + !IsEmpty(Skin.String(ProgramsSub8.Path))</visible>
-        </item>
-    </include>
-    <include name="CustomSubsWeather">
-        <item>
-            <label>$INFO[Skin.String(WeatherSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub1.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub1.Type),4) + !stringcompare(Skin.String(WeatherSub1.Type),5) + !stringcompare(Skin.String(WeatherSub1.Type),6) + !stringcompare(Skin.String(WeatherSub1.Type),7)">RunAddon($INFO[Skin.String(WeatherSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub1.Type),6) | Stringcompare(Skin.String(WeatherSub1.Type),7)">$INFO[Skin.String(WeatherSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub1.Disable)) + !IsEmpty(Skin.String(WeatherSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub2.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub2.Type),4) + !stringcompare(Skin.String(WeatherSub2.Type),5) + !stringcompare(Skin.String(WeatherSub2.Type),6) + !stringcompare(Skin.String(WeatherSub2.Type),7)">RunAddon($INFO[Skin.String(WeatherSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub2.Type),6) | Stringcompare(Skin.String(WeatherSub2.Type),7)">$INFO[Skin.String(WeatherSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub2.Disable)) + !IsEmpty(Skin.String(WeatherSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub3.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub3.Type),4) + !stringcompare(Skin.String(WeatherSub3.Type),5) + !stringcompare(Skin.String(WeatherSub3.Type),6) + !stringcompare(Skin.String(WeatherSub3.Type),7)">RunAddon($INFO[Skin.String(WeatherSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub3.Type),6) | Stringcompare(Skin.String(WeatherSub3.Type),7)">$INFO[Skin.String(WeatherSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub3.Disable)) + !IsEmpty(Skin.String(WeatherSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub4.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub4.Type),4) + !stringcompare(Skin.String(WeatherSub4.Type),5) + !stringcompare(Skin.String(WeatherSub4.Type),6) + !stringcompare(Skin.String(WeatherSub4.Type),7)">RunAddon($INFO[Skin.String(WeatherSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub4.Type),6) | Stringcompare(Skin.String(WeatherSub4.Type),7)">$INFO[Skin.String(WeatherSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub4.Disable)) + !IsEmpty(Skin.String(WeatherSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub5.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub5.Type),4) + !stringcompare(Skin.String(WeatherSub5.Type),5) + !stringcompare(Skin.String(WeatherSub5.Type),6) + !stringcompare(Skin.String(WeatherSub5.Type),7)">RunAddon($INFO[Skin.String(WeatherSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub5.Type),6) | Stringcompare(Skin.String(WeatherSub5.Type),7)">$INFO[Skin.String(WeatherSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub5.Disable)) + !IsEmpty(Skin.String(WeatherSub5.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub6.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub6.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub6.Type),4) + !stringcompare(Skin.String(WeatherSub6.Type),5) + !stringcompare(Skin.String(WeatherSub6.Type),6) + !stringcompare(Skin.String(WeatherSub6.Type),7)">RunAddon($INFO[Skin.String(WeatherSub6.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub6.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub6.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub6.Type),6) | Stringcompare(Skin.String(WeatherSub6.Type),7)">$INFO[Skin.String(WeatherSub6.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub6.Disable)) + !IsEmpty(Skin.String(WeatherSub6.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub7.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub7.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub7.Type),4) + !stringcompare(Skin.String(WeatherSub7.Type),5) + !stringcompare(Skin.String(WeatherSub7.Type),6) + !stringcompare(Skin.String(WeatherSub7.Type),7)">RunAddon($INFO[Skin.String(WeatherSub7.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub7.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub7.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub7.Type),6) | Stringcompare(Skin.String(WeatherSub7.Type),7)">$INFO[Skin.String(WeatherSub7.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub7.Disable)) + !IsEmpty(Skin.String(WeatherSub7.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(WeatherSub8.Label)]</label>
-            <thumb>$INFO[Skin.String(WeatherSub8.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(WeatherSub8.Type),4) + !stringcompare(Skin.String(WeatherSub8.Type),5) + !stringcompare(Skin.String(WeatherSub8.Type),6) + !stringcompare(Skin.String(WeatherSub8.Type),7)">RunAddon($INFO[Skin.String(WeatherSub8.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub8.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(WeatherSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub8.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(WeatherSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(WeatherSub8.Type),6) | Stringcompare(Skin.String(WeatherSub8.Type),7)">$INFO[Skin.String(WeatherSub8.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),weather) + IsEmpty(Skin.String(WeatherSub8.Disable)) + !IsEmpty(Skin.String(WeatherSub8.Path))</visible>
-        </item>
-    </include>
-    <include name="CustomSubsMusic">
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub1.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub1.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub1.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub1.Type),6) + !stringcompare(Skin.String(CustomMusicSub1.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub1.Type),6) | Stringcompare(Skin.String(CustomMusicSub1.Type),7)">$INFO[Skin.String(CustomMusicSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub1.Disable)) + !IsEmpty(Skin.String(CustomMusicSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub2.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub2.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub2.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub2.Type),6) + !stringcompare(Skin.String(CustomMusicSub2.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub2.Type),6) | Stringcompare(Skin.String(CustomMusicSub2.Type),7)">$INFO[Skin.String(CustomMusicSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub2.Disable)) + !IsEmpty(Skin.String(CustomMusicSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub3.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub3.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub3.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub3.Type),6) + !stringcompare(Skin.String(CustomMusicSub3.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub3.Type),6) | Stringcompare(Skin.String(CustomMusicSub3.Type),7)">$INFO[Skin.String(CustomMusicSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub3.Disable)) + !IsEmpty(Skin.String(CustomMusicSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub4.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub4.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub4.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub4.Type),6) + !stringcompare(Skin.String(CustomMusicSub4.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub4.Type),6) | Stringcompare(Skin.String(CustomMusicSub4.Type),7)">$INFO[Skin.String(CustomMusicSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub4.Disable)) + !IsEmpty(Skin.String(CustomMusicSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub5.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub5.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub5.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub5.Type),6) + !stringcompare(Skin.String(CustomMusicSub5.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub5.Type),6) | Stringcompare(Skin.String(CustomMusicSub5.Type),7)">$INFO[Skin.String(CustomMusicSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub5.Disable)) + !IsEmpty(Skin.String(CustomMusicSub5.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub6.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub6.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub6.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub6.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub6.Type),6) + !stringcompare(Skin.String(CustomMusicSub6.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub6.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub6.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub6.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub6.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub6.Type),6) | Stringcompare(Skin.String(CustomMusicSub6.Type),7)">$INFO[Skin.String(CustomMusicSub6.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub6.Disable)) + !IsEmpty(Skin.String(CustomMusicSub6.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub7.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub7.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub7.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub7.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub7.Type),6) + !stringcompare(Skin.String(CustomMusicSub7.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub7.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub7.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub7.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub7.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub7.Type),6) | Stringcompare(Skin.String(CustomMusicSub7.Type),7)">$INFO[Skin.String(CustomMusicSub7.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub7.Disable)) + !IsEmpty(Skin.String(CustomMusicSub7.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(CustomMusicSub8.Label)]</label>
-            <thumb>$INFO[Skin.String(CustomMusicSub8.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(CustomMusicSub8.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(CustomMusicSub8.Type),4) + !stringcompare(Skin.String(v.Type),5) + !stringcompare(Skin.String(CustomMusicSub8.Type),6) + !stringcompare(Skin.String(CustomMusicSub8.Type),7)">RunAddon($INFO[Skin.String(CustomMusicSub8.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub8.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomMusicSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub8.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomMusicSub8.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(CustomMusicSub8.Type),6) | Stringcompare(Skin.String(CustomMusicSub8.Type),7)">$INFO[Skin.String(CustomMusicSub8.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(CustomMusicSub8.Disable)) + !IsEmpty(Skin.String(CustomMusicSub8.Path))</visible>
-        </item>
-    </include>
-    <include name="CustomSubsMovies">
-        <item>
-            <label>$INFO[Skin.String(MovieSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(MovieSub1.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(MovieSub1.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(MovieSub1.Type),4) + !stringcompare(Skin.String(MovieSub1.Type),5) + !stringcompare(Skin.String(MovieSub1.Type),6) + !stringcompare(Skin.String(MovieSub1.Type),7)">RunAddon($INFO[Skin.String(MovieSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(MovieSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MovieSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub1.Type),6) | Stringcompare(Skin.String(MovieSub1.Type),7)">$INFO[Skin.String(MovieSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MovieSub1.Disable.Disable)) + !IsEmpty(Skin.String(MovieSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(MovieSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(MovieSub2.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(MovieSub2.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(MovieSub2.Type),4) + !stringcompare(Skin.String(MovieSub2.Type),5) + !stringcompare(Skin.String(MovieSub2.Type),6) + !stringcompare(Skin.String(MovieSub2.Type),7)">RunAddon($INFO[Skin.String(MovieSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(MovieSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MovieSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub2.Type),6) | Stringcompare(Skin.String(MovieSub2.Type),7)">$INFO[Skin.String(MovieSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MovieSub2.Disable)) + !IsEmpty(Skin.String(MovieSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(MovieSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(MovieSub3.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(MovieSub3.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(MovieSub3.Type),4) + !stringcompare(Skin.String(MovieSub3.Type),5) + !stringcompare(Skin.String(MovieSub3.Type),6) + !stringcompare(Skin.String(MovieSub3.Type),7)">RunAddon($INFO[Skin.String(MovieSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(MovieSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MovieSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub3.Type),6) | Stringcompare(Skin.String(MovieSub3.Type),7)">$INFO[Skin.String(MovieSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MovieSub3.Disable)) + !IsEmpty(Skin.String(MovieSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(MovieSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(MovieSub4.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(MovieSub4.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(MovieSub4.Type),4) + !stringcompare(Skin.String(MovieSub4.Type),5) + !stringcompare(Skin.String(MovieSub4.Type),6) + !stringcompare(Skin.String(MovieSub4.Type),7)">RunAddon($INFO[Skin.String(MovieSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(MovieSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MovieSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub4.Type),6) | Stringcompare(Skin.String(MovieSub4.Type),7)">$INFO[Skin.String(MovieSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MovieSub4.Disable)) + !IsEmpty(Skin.String(MovieSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(MovieSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(MovieSub5.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(MovieSub5.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(MovieSub5.Type),4) + !stringcompare(Skin.String(MovieSub5.Type),5) + !stringcompare(Skin.String(MovieSub5.Type),6) + !stringcompare(Skin.String(MovieSub5.Type),7)">RunAddon($INFO[Skin.String(MovieSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(MovieSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(MovieSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(MovieSub5.Type),6) | Stringcompare(Skin.String(MovieSub5.Type),7)">$INFO[Skin.String(MovieSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MovieSub5.Disable)) + !IsEmpty(Skin.String(MovieSub5.Path))</visible>
-        </item>
-    </include>
-    <include name="CustomSubsSettings">
-        <item>
-            <label>$INFO[Skin.String(SettingsSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(SettingsSub1.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(SettingsSub1.Type),4) + !stringcompare(Skin.String(SettingsSub1.Type),5) + !stringcompare(Skin.String(SettingsSub1.Type),6) + !stringcompare(Skin.String(SettingsSub1.Type),7)">RunAddon($INFO[Skin.String(SettingsSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(SettingsSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(SettingsSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub1.Type),6) | Stringcompare(Skin.String(SettingsSub1.Type),7)">$INFO[Skin.String(SettingsSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),settings) + !IsEmpty(Skin.String(SettingsSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(SettingsSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(SettingsSub2.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(SettingsSub2.Type),4) + !stringcompare(Skin.String(SettingsSub2.Type),5) + !stringcompare(Skin.String(SettingsSub2.Type),6) + !stringcompare(Skin.String(SettingsSub2.Type),7)">RunAddon($INFO[Skin.String(SettingsSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(SettingsSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(SettingsSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub2.Type),6) | Stringcompare(Skin.String(SettingsSub2.Type),7)">$INFO[Skin.String(SettingsSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),settings) + !IsEmpty(Skin.String(SettingsSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(SettingsSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(SettingsSub3.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(SettingsSub3.Type),4) + !stringcompare(Skin.String(SettingsSub3.Type),5) + !stringcompare(Skin.String(SettingsSub3.Type),6) + !stringcompare(Skin.String(SettingsSub3.Type),7)">RunAddon($INFO[Skin.String(SettingsSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(SettingsSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(SettingsSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub3.Type),6) | Stringcompare(Skin.String(SettingsSub3.Type),7)">$INFO[Skin.String(SettingsSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),settings) + !IsEmpty(Skin.String(SettingsSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(SettingsSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(SettingsSub4.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(SettingsSub4.Type),4) + !stringcompare(Skin.String(SettingsSub4.Type),5) + !stringcompare(Skin.String(SettingsSub4.Type),6) + !stringcompare(Skin.String(SettingsSub4.Type),7)">RunAddon($INFO[Skin.String(SettingsSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(SettingsSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(SettingsSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub4.Type),6) | Stringcompare(Skin.String(SettingsSub4.Type),7)">$INFO[Skin.String(SettingsSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),settings) + !IsEmpty(Skin.String(SettingsSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(SettingsSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(SettingsSub5.MultiFanart)]</thumb>
-            <onclick condition="!stringcompare(Skin.String(SettingsSub5.Type),4) + !stringcompare(Skin.String(SettingsSub5.Type),5) + !stringcompare(Skin.String(SettingsSub5.Type),6) + !stringcompare(Skin.String(SettingsSub5.Type),7)">RunAddon($INFO[Skin.String(SettingsSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(SettingsSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(SettingsSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(SettingsSub5.Type),6) | Stringcompare(Skin.String(SettingsSub5.Type),7)">$INFO[Skin.String(SettingsSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),settings) + !IsEmpty(Skin.String(SettingsSub5.Path))</visible>
-        </item>
-    </include>
-    <include name="CustomSubsTV">
-        <item>
-            <label>$INFO[Skin.String(TVShowSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(TVShowSub1.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(TVShowSub1.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(TVShowSub1.Type),4) + !stringcompare(Skin.String(TVShowSub1.Type),5) + !stringcompare(Skin.String(TVShowSub1.Type),6) + !stringcompare(Skin.String(TVShowSub1.Type),7)">RunAddon($INFO[Skin.String(TVShowSub1.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(TVShowSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(TVShowSub1.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub1.Type),6) | Stringcompare(Skin.String(TVShowSub1.Type),7)">$INFO[Skin.String(TVShowSub1.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),tv) + IsEmpty(Skin.String(TVShowSub1.Disable)) + !IsEmpty(Skin.String(TVShowSub1.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(TVShowSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(TVShowSub2.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(TVShowSub2.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(TVShowSub2.Type),4) + !stringcompare(Skin.String(TVShowSub2.Type),5) + !stringcompare(Skin.String(TVShowSub2.Type),6) + !stringcompare(Skin.String(TVShowSub2.Type),7)">RunAddon($INFO[Skin.String(TVShowSub2.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(TVShowSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(TVShowSub2.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub2.Type),6) | Stringcompare(Skin.String(TVShowSub2.Type),7)">$INFO[Skin.String(TVShowSub2.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),tv) + IsEmpty(Skin.String(TVShowSub2.Disable)) + !IsEmpty(Skin.String(TVShowSub2.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(TVShowSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(TVShowSub3.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(TVShowSub3.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(TVShowSub3.Type),4) + !stringcompare(Skin.String(TVShowSub3.Type),5) + !stringcompare(Skin.String(TVShowSub3.Type),6) + !stringcompare(Skin.String(TVShowSub3.Type),7)">RunAddon($INFO[Skin.String(TVShowSub3.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(TVShowSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(TVShowSub3.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub3.Type),6) | Stringcompare(Skin.String(TVShowSub3.Type),7)">$INFO[Skin.String(TVShowSub3.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),tv) + IsEmpty(Skin.String(TVShowSub3.Disable)) + !IsEmpty(Skin.String(TVShowSub3.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(TVShowSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(TVShowSub4.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(TVShowSub4.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(TVShowSub4.Type),4) + !stringcompare(Skin.String(TVShowSub4.Type),5) + !stringcompare(Skin.String(TVShowSub4.Type),6) + !stringcompare(Skin.String(TVShowSub4.Type),7)">RunAddon($INFO[Skin.String(TVShowSub4.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(TVShowSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(TVShowSub4.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub4.Type),6) | Stringcompare(Skin.String(TVShowSub4.Type),7)">$INFO[Skin.String(TVShowSub4.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),tv) + IsEmpty(Skin.String(TVShowSub4.Disable)) + !IsEmpty(Skin.String(TVShowSub4.Path))</visible>
-        </item>
-        <item>
-            <label>$INFO[Skin.String(TVShowSub5.Label)]</label>
-            <thumb>$INFO[Skin.String(TVShowSub5.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(TVShowSub5.Widget)]</property>
-            <onclick condition="!stringcompare(Skin.String(TVShowSub5.Type),4) + !stringcompare(Skin.String(TVShowSub5.Type),5) + !stringcompare(Skin.String(TVShowSub5.Type),6) + !stringcompare(Skin.String(TVShowSub5.Type),7)">RunAddon($INFO[Skin.String(TVShowSub5.Path)])</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(TVShowSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(TVShowSub5.Path)],return)</onclick>
-            <onclick condition="stringcompare(Skin.String(TVShowSub5.Type),6) | Stringcompare(Skin.String(TVShowSub5.Type),7)">$INFO[Skin.String(TVShowSub5.Path)]</onclick>
-            <visible>Substring(Control.GetLabel(4327),tv) + IsEmpty(Skin.String(TVShowSub5.Disable)) + !IsEmpty(Skin.String(TVShowSub5.Path))</visible>
-        </item>
-    </include>
     <include name="Custom1Subs">
         <item>
             <label>$INFO[Skin.String(CustomSub1_1.Label)]</label>
@@ -661,6 +280,204 @@
             <onclick condition="stringcompare(Skin.String(CustomSub6_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_5.Type),6) | Stringcompare(Skin.String(CustomSub6_5.Type),7)">$INFO[Skin.String(CustomSub6_5.Path)]</onclick>
             <visible>Substring(Control.GetLabel(4327),custom6) + IsEmpty(Skin.String(CustomSub6_5.Disable)) + !IsEmpty(Skin.String(CustomSub6_5.Path))</visible>
+        </item>
+    </include>
+    <include name="Custom7Subs">
+        <item>
+            <label>$INFO[Skin.String(CustomSub7_1.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub7_1.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub7_1.Type),4) + !stringcompare(Skin.String(CustomSub7_1.Type),5) + !stringcompare(Skin.String(CustomSub7_1.Type),6) + !stringcompare(Skin.String(CustomSub7_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_1.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_1.Type),6) | Stringcompare(Skin.String(CustomSub7_1.Type),7)">$INFO[Skin.String(CustomSub7_1.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom7) + !IsEmpty(Skin.String(CustomSub7_1.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub7_2.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub7_2.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub7_2.Type),4) + !stringcompare(Skin.String(CustomSub7_2.Type),5) + !stringcompare(Skin.String(CustomSub7_2.Type),6) + !stringcompare(Skin.String(CustomSub7_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_2.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_2.Type),6) | Stringcompare(Skin.String(CustomSub7_2.Type),7)">$INFO[Skin.String(CustomSub7_2.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom7) + !IsEmpty(Skin.String(CustomSub7_2.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub7_3.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub7_3.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub7_3.Type),4) + !stringcompare(Skin.String(CustomSub7_3.Type),5) + !stringcompare(Skin.String(CustomSub7_3.Type),6) + !stringcompare(Skin.String(CustomSub7_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_3.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_3.Type),6) | Stringcompare(Skin.String(CustomSub7_3.Type),7)">$INFO[Skin.String(CustomSub7_3.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom7) + !IsEmpty(Skin.String(CustomSub7_3.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub7_4.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub7_4.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub7_4.Type),4) + !stringcompare(Skin.String(CustomSub7_4.Type),5) + !stringcompare(Skin.String(CustomSub7_4.Type),6) + !stringcompare(Skin.String(CustomSub7_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_4.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_4.Type),6) | Stringcompare(Skin.String(CustomSub7_4.Type),7)">$INFO[Skin.String(CustomSub7_4.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom7) + !IsEmpty(Skin.String(CustomSub7_4.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub7_5.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub7_5.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub7_5.Type),4) + !stringcompare(Skin.String(CustomSub7_5.Type),5) + !stringcompare(Skin.String(CustomSub7_5.Type),6) + !stringcompare(Skin.String(CustomSub7_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_5.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub7_5.Type),6) | Stringcompare(Skin.String(CustomSub7_5.Type),7)">$INFO[Skin.String(CustomSub7_5.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom7) + !IsEmpty(Skin.String(CustomSub7_5.Path))</visible>
+        </item>
+    </include>
+    <include name="Custom8Subs">
+        <item>
+            <label>$INFO[Skin.String(CustomSub8_1.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub8_1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub8_1.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub8_1.Type),4) + !stringcompare(Skin.String(CustomSub8_1.Type),5) + !stringcompare(Skin.String(CustomSub8_1.Type),6) + !stringcompare(Skin.String(CustomSub8_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_1.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_1.Type),6) | Stringcompare(Skin.String(CustomSub8_1.Type),7)">$INFO[Skin.String(CustomSub8_1.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom8) + IsEmpty(Skin.String(CustomSub8_1.Disable)) + !IsEmpty(Skin.String(CustomSub8_1.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub8_2.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub8_2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub8_2.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub8_2.Type),4) + !stringcompare(Skin.String(CustomSub8_2.Type),5) + !stringcompare(Skin.String(CustomSub8_2.Type),6) + !stringcompare(Skin.String(CustomSub8_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_2.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_2.Type),6) | Stringcompare(Skin.String(CustomSub8_2.Type),7)">$INFO[Skin.String(CustomSub8_2.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom8) + IsEmpty(Skin.String(CustomSub8_2.Disable)) + !IsEmpty(Skin.String(CustomSub8_2.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub8_3.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub8_3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub8_3.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub8_3.Type),4) + !stringcompare(Skin.String(CustomSub8_3.Type),5) + !stringcompare(Skin.String(CustomSub8_3.Type),6) + !stringcompare(Skin.String(CustomSub8_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_3.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_3.Type),6) | Stringcompare(Skin.String(CustomSub8_3.Type),7)">$INFO[Skin.String(CustomSub8_3.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom8) + IsEmpty(Skin.String(CustomSub8_3.Disable)) + !IsEmpty(Skin.String(CustomSub8_3.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub8_4.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub8_4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub8_4.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub8_4.Type),4) + !stringcompare(Skin.String(CustomSub8_4.Type),5) + !stringcompare(Skin.String(CustomSub8_4.Type),6) + !stringcompare(Skin.String(CustomSub8_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_4.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_4.Type),6) | Stringcompare(Skin.String(CustomSub8_4.Type),7)">$INFO[Skin.String(CustomSub8_4.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom8) + IsEmpty(Skin.String(CustomSub8_4.Disable)) + !IsEmpty(Skin.String(CustomSub8_4.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub8_5.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub8_5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub8_5.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub8_5.Type),4) + !stringcompare(Skin.String(CustomSub8_5.Type),5) + !stringcompare(Skin.String(CustomSub8_5.Type),6) + !stringcompare(Skin.String(CustomSub8_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_5.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub8_5.Type),6) | Stringcompare(Skin.String(CustomSub8_5.Type),7)">$INFO[Skin.String(CustomSub8_5.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom8) + IsEmpty(Skin.String(CustomSub8_5.Disable)) + !IsEmpty(Skin.String(CustomSub8_5.Path))</visible>
+        </item>
+    </include>
+    <include name="Custom9Subs">
+        <item>
+            <label>$INFO[Skin.String(CustomSub9_1.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub9_1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub9_1.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub9_1.Type),4) + !stringcompare(Skin.String(CustomSub9_1.Type),5) + !stringcompare(Skin.String(CustomSub9_1.Type),6) + !stringcompare(Skin.String(CustomSub9_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_1.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_1.Type),6) | Stringcompare(Skin.String(CustomSub9_1.Type),7)">$INFO[Skin.String(CustomSub9_1.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom9) + IsEmpty(Skin.String(CustomSub9_1.Disable.Disable)) + !IsEmpty(Skin.String(CustomSub9_1.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub9_2.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub9_2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub9_2.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub9_2.Type),4) + !stringcompare(Skin.String(CustomSub9_2.Type),5) + !stringcompare(Skin.String(CustomSub9_2.Type),6) + !stringcompare(Skin.String(CustomSub9_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_2.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_2.Type),6) | Stringcompare(Skin.String(CustomSub9_2.Type),7)">$INFO[Skin.String(CustomSub9_2.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom9) + IsEmpty(Skin.String(CustomSub9_2.Disable)) + !IsEmpty(Skin.String(CustomSub9_2.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub9_3.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub9_3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub9_3.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub9_3.Type),4) + !stringcompare(Skin.String(CustomSub9_3.Type),5) + !stringcompare(Skin.String(CustomSub9_3.Type),6) + !stringcompare(Skin.String(CustomSub9_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_3.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_3.Type),6) | Stringcompare(Skin.String(CustomSub9_3.Type),7)">$INFO[Skin.String(CustomSub9_3.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom9) + IsEmpty(Skin.String(CustomSub9_3.Disable)) + !IsEmpty(Skin.String(CustomSub9_3.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub9_4.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub9_4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub9_4.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub9_4.Type),4) + !stringcompare(Skin.String(CustomSub9_4.Type),5) + !stringcompare(Skin.String(CustomSub9_4.Type),6) + !stringcompare(Skin.String(CustomSub9_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_4.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_4.Type),6) | Stringcompare(Skin.String(CustomSub9_4.Type),7)">$INFO[Skin.String(CustomSub9_4.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom9) + IsEmpty(Skin.String(CustomSub9_4.Disable)) + !IsEmpty(Skin.String(CustomSub9_4.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub9_5.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub9_5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(CustomSub9_5.Widget)]</property>
+            <onclick condition="!stringcompare(Skin.String(CustomSub9_5.Type),4) + !stringcompare(Skin.String(CustomSub9_5.Type),5) + !stringcompare(Skin.String(CustomSub9_5.Type),6) + !stringcompare(Skin.String(CustomSub9_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_5.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub9_5.Type),6) | Stringcompare(Skin.String(CustomSub9_5.Type),7)">$INFO[Skin.String(CustomSub9_5.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom9) + IsEmpty(Skin.String(CustomSub9_5.Disable)) + !IsEmpty(Skin.String(CustomSub9_5.Path))</visible>
+        </item>
+    </include>
+    <include name="Custom10Subs">
+        <item>
+            <label>$INFO[Skin.String(CustomSub10_1.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub10_1.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub10_1.Type),4) + !stringcompare(Skin.String(CustomSub10_1.Type),5) + !stringcompare(Skin.String(CustomSub10_1.Type),6) + !stringcompare(Skin.String(CustomSub10_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_1.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_1.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_1.Type),6) | Stringcompare(Skin.String(CustomSub10_1.Type),7)">$INFO[Skin.String(CustomSub10_1.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom10) + IsEmpty(Skin.String(CustomSub10_1.Disable)) + !IsEmpty(Skin.String(CustomSub10_1.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub10_2.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub10_2.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub10_2.Type),4) + !stringcompare(Skin.String(CustomSub10_2.Type),5) + !stringcompare(Skin.String(CustomSub10_2.Type),6) + !stringcompare(Skin.String(CustomSub10_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_2.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_2.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_2.Type),6) | Stringcompare(Skin.String(CustomSub10_2.Type),7)">$INFO[Skin.String(CustomSub10_2.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom10) + IsEmpty(Skin.String(CustomSub10_2.Disable)) + !IsEmpty(Skin.String(CustomSub10_2.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub10_3.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub10_3.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub10_3.Type),4) + !stringcompare(Skin.String(CustomSub10_3.Type),5) + !stringcompare(Skin.String(CustomSub10_3.Type),6) + !stringcompare(Skin.String(CustomSub10_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_3.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_3.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_3.Type),6) | Stringcompare(Skin.String(CustomSub10_3.Type),7)">$INFO[Skin.String(CustomSub10_3.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom10) + IsEmpty(Skin.String(CustomSub10_3.Disable)) + !IsEmpty(Skin.String(CustomSub10_3.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub10_4.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub10_4.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub10_4.Type),4) + !stringcompare(Skin.String(CustomSub10_4.Type),5) + !stringcompare(Skin.String(CustomSub10_4.Type),6) + !stringcompare(Skin.String(CustomSub10_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_4.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_4.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_4.Type),6) | Stringcompare(Skin.String(CustomSub10_4.Type),7)">$INFO[Skin.String(CustomSub10_4.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom10) + IsEmpty(Skin.String(CustomSub10_4.Disable)) + !IsEmpty(Skin.String(CustomSub10_4.Path))</visible>
+        </item>
+        <item>
+            <label>$INFO[Skin.String(CustomSub10_5.Label)]</label>
+            <thumb>$INFO[Skin.String(CustomSub10_5.MultiFanart)]</thumb>
+            <onclick condition="!stringcompare(Skin.String(CustomSub10_5.Type),4) + !stringcompare(Skin.String(CustomSub10_5.Type),5) + !stringcompare(Skin.String(CustomSub10_5.Type),6) + !stringcompare(Skin.String(CustomSub10_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_5.Path)])</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_5.Path)],return)</onclick>
+            <onclick condition="stringcompare(Skin.String(CustomSub10_5.Type),6) | Stringcompare(Skin.String(CustomSub10_5.Type),7)">$INFO[Skin.String(CustomSub10_5.Path)]</onclick>
+            <visible>Substring(Control.GetLabel(4327),custom10) + IsEmpty(Skin.String(CustomSub10_5.Disable)) + !IsEmpty(Skin.String(CustomSub10_5.Path))</visible>
         </item>
     </include>
     <include name="DefaultMusicSubMenu">
@@ -1674,7 +1491,7 @@
         </content>
     </include>
     <include name="SubMenuListContent">
-        <posx>158</posx>
+        <posx>145</posx>
         <posy>-4</posy>
         <height>50</height>
         <width>1125</width>
@@ -1691,11 +1508,11 @@
         <ondown condition="IsEmpty(Window(home).Property(DisableWidgets)) + !Skin.HasSetting(lowermainmenu) + !IsEmpty(Control.GetLabel(4321))">4444</ondown>
         <ondown condition="!Skin.HasSetting(lowermainmenu) + IsEmpty(Control.GetLabel(4321))">9000</ondown>
         <ondown condition="Skin.HasSetting(lowermainmenu)">9000</ondown>
-        <itemlayout width="225" height="50">
+        <itemlayout width="230" height="50">
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -1704,11 +1521,11 @@
                 <shadowcolor>-</shadowcolor>
             </control>
         </itemlayout>
-        <focusedlayout width="225" height="50">
+        <focusedlayout width="230" height="50">
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -1718,9 +1535,9 @@
                 <shadowcolor>-</shadowcolor>
             </control>
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -1736,33 +1553,31 @@
             <!--Videos-->
             <include condition="Substring(Skin.String(submenulist),videos)">DefaultVideosSubMenu</include>
             <!--Music-->
-            <include condition="Substring(Skin.String(submenulist),music)">CustomSubsMusic</include>
             <include condition="Substring(Skin.String(submenulist),music)">DefaultMusicSubMenu</include>
             <!--System-->
             <include condition="Substring(Skin.String(submenulist),settings)">DefaultSystemSubMenu</include>
             <!--LiveTV-->
             <include condition="Substring(Skin.String(submenulist),pvr)">DefaultSubLiveTV</include>
             <!--Custom-->
-            <include condition="Substring(Skin.String(submenulist),programs)">CustomSubsPrograms</include>
             <!--Movies-->
             <include condition="Substring(Skin.String(submenulist),movies)">DefaultMoviesSubMenu</include>
-            <include condition="Substring(Skin.String(submenulist),movies)">CustomSubsMovies</include>
             <!--settings-->
-            <include condition="Substring(Skin.String(submenulist),settings)">CustomSubsSettings</include>
             <!--TV Shows-->
-            <include condition="Substring(Skin.String(submenulist),tv)">CustomSubsTV</include>
             <include condition="Substring(Skin.String(submenulist),tv)">DefaultTVShowsSubMenu</include>
             <!--Shutdown-->
             <include condition="Substring(Skin.String(submenulist),shutdown)">DefaultShutdownSubMenu</include>
             <!-- Weather -->
-            <include condition="Substring(Skin.String(submenulist),weather)">CustomSubsWeather</include>
             <!--CustomSubs-->
-            <include condition="Substring(Skin.String(submenulist),custom1) + [!IsEmpty(Skin.String(CustomSub1_1.Path)) | !IsEmpty(Skin.String(CustomSub1_2.Path)) | !IsEmpty(Skin.String(CustomSub1_3.Path)) | !IsEmpty(Skin.String(CustomSub1_4.Path)) | !IsEmpty(Skin.String(CustomSub1_5.Path))]">Custom1Subs</include>
-            <include condition="Substring(Skin.String(submenulist),custom2) + [!IsEmpty(Skin.String(CustomSub2_1.Path)) | !IsEmpty(Skin.String(CustomSub2_2.Path)) | !IsEmpty(Skin.String(CustomSub2_3.Path)) | !IsEmpty(Skin.String(CustomSub2_4.Path)) | !IsEmpty(Skin.String(CustomSub2_5.Path))]">Custom2Subs</include>
-            <include condition="Substring(Skin.String(submenulist),custom3) + [!IsEmpty(Skin.String(CustomSub3_1.Path)) | !IsEmpty(Skin.String(CustomSub3_2.Path)) | !IsEmpty(Skin.String(CustomSub3_3.Path)) | !IsEmpty(Skin.String(CustomSub3_4.Path)) | !IsEmpty(Skin.String(CustomSub3_5.Path))]">Custom3Subs</include>
-            <include condition="Substring(Skin.String(submenulist),custom4) + [!IsEmpty(Skin.String(CustomSub4_1.Path)) | !IsEmpty(Skin.String(CustomSub4_2.Path)) | !IsEmpty(Skin.String(CustomSub4_3.Path)) | !IsEmpty(Skin.String(CustomSub4_4.Path)) | !IsEmpty(Skin.String(CustomSub4_5.Path))]">Custom4Subs</include>
-            <include condition="Substring(Skin.String(submenulist),custom5) + [!IsEmpty(Skin.String(CustomSub5_1.Path)) | !IsEmpty(Skin.String(CustomSub5_2.Path)) | !IsEmpty(Skin.String(CustomSub5_3.Path)) | !IsEmpty(Skin.String(CustomSub5_4.Path)) | !IsEmpty(Skin.String(CustomSub5_5.Path))]">Custom5Subs</include>
-            <include condition="Substring(Skin.String(submenulist),custom6) + [!IsEmpty(Skin.String(CustomSub6_1.Path)) | !IsEmpty(Skin.String(CustomSub6_2.Path)) | !IsEmpty(Skin.String(CustomSub6_3.Path)) | !IsEmpty(Skin.String(CustomSub6_4.Path)) | !IsEmpty(Skin.String(CustomSub6_5.Path))]">Custom6Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom1)">Custom1Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom2)">Custom2Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom3)">Custom3Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom4)">Custom4Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom5)">Custom5Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom6)">Custom6Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom7)">Custom7Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom8)">Custom8Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom9)">Custom9Subs</include>
+            <include condition="Substring(Skin.String(submenulist),custom10)">Custom10Subs</include>
         </content>
     </include>
     <include name="MainMenuFixedList">
@@ -2282,10 +2097,10 @@
     </include>
     <include name="SubMenuListContent1124">
         <hitrect x="-238" y="0" w="2400" h="130" />
-        <posx>158</posx>
+        <posx>145</posx>
         <posy>-2</posy>
         <height>50</height>
-        <width>1125</width>
+        <width>1150</width>
         <onleft>9010</onleft>
         <onright>9010</onright>
         <viewtype>list</viewtype>
@@ -2294,11 +2109,11 @@
         <scrolltime tween="quadratic" easing="out">300</scrolltime>
         <onup>ClearProperty(FocusOnSubmenu,home)</onup>
         <onup>9000</onup>
-        <itemlayout width="225" height="50">
+        <itemlayout width="230" height="50">
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -2315,11 +2130,11 @@
                 <visible>stringcompare(ListItem.Property(DisableIcon),1)</visible>
             </control>
         </itemlayout>
-        <focusedlayout width="225" height="50">
+        <focusedlayout width="230" height="50">
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -2330,9 +2145,9 @@
                 <visible>Control.HasFocus(9010)</visible>
             </control>
             <control type="label">
-                <posx>112</posx>
+                <posx>115</posx>
                 <height>50</height>
-                <width>218</width>
+                <width>224</width>
                 <align>center</align>
                 <aligny>center</aligny>
                 <font>Font_Reg19_Caps</font>
@@ -2398,78 +2213,6 @@
                 <visible>Substring(Control.GetLabel(4327),videos)</visible>
             </item>
             <!--Music-->
-            <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomMusicSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub1)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub1.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub1.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomMusicSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub2)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub2.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub2.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomMusicSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub3)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub3.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub3.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomMusicSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub4)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub4.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub4.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomMusicSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub5)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub5.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub5.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 6">$INFO[Skin.String(CustomMusicSub6.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub6)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub6.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub6.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub6.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 7">$INFO[Skin.String(CustomMusicSub7.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub7)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub7.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub7.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub7.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 8">$INFO[Skin.String(CustomMusicSub8.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,CustomMusicSub8)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(CustomMusicSub8.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomMusicSub8.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(CustomMusicSub8.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),music)</visible>
-            </item>
             <item>
                 <label>133</label>
                 <onclick condition="IsEmpty(Skin.String(MusicSub1))">Skin.SetString(MusicSub1,1)</onclick>
@@ -2574,175 +2317,87 @@
                 <visible>Substring(Control.GetLabel(4327),settings)</visible>
             </item>
             <!--Custom-->
-            <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(ProgramsSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub1)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub1.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(ProgramsSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub2)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub2.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(ProgramsSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub3)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub3.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(ProgramsSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub4)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub4.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(ProgramsSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub5)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub5.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 6">$INFO[Skin.String(ProgramsSub6.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub6)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub6.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub6.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 7">$INFO[Skin.String(ProgramsSub7.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub7)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub7.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub7.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 8">$INFO[Skin.String(ProgramsSub8.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,ProgramsSub8)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(ProgramsSub8.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(ProgramsSub8.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),programs)</visible>
-            </item>
             <!--Weather-->
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(WeatherSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub1)</onclick>
+                <label fallback="CUSTOM 46">$INFO[Skin.String(CustomSub10_1.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub10_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub1.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
+                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(CustomSub10_1.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub10_1.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom10)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(WeatherSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub2)</onclick>
+                <label fallback="CUSTOM 47">$INFO[Skin.String(CustomSub10_2.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub10_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub2.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
+                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(CustomSub10_2.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub10_2.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom10)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(WeatherSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub3)</onclick>
+                <label fallback="CUSTOM 48">$INFO[Skin.String(CustomSub10_3.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub10_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub3.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
+                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(CustomSub10_3.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub10_3.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom10)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(WeatherSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub4)</onclick>
+                <label fallback="CUSTOM 49">$INFO[Skin.String(CustomSub10_4.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub10_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub4.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
+                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(CustomSub10_4.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub10_4.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom10)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(WeatherSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub5)</onclick>
+                <label fallback="CUSTOM 50">$INFO[Skin.String(CustomSub10_5.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub10_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub5.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 6">$INFO[Skin.String(WeatherSub6.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub6)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub6.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub6.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 7">$INFO[Skin.String(WeatherSub7.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub7)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub7.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub7.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
-            </item>
-            <item>
-                <label fallback="CUSTOM 8">$INFO[Skin.String(WeatherSub8.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,WeatherSub8)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(WeatherSub8.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(WeatherSub8.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),weather)</visible>
+                <icon fallback="special://skin/backgrounds/weather/">$INFO[Skin.String(CustomSub10_5.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub10_5.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom10)</visible>
             </item>
             <!--Settings-->
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(SettingsSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,SettingsSub1)</onclick>
+                <label fallback="CUSTOM 31">$INFO[Skin.String(CustomSub7_1.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub7_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(SettingsSub1.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(SettingsSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),settings)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub7_1.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub7_1.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom7)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(SettingsSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,SettingsSub2)</onclick>
+                <label fallback="CUSTOM 32">$INFO[Skin.String(CustomSub7_2.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub7_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(SettingsSub2.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(SettingsSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),settings)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub7_2.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub7_2.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom7)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(SettingsSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,SettingsSub3)</onclick>
+                <label fallback="CUSTOM 33">$INFO[Skin.String(CustomSub7_3.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub7_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(SettingsSub3.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(SettingsSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),settings)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub7_3.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub7_3.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom7)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(SettingsSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,SettingsSub4)</onclick>
+                <label fallback="CUSTOM 34">$INFO[Skin.String(CustomSub7_4.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub7_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(SettingsSub4.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(SettingsSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),settings)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub7_4.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub7_4.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom7)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(SettingsSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,SettingsSub5)</onclick>
+                <label fallback="CUSTOM 35">$INFO[Skin.String(CustomSub7_5.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub7_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(SettingsSub5.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(SettingsSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),settings)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub7_5.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub7_5.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom7)</visible>
             </item>
             <!--Movies-->
             <item>
@@ -2826,95 +2481,95 @@
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(MovieSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,MovieSub1)</onclick>
+                <label fallback="CUSTOM 41">$INFO[Skin.String(CustomSub9_1.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub9_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(MovieSub1.MultiFanart)]</icon>
-                <property name="Widget">$INFO[Skin.String(MovieSub1.Widget)]</property>
-                <property name="DisableIcon">$INFO[Skin.String(MovieSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub9_1.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(CustomSub9_1.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub9_1.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom9)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(MovieSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,MovieSub2)</onclick>
+                <label fallback="CUSTOM 42">$INFO[Skin.String(CustomSub9_2.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub9_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(MovieSub2.MultiFanart)]</icon>
-                <property name="Widget">$INFO[Skin.String(MovieSub2.Widget)]</property>
-                <property name="DisableIcon">$INFO[Skin.String(MovieSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub9_2.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(CustomSub9_2.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub9_2.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom9)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(MovieSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,MovieSub3)</onclick>
+                <label fallback="CUSTOM 43">$INFO[Skin.String(CustomSub9_3.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub9_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(MovieSub3.MultiFanart)]</icon>
-                <property name="Widget">$INFO[Skin.String(MovieSub3.Widget)]</property>
-                <property name="DisableIcon">$INFO[Skin.String(MovieSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub9_3.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(CustomSub9_3.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub9_3.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom9)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(MovieSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,MovieSub4)</onclick>
+                <label fallback="CUSTOM 44">$INFO[Skin.String(CustomSub9_4.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub9_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(MovieSub4.MultiFanart)]</icon>
-                <property name="Widget">$INFO[Skin.String(MovieSub4.Widget)]</property>
-                <property name="DisableIcon">$INFO[Skin.String(MovieSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub9_4.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(CustomSub9_4.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub9_4.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom9)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(MovieSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,MovieSub5)</onclick>
+                <label fallback="CUSTOM 45">$INFO[Skin.String(CustomSub9_5.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub9_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(MovieSub5.MultiFanart)]</icon>
-                <property name="Widget">$INFO[Skin.String(MovieSub5.Widget)]</property>
-                <property name="DisableIcon">$INFO[Skin.String(MovieSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub9_5.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(CustomSub9_5.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub9_5.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom9)</visible>
             </item>
             <!--TV Shows-->
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(TVShowSub1.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,TVShowSub1)</onclick>
+                <label fallback="CUSTOM 36">$INFO[Skin.String(CustomSub8_1.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub8_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(TVShowSub1.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(TVShowSub1.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(TVShowSub1.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),tv)</visible>
+                <property name="Widget">$INFO[Skin.String(CustomSub8_1.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub8_1.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub8_1.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom8)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(TVShowSub2.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,TVShowSub2)</onclick>
+                <label fallback="CUSTOM 37">$INFO[Skin.String(CustomSub8_2.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub8_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(TVShowSub2.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(TVShowSub2.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(TVShowSub2.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),tv)</visible>
+                <property name="Widget">$INFO[Skin.String(CustomSub8_2.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub8_2.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub8_2.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom8)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(TVShowSub3.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,TVShowSub3)</onclick>
+                <label fallback="CUSTOM 38">$INFO[Skin.String(CustomSub8_3.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub8_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(TVShowSub3.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(TVShowSub3.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(TVShowSub3.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),tv)</visible>
+                <property name="Widget">$INFO[Skin.String(CustomSub8_3.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub8_3.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub8_3.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom8)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(TVShowSub4.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,TVShowSub4)</onclick>
+                <label fallback="CUSTOM 39">$INFO[Skin.String(CustomSub8_4.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub8_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(TVShowSub4.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(TVShowSub4.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(TVShowSub4.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),tv)</visible>
+                <property name="Widget">$INFO[Skin.String(CustomSub8_4.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub8_4.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub8_4.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom8)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(TVShowSub5.Label)]</label>
-                <onclick>Skin.SetString(MenuItem,TVShowSub5)</onclick>
+                <label fallback="CUSTOM 40">$INFO[Skin.String(CustomSub8_5.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,CustomSub8_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
-                <property name="Widget">$INFO[Skin.String(TVShowSub5.Widget)]</property>
-                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(TVShowSub5.MultiFanart)]</icon>
-                <property name="DisableIcon">$INFO[Skin.String(TVShowSub5.Disable)]</property>
-                <visible>Substring(Control.GetLabel(4327),tv)</visible>
+                <property name="Widget">$INFO[Skin.String(CustomSub8_5.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub8_5.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(CustomSub8_5.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),custom8)</visible>
             </item>
             <item>
                 <label>369</label>
@@ -3075,7 +2730,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom1)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomSub2_1.Label)]</label>
+                <label fallback="CUSTOM 6">$INFO[Skin.String(CustomSub2_1.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub2_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub2_1.MultiFanart)]</icon>
@@ -3083,7 +2738,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom2)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomSub2_2.Label)]</label>
+                <label fallback="CUSTOM 7">$INFO[Skin.String(CustomSub2_2.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub2_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub2_2.MultiFanart)]</icon>
@@ -3091,7 +2746,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom2)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomSub2_3.Label)]</label>
+                <label fallback="CUSTOM 8">$INFO[Skin.String(CustomSub2_3.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub2_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub2_3.MultiFanart)]</icon>
@@ -3099,7 +2754,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom2)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomSub2_4.Label)]</label>
+                <label fallback="CUSTOM 9">$INFO[Skin.String(CustomSub2_4.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub2_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub2_4.MultiFanart)]</icon>
@@ -3107,7 +2762,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom2)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomSub2_5.Label)]</label>
+                <label fallback="CUSTOM 10">$INFO[Skin.String(CustomSub2_5.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub2_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub2_5.MultiFanart)]</icon>
@@ -3115,7 +2770,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom2)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomSub3_1.Label)]</label>
+                <label fallback="CUSTOM 11">$INFO[Skin.String(CustomSub3_1.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub3_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub3_1.MultiFanart)]</icon>
@@ -3123,7 +2778,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom3)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomSub3_2.Label)]</label>
+                <label fallback="CUSTOM 12">$INFO[Skin.String(CustomSub3_2.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub3_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub3_2.MultiFanart)]</icon>
@@ -3131,7 +2786,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom3)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomSub3_3.Label)]</label>
+                <label fallback="CUSTOM 13">$INFO[Skin.String(CustomSub3_3.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub3_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub3_3.MultiFanart)]</icon>
@@ -3139,7 +2794,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom3)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomSub3_4.Label)]</label>
+                <label fallback="CUSTOM 14">$INFO[Skin.String(CustomSub3_4.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub3_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub3_4.MultiFanart)]</icon>
@@ -3147,7 +2802,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom3)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomSub3_5.Label)]</label>
+                <label fallback="CUSTOM 15">$INFO[Skin.String(CustomSub3_5.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub3_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub3_5.MultiFanart)]</icon>
@@ -3155,7 +2810,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom3)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomSub4_1.Label)]</label>
+                <label fallback="CUSTOM 16">$INFO[Skin.String(CustomSub4_1.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub4_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub4_1.MultiFanart)]</icon>
@@ -3163,7 +2818,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom4)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomSub4_2.Label)]</label>
+                <label fallback="CUSTOM 17">$INFO[Skin.String(CustomSub4_2.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub4_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub4_2.MultiFanart)]</icon>
@@ -3171,7 +2826,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom4)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomSub4_3.Label)]</label>
+                <label fallback="CUSTOM 18">$INFO[Skin.String(CustomSub4_3.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub4_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub4_3.MultiFanart)]</icon>
@@ -3179,7 +2834,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom4)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomSub4_4.Label)]</label>
+                <label fallback="CUSTOM 19">$INFO[Skin.String(CustomSub4_4.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub4_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub4_4.MultiFanart)]</icon>
@@ -3187,7 +2842,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom4)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomSub4_5.Label)]</label>
+                <label fallback="CUSTOM 20">$INFO[Skin.String(CustomSub4_5.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub4_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub4_5.MultiFanart)]</icon>
@@ -3195,7 +2850,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom4)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomSub5_1.Label)]</label>
+                <label fallback="CUSTOM 21">$INFO[Skin.String(CustomSub5_1.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub5_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub5_1.MultiFanart)]</icon>
@@ -3203,7 +2858,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom5)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomSub5_2.Label)]</label>
+                <label fallback="CUSTOM 22">$INFO[Skin.String(CustomSub5_2.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub5_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub5_2.MultiFanart)]</icon>
@@ -3211,7 +2866,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom5)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomSub5_3.Label)]</label>
+                <label fallback="CUSTOM 23">$INFO[Skin.String(CustomSub5_3.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub5_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub5_3.MultiFanart)]</icon>
@@ -3219,7 +2874,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom5)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomSub5_4.Label)]</label>
+                <label fallback="CUSTOM 24">$INFO[Skin.String(CustomSub5_4.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub5_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub5_4.MultiFanart)]</icon>
@@ -3227,7 +2882,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom5)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomSub5_5.Label)]</label>
+                <label fallback="CUSTOM 25">$INFO[Skin.String(CustomSub5_5.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub5_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub5_5.MultiFanart)]</icon>
@@ -3235,7 +2890,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom5)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 1">$INFO[Skin.String(CustomSub6_1.Label)]</label>
+                <label fallback="CUSTOM 26">$INFO[Skin.String(CustomSub6_1.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub6_1)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub6_1.MultiFanart)]</icon>
@@ -3243,7 +2898,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom6)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 2">$INFO[Skin.String(CustomSub6_2.Label)]</label>
+                <label fallback="CUSTOM 27">$INFO[Skin.String(CustomSub6_2.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub6_2)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub6_2.MultiFanart)]</icon>
@@ -3251,7 +2906,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom6)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 3">$INFO[Skin.String(CustomSub6_3.Label)]</label>
+                <label fallback="CUSTOM 28">$INFO[Skin.String(CustomSub6_3.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub6_3)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub6_3.MultiFanart)]</icon>
@@ -3259,7 +2914,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom6)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 4">$INFO[Skin.String(CustomSub6_4.Label)]</label>
+                <label fallback="CUSTOM 29">$INFO[Skin.String(CustomSub6_4.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub6_4)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub6_4.MultiFanart)]</icon>
@@ -3267,7 +2922,7 @@
                 <visible>Substring(Control.GetLabel(4327),custom6)</visible>
             </item>
             <item>
-                <label fallback="CUSTOM 5">$INFO[Skin.String(CustomSub6_5.Label)]</label>
+                <label fallback="CUSTOM 30">$INFO[Skin.String(CustomSub6_5.Label)]</label>
                 <onclick>Skin.SetString(MenuItem,CustomSub6_5)</onclick>
                 <onclick>ActivateWindow(1136)</onclick>
                 <icon fallback="special://skin/backgrounds/playlist/">$INFO[Skin.String(CustomSub6_5.MultiFanart)]</icon>
