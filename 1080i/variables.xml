@@ -612,9 +612,8 @@
         <value condition="Control.HasFocus(206)">$INFO[Container(206).ListItem.Property(Fanart)]</value>
     </variable>
     <variable name="HomeMenuBackVar">
-        <value condition="Skin.HasSetting(glasshome)+[![Player.HasMedia + System.IdleTime(8)]|Control.HasFocus(8003)]]">home/homemenu_back_glass.png</value>
-        <value condition="Skin.HasSetting(classichome)+[![Player.HasMedia + System.IdleTime(8)]|Control.HasFocus(8003)]]">home/homemenu_back.png</value>
-        <value condition="[Skin.HasSetting(classichome) | Skin.HasSetting(glasshome)]+[Player.HasMedia + System.IdleTime(8) + !Control.HasFocus(8003)]">home/homemenu_back_osd.png</value>
+        <value condition="Skin.HasSetting(glasshome) + ![Player.HasMedia + System.IdleTime(8)]">home/homemenu_back_glass.png</value>
+        <value condition="Skin.HasSetting(classichome) + ![Player.HasMedia + System.IdleTime(8)]">home/homemenu_back.png</value>
         <value>home/homemenu_back_nox.png</value>
     </variable>
     <variable name="HomeOSDLabelVar">
@@ -937,10 +936,10 @@
     <variable name="HomeWidgetFanartVar">
         <value condition="Control.HasFocus(8000) + !IsEmpty(Container(8000).ListItem.Property(Fanart))">$INFO[Container(8000).ListItem.Property(Fanart)]</value>
         <value condition="Control.HasFocus(7000) + !IsEmpty(Container(7000).ListItem.Property(Fanart))">$INFO[Container(7000).ListItem.Property(Fanart)]</value>
-        <value condition="[Control.HasFocus(5010) | ControlGroup(5014).HasFocus | ControlGroup(5020).HasFocus | ControlGroup(5021).HasFocus | ControlGroup(5030).HasFocus | ControlGroup(5040).HasFocus] + !IsEmpty(Container(5010).ListItem.Property(Fanart))">$INFO[Container(5010).ListItem.Property(Fanart)]</value>
+        <value condition="[Control.HasFocus(5010) | ControlGroup(5014).HasFocus | ControlGroup(5020).HasFocus | ControlGroup(5021).HasFocus | ControlGroup(5030).HasFocus] + !IsEmpty(Container(5010).ListItem.Property(Fanart))">$INFO[Container(5010).ListItem.Property(Fanart)]</value>
         <value condition="Control.HasFocus(5010) + Substring(Container(9000).ListItem.Property(Widget),featured) + !IsEmpty(Container(5001).ListItem.Property(Fanart))">$INFO[Container(5001).ListItem.Property(Fanart)]</value>
         <value condition="Control.HasFocus(5012) + !IsEmpty(Container(5003).ListItem.Property(Fanart))">$INFO[Container(5003).ListItem.Property(Fanart)]</value>
-        <value condition="[Control.HasFocus(6010) | ControlGroup(6014).HasFocus | ControlGroup(6020).HasFocus | ControlGroup(6021).HasFocus | ControlGroup(6030).HasFocus | ControlGroup(6040).HasFocus] + !IsEmpty(Container(6010).ListItem.Property(Fanart))">$INFO[Container(6010).ListItem.Property(Fanart)]</value>
+        <value condition="[Control.HasFocus(6010) | ControlGroup(6014).HasFocus | ControlGroup(6020).HasFocus | ControlGroup(6021).HasFocus | ControlGroup(6030).HasFocus] + !IsEmpty(Container(6010).ListItem.Property(Fanart))">$INFO[Container(6010).ListItem.Property(Fanart)]</value>
         <value condition="Control.HasFocus(6010) + Substring(Container(9000).ListItem.Property(Widget2),featured) + !IsEmpty(Container(6001).ListItem.Property(Fanart))">$INFO[Container(6001).ListItem.Property(Fanart)]</value>
         <value condition="Control.HasFocus(6012) + !IsEmpty(Container(6003).ListItem.Property(Fanart))">$INFO[Container(6003).ListItem.Property(Fanart)]</value>
         <value condition="Player.HasAudio + Skin.HasSetting(musicfanarthome) + Window.IsActive(home) + !IsEmpty(MusicPlayer.Property(Fanart_Image))">$INFO[MusicPlayer.Property(Fanart_Image)]</value>
@@ -956,7 +955,7 @@
     </variable>
     <variable name="MultiFanartVar">
         <value condition="Window.IsActive(1124) + [Window.IsActive(1122) | Window.IsActive(1136)]">$INFO[Skin.String(ItemToEdit.MultiFanart)]</value>
-        <value condition="Control.HasFocus(9010) + !IsEmpty(Container(9010).ListItem.Thumb)">$INFO[Container(9010).ListItem.Icon]</value>
+        <value condition="!IsEmpty(Window(home).Property(FocusOnSubmenu)) + !IsEmpty(Container(9010).ListItem.Thumb)">$INFO[Container(9010).ListItem.Icon]</value>
         <value condition="!IsEmpty(Container(9000).ListItem.Icon)">$INFO[Container(9000).ListItem.Icon]</value>
         <value condition="Window.IsActive(1128)">special://skin/backgrounds/color.jpg</value>
         <value condition="Window.IsActive(1131)">special://skin/backgrounds/system/</value>
@@ -1005,10 +1004,6 @@
     <variable name="WeatherWidgetBackVar">
         <value condition="Skin.HasSetting(glasshome) + !Skin.HasSetting(DisableGlowbar)">keyboard/numeric_back_classic.png</value>
         <value>keyboard/numeric_back.png</value>
-    </variable>
-    <variable name="PosterWidgetDurationVar">
-        <value condition="Container(9000).HasFocus(11)">$INFO[Container(8003).ListItem.Property(Duration)]</value>
-        <value>$INFO[Container(8003).ListItem.Property(Duration),, $LOCALIZE[12391]]</value>
     </variable>
     <variable name="MusicFanartVar">
         <value condition="!Skin.HasSetting(NoMusicLibraryFanart) + !IsEmpty(ListItem.Property(Fanart_Image))">$INFO[ListItem.Property(Fanart_Image)]</value>
@@ -1944,10 +1939,12 @@
         <value></value>
     </variable>
     <variable name="Widget2TextboxVar">
+        <value condition="Substring(Control.GetLabel(4325),addons)">$INFO[Container(6010).ListItem.Property(Summary)]</value>
         <value condition="Substring(Control.GetLabel(4325),pics)">$INFO[Container(6010).ListItem.Property(Fanart)]</value>
         <value>$INFO[Container(6010).ListItem.Property(Description)]</value>
     </variable>
     <variable name="WidgetTextboxVar">
+        <value condition="Substring(Control.GetLabel(4321),addons)">$INFO[Container(5010).ListItem.Property(Summary)]</value>
         <value condition="Substring(Control.GetLabel(4321),pics)">$INFO[Container(5010).ListItem.Property(Fanart)]</value>
         <value>$INFO[Container(5010).ListItem.Property(Description)]</value>
     </variable>
