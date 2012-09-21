@@ -26,7 +26,7 @@
                 <posy>-39</posy>
                 <width>462</width>
                 <height>39</height>
-                <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+                <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
                 <texture>$VAR[ShutdownTopVar]</texture>
             </control>
             <control type="button" id="1">
@@ -117,7 +117,7 @@
                 <posy>699</posy>
                 <width>462</width>
                 <height>40</height>
-                <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+                <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
                 <texture>$VAR[ContextBottomVar]</texture>
             </control>
         </control>

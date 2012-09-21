@@ -89,7 +89,7 @@
                 <posx>-4</posx>
                 <posy>-24</posy>
                 <width>776</width>
-                <height>372</height>
+                <height>400</height>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <visible>!Skin.HasSetting(DisableGlowbar)</visible>
                 <include>PanelGlowFade</include>
@@ -100,7 +100,7 @@
                 <posx>-4</posx>
                 <posy>-24</posy>
                 <width>776</width>
-                <height>372</height>
+                <height>400</height>
                 <texture border="22">dialogs/scan_backg.png</texture>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             </control>
@@ -533,15 +533,15 @@
                         <icon>common/color.png</icon>
                         <onclick condition="System.HasAddon(script.color.picker)">RunScript(script.color.picker,Skin.SetString(diffuse_color),SetStringInRealTime=true)</onclick>
                         <onclick condition="!System.HasAddon(script.color.picker)">Notification($LOCALIZE[42000],$LOCALIZE[42010])</onclick>
-                        <visible>IsEmpty(Window(1124).Property(background))+StringCompare(Window(1124).Property(diffuse),color)+IsEmpty(Window(1124).Property(panel))</visible>
+                        <visible>StringCompare(Window(1124).Property(diffuse),color)</visible>
                     </item>
-                   <!-- <item>
+                    <item>
                         <label>31630</label>
                         <icon>common/color.png</icon>
                         <onclick condition="System.HasAddon(script.color.picker)">RunScript(script.color.picker,Skin.SetString(font_color),SetStringInRealTime=true)</onclick>
                         <onclick condition="!System.HasAddon(script.color.picker)">Notification($LOCALIZE[42000],$LOCALIZE[42010])</onclick>
                         <visible>StringCompare(Window(1124).Property(skincolor),font)</visible>
-                    </item>-->
+                    </item>
                     <item>
                         <label>31630</label>
                         <icon>common/color.png</icon>
@@ -565,12 +565,48 @@
                     </item>
                 </content>
             </control>
+            <control type="group" id="11">
+                <posx>137</posx>
+                <posy>290</posy>
+                <control type="button" id="13">
+                    <label>$LOCALIZE[31090]</label>
+                    <onup>10</onup>
+                    <ondown>17</ondown>
+                    <include>ColorChooserButton</include>
+                    <onclick>RunScript(script.color.picker,Skin.SetString(panel_color,$INFO[Skin.String(panel_color)]),Transparency&amp;SetStringInRealTime=true)</onclick>
+                    <visible>StringCompare(Window(1124).Property(panel),panel)</visible>
+                </control>
+                <control type="button" id="14">
+                    <label>$LOCALIZE[31090]</label>
+                    <onup>10</onup>
+                    <ondown>17</ondown>
+                    <include>ColorChooserButton</include>
+                    <onclick>RunScript(script.color.picker,Skin.SetString(diffuse_color,$INFO[Skin.String(diffuse_color)]),Transparency&amp;SetStringInRealTime=true)</onclick>
+                    <visible>StringCompare(Window(1124).Property(diffuse),color)</visible>
+                </control>
+                <control type="button" id="15">
+                    <label>$LOCALIZE[31090]</label>
+                    <onup>10</onup>
+                    <ondown>17</ondown>
+                    <include>ColorChooserButton</include>
+                    <onclick>RunScript(script.color.picker,Skin.SetString(font_color,$INFO[Skin.String(font_color)]),Transparency&amp;SetStringInRealTime=true)</onclick>
+                    <visible>StringCompare(Window(1124).Property(background),menuitem)</visible>
+                </control>
+                <control type="button" id="16">
+                    <label>$LOCALIZE[31090]</label>
+                    <onup>10</onup>
+                    <ondown>17</ondown>
+                    <include>ColorChooserButton</include>
+                    <onclick>RunScript(script.color.picker,Skin.SetString(ItemToEdit.color,$INFO[Skin.String(ItemToEdit.color)]),Transparency&amp;SetStringInRealTime=true)</onclick>
+                    <visible>StringCompare(Window(1124).Property(skincolor),font)</visible>
+                </control>
+            </control>
             <control type="group">
                 <posx>137</posx>
-                <posy>270</posy>
-                <control type="radiobutton" id="11">
+                <posy>320</posy>
+                <control type="radiobutton" id="17">
                     <label>$LOCALIZE[31088]</label>
-                    <onup>10</onup>
+                    <onup>11</onup>
                     <ondown>10</ondown>
                     <include>ColorChooserButton</include>
                     <onclick>Skin.ToggleSetting(colorallareas)</onclick>

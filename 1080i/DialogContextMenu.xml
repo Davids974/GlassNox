@@ -22,7 +22,7 @@
         <control type="image" id="999">
             <width>462</width>
             <height>1080</height>
-            <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+            <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             <texture>$VAR[ContextMiddleVar]</texture>
         </control>
         <control type="grouplist" id="996">
@@ -127,14 +127,14 @@
             <posy>-39</posy>
             <width>462</width>
             <height>39</height>
-            <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+            <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             <texture>$VAR[ContextTopVar]</texture>
         </control>
         <control type="image" id="998">
             <posy>585</posy>
             <width>462</width>
             <height>40</height>
-            <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+            <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             <texture>$VAR[ContextBottomVar]</texture>
         </control>
         <control type="button" id="1000">
@@ -144,7 +144,7 @@
             <focusedcolor>white2</focusedcolor>
             <texturenofocus>dialogs/context_nofocus.png</texturenofocus>
             <texturefocus>dialogs/context_highlight.png</texturefocus>
-            <colordiffuse>$VAR[SpotColorVar2]</colordiffuse>
+            <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             <align>center</align>
             <aligny>top</aligny>
             <font>Font_Reg19</font>

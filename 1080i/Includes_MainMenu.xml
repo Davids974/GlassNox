@@ -792,6 +792,7 @@
             <property name="Widget2">$INFO[Skin.String(WeatherHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(WeatherHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(WeatherHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(WeatherHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Weather.png">$INFO[Skin.String(WeatherHomeItem.Icon)]</property>
             <visible>!IsEmpty(Weather.Plugin) | !IsEmpty(Skin.String(WeatherHomeItem.Path))</visible>
         </item>
@@ -810,6 +811,7 @@
             <property name="Widget2">$INFO[Skin.String(PlayDiscHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(PlayDiscHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(PlayDiscHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(PlayDiscHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/CD-DVD.png">$INFO[Skin.String(PlayDiscHomeItem.Icon)]</property>
             <visible>System.HasMediadvd | !IsEmpty(Skin.String(PlayDiscHomeItem.Type))</visible>
         </item>
@@ -827,6 +829,7 @@
             <property name="Widget2">$INFO[Skin.String(FavouritesHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(FavouritesHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(FavouritesHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(FavouritesHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Star.png">$INFO[Skin.String(FavouritesHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(FavouritesHomeItem.MultiFanart)]</thumb>
         </item>
@@ -844,6 +847,7 @@
             <property name="Widget2">$INFO[Skin.String(ShutdownHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(ShutdownHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(ShutdownHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(ShutdownHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Power.png">$INFO[Skin.String(ShutdownHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(ShutdownHomeItem.MultiFanart)]</thumb>
         </item>
@@ -861,6 +865,7 @@
             <property name="Widget2">$INFO[Skin.String(SearchHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(SearchHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(SearchHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(SearchHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Search.png">$INFO[Skin.String(SearchHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(SearchHomeItem.MultiFanart)]</thumb>
         </item>
@@ -878,6 +883,7 @@
             <property name="Widget2">$INFO[Skin.String(SettingsHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(SettingsHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(SettingsHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(SettingsHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Controlpanel.png">$INFO[Skin.String(SettingsHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(SettingsHomeItem.MultiFanart)]</thumb>
         </item>
@@ -895,6 +901,7 @@
             <property name="Widget2">$INFO[Skin.String(FullscreenHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(FullscreenHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(FullscreenHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(FullscreenHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Fullscreen.png">$INFO[Skin.String(FullscreenHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(FullscreenHomeItem.MultiFanart)]</thumb>
             <visible>Player.HasMedia | !IsEmpty(Skin.String(FullscreenHomeItem.Type))</visible>
@@ -913,6 +920,7 @@
             <property name="Widget2">$INFO[Skin.String(ProgramsHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(ProgramsHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(ProgramsHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(ProgramsHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Computer.png">$INFO[Skin.String(ProgramsHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(ProgramsHomeItem.MultiFanart)]</thumb>
         </item>
@@ -930,6 +938,7 @@
             <property name="Widget2">$INFO[Skin.String(VideosHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(VideosHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(VideosHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(VideosHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Camcorder.png">$INFO[Skin.String(VideosHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(VideosHomeItem.MultiFanart)]</thumb>
         </item>
@@ -948,6 +957,7 @@
             <property name="Widget2">$INFO[Skin.String(TVGuideHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(TVGuideHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(TVGuideHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(TVGuideHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Calendar.png">$INFO[Skin.String(TVGuideHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(TVGuideHomeItem.MultiFanart)]</thumb>
             <visible>System.HasAddon(script.tv.show.next.aired) | !IsEmpty(Skin.String(TVGuideHomeItem.Path))</visible>
@@ -967,6 +977,7 @@
             <property name="Widget2">$INFO[Skin.String(TVShowHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(TVShowHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(TVShowHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(TVShowHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Television.png">$INFO[Skin.String(TVShowHomeItem.Icon)]</property>
             <thumb>$INFO[Skin.String(TVShowHomeItem.MultiFanart)]</thumb>
         </item>
@@ -985,6 +996,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Film.png">$INFO[Skin.String(MovieHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(MovieHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(MovieHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(MovieHomeItem.Color)]</property>
             <icon>special://skin/backgrounds/movies/</icon>
             <thumb>$INFO[Skin.String(MovieHomeItem.MultiFanart)]</thumb>
         </item>
@@ -1002,6 +1014,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Headphone.png">$INFO[Skin.String(MusicHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(MusicHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(MusicHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(MusicHomeItem.Color)]</property>
             <icon>special://skin/backgrounds/music/</icon>
             <thumb>$INFO[Skin.String(MusicHomeItem.MultiFanart)]</thumb>
         </item>
@@ -1020,6 +1033,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Media.png">$INFO[Skin.String(MusicVideosHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(MusicVideosHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(MusicVideosHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(MusicVideosHomeItem.Color)]</property>
             <icon>special://skin/backgrounds/musicvideos/</icon>
             <thumb>$INFO[Skin.String(MusicVideosHomeItem.MultiFanart)]</thumb>
         </item>
@@ -1037,6 +1051,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Image.png">$INFO[Skin.String(PicturesHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(PicturesHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(PicturesHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(PicturesHomeItem.Color)]</property>
             <icon>special://skin/backgrounds/pictures/</icon>
             <thumb>$INFO[Skin.String(PicturesHomeItem.MultiFanart)]</thumb>
         </item>
@@ -1052,6 +1067,7 @@
             <property name="Widget2">$INFO[Skin.String(ComicsHomeItem.Widget2)]</property>
             <property name="InfoLine">$INFO[Skin.String(ComicsHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(ComicsHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(ComicsHomeItem.Color)]</property>
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Book.png">$INFO[Skin.String(ComicsHomeItem.Icon)]</property>
             <icon>special://skin/backgrounds/comics/</icon>
             <thumb>$INFO[Skin.String(ComicsHomeItem.MultiFanart)]</thumb>
@@ -1068,6 +1084,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Monitor.png">$INFO[Skin.String(LiveTVHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(LiveTVHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(LiveTVHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(LiveTVHomeItem.Color)]</property>
             <icon>special://skin/backgrounds/livetv/</icon>
             <thumb>$INFO[Skin.String(LiveTVHomeItem.MultiFanart)]</thumb>
         </item>
@@ -1086,6 +1103,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Home.png">$INFO[Skin.String(FeaturedHomeItem.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(FeaturedHomeItem.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(FeaturedHomeItem.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(FeaturedHomeItem.Color)]</property>
             <thumb>$INFO[Skin.String(FeaturedHomeItem.MultiFanart)]</thumb>
             <visible>System.HasAddon(script.watchlist) | !IsEmpty(Skin.String(FeaturedHomeItem.Path))</visible>
         </item>
@@ -1103,6 +1121,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem1.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem1.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem1.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem1.Color)]</property>
             <thumb>$INFO[Skin.String(CustomHomeItem1.MultiFanart)]</thumb>
         </item>
     </include>
@@ -1118,6 +1137,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem2.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem2.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem2.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem2.Color)]</property>
             <icon>special://skin/backgrounds/playlist/</icon>
             <thumb>$INFO[Skin.String(CustomHomeItem2.MultiFanart)]</thumb>
         </item>
@@ -1134,6 +1154,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem3.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem3.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem3.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem3.Color)]</property>
             <icon>special://skin/backgrounds/playlist/</icon>
             <thumb>$INFO[Skin.String(CustomHomeItem3.MultiFanart)]</thumb>
         </item>
@@ -1150,6 +1171,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem4.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem4.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem4.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem4.Color)]</property>
             <icon>special://skin/backgrounds/playlist/</icon>
             <thumb>$INFO[Skin.String(CustomHomeItem4.MultiFanart)]</thumb>
         </item>
@@ -1166,6 +1188,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem5.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem5.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem5.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem5.Color)]</property>
             <icon>special://skin/backgrounds/playlist/</icon>
             <thumb>$INFO[Skin.String(CustomHomeItem5.MultiFanart)]</thumb>
         </item>
@@ -1182,6 +1205,7 @@
             <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem6.Icon)]</property>
             <property name="InfoLine">$INFO[Skin.String(CustomHomeItem6.InfoLine)]</property>
             <property name="SubMenu">$INFO[Skin.String(CustomHomeItem6.SubMenu)]</property>
+            <property name="Color">$INFO[Skin.String(CustomHomeItem6.Color)]</property>
             <icon>special://skin/backgrounds/playlist/</icon>
             <thumb>$INFO[Skin.String(CustomHomeItem6.MultiFanart)]</thumb>
         </item>
