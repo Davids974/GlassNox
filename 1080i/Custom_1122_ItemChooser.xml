@@ -90,6 +90,7 @@
     <onload condition="Stringcompare(Skin.String(MenuItem),MovieHomeItem)">Skin.SetString(ItemToEdit.Type,$INFO[Skin.String(MovieHomeItem.Type)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MovieHomeItem)">Skin.SetString(ItemToEdit.SubMenu,$INFO[Skin.String(MovieHomeItem.SubMenu)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MusicHomeItem)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MusicHomeItem.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MusicHomeItem)">Skin.SetString(ItemToEdit.Color,$INFO[Skin.String(MusicHomeItem.Color)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MusicHomeItem)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MusicHomeItem.Widget)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MusicHomeItem)">Skin.SetString(ItemToEdit.Widget2,$INFO[Skin.String(MusicHomeItem.Widget2)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MusicHomeItem)">Skin.SetString(ItemToEdit.Label,$INFO[Skin.String(MusicHomeItem.Label)])</onload>
@@ -260,6 +261,7 @@
     <onload condition="Stringcompare(Skin.String(MenuItem),PlayDiscHomeItem)">Skin.SetString(ItemToEdit.SubMenu,$INFO[Skin.String(PlayDiscHomeItem.SubMenu)])</onload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Type,$INFO[Skin.String(ItemToEdit.Type)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].MultiFanart,$INFO[Skin.String(ItemToEdit.MultiFanart)])</onunload>
+    <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Color,$INFO[Skin.String(ItemToEdit.Color)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Label,$INFO[Skin.String(ItemToEdit.Label)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Path,$INFO[Skin.String(ItemToEdit.Path)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Widget,$INFO[Skin.String(ItemToEdit.Widget)])</onunload>
@@ -441,24 +443,30 @@
                         </control>
                         <control type="button" id="28">
                             <include>Objects_CustomizerSettingsButton</include>
+                            <label>42206</label>
+                            <onclick>SetProperty(background,menuitem,1124)</onclick>
+                            <onclick>ActivateWindow(1138)</onclick>
+                        </control>
+                        <control type="button" id="29">
+                            <include>Objects_CustomizerSettingsButton</include>
                             <label>42207</label>
                             <onclick>ClearProperty(BigIconToMultiFanart,1124)</onclick>
                             <onclick>ActivateWindow(1145)</onclick>
                         </control>
-                         <control type="button" id="29">
+                         <control type="button" id="30">
                             <include>Objects_CustomizerSettingsButton</include>
                             <label>Move Item</label>
                             <onclick>ActivateWindow(1147)</onclick>
                             <visible>Substring(Skin.String(MenuItem),CustomHomeItem)</visible>
                         </control>
                          
-                        <control type="button" id="30">
+                        <control type="button" id="31">
                             <include>Objects_CustomizerSettingsButton</include>
                             <label>42208</label>
                             <onclick>ActivateWindow(1151)</onclick>
                         </control>
                         
-                        <control type="button" id="31">
+                        <control type="button" id="32">
                             <include>Objects_CustomizerSettingsButton</include>
                             <label>$LOCALIZE[31027]</label>
                             <onclick>Skin.Reset(ItemToEdit.Type)</onclick>
@@ -470,6 +478,7 @@
                             <onclick>Skin.Reset(ItemToEdit.Icon)</onclick>
                             <onclick>Skin.Reset(ItemToEdit.Disable)</onclick>
                             <onclick>Skin.Reset(ItemToEdit.InfoLine)</onclick>
+                            <onclick>Skin.Reset(ItemToEdit.Color)</onclick>
                             <onclick condition="Stringcompare(Skin.String(MenuItem),MovieHomeItem)">Skin.Setstring(ItemToEdit.InfoLine,movies)</onclick>
                             <onclick condition="Stringcompare(Skin.String(MenuItem),TVShowHomeItem)">Skin.Setstring(ItemToEdit.InfoLine,tvshows)</onclick>
                             <onclick condition="Stringcompare(Skin.String(MenuItem),MusicvideosHomeItem)">Skin.Setstring(ItemToEdit.InfoLine,musicvideos)</onclick>

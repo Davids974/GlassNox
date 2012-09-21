@@ -78,6 +78,7 @@
     <onunload>ClearProperty(skincolor,1124)</onunload>
     <onunload>ClearProperty(diffuse,1124)</onunload>
     <onunload>ClearProperty(panel,1124)</onunload>
+    <onunload>ClearProperty(background,1124)</onunload>
     <coordinates>
         <system>1</system>
     </coordinates>

@@ -205,8 +205,9 @@
         <value>FFFFFFFF</value>
     </variable>
     <variable name="ColorDiffuseBackgroundVar">
-        <value condition="!Window.IsActive(1128)">$INFO[Container(9000).ListItem.Property(Color)]</value>
-        <value>FFFFFFFF</value>
+		<value condition="Window.IsActive(1124)+ !IsEmpty(Skin.String(ItemToEdit.Color))">$INFO[Skin.String(ItemToEdit.Color)]</value>
+        <value condition="!IsEmpty(Container(9000).ListItem.Property(Color))">$INFO[Container(9000).ListItem.Property(Color)]</value>
+        <value>A0FFFFFF</value>
     </variable>
     <variable name="ExtendedColorDiffuseVar">
         <value condition="!Skin.HasTheme(Black)">FFFFFFFF</value>

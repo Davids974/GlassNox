@@ -49,6 +49,7 @@
         </control>
         <control type="multiimage">
             <imagepath background="true">$VAR[1124FanartVar]</imagepath>
+            <colordiffuse>$VAR[ColorDiffuseBackgroundVar]</colordiffuse>
             <aspectratio align="center" aligny="top">scale</aspectratio>
             <animation effect="zoom" start="110" end="130" center="auto" time="15000" tween="linear" pulse="true" condition="Skin.HasSetting(animatedbghome)">Conditional</animation>
             <animation effect="slide" start="-15,-15" end="15,15" time="7500" tween="linear" pulse="true" condition="Skin.HasSetting(animatedbghome)">Conditional</animation>
@@ -70,6 +71,7 @@
             <aspectratio align="center" aligny="top">scale</aspectratio>
             <include>Animation_WindowFade250</include>
             <texture background="true" fallback="special://skin/backgrounds/speakergrill.jpg">$INFO[Skin.String(LiveBG)]</texture>
+            <colordiffuse>$VAR[ColorDiffuseBackgroundVar]</colordiffuse>
             <animation effect="fade" time="600">Visible</animation>
             <animation effect="fade" time="600">Hidden</animation>
             <visible>!Control.IsVisible(2355) + Substring(Control.GetLabel(4322),case)</visible>

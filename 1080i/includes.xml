@@ -849,30 +849,6 @@
         <orientation>vertical</orientation>
     </include>
     <include name="AutoConfig">
-		<onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(PicturesHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(MusicHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(MovieHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(MusicVideosHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(TVShowHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(TVHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(TVGuideHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(VideosHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(ProgramsHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(SettingsHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(FullscreenHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(SearchHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(ShutdownHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(DiscHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(WeatherHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(ComicsHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(FavouritesHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(FeaturedHomeItem.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem1.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem2.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem3.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem4.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem5.Color,A0FFFFFF)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(CustomHomeItem6.Color,A0FFFFFF)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_programs,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_music,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_videolibrary,FF6db9e5)</onload>
