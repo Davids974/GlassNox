@@ -1879,6 +1879,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Image.png">$INFO[Skin.String(PicturesHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(PicturesHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(PicturesHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(PicturesHomeItem.Color)]</property>
                 <icon fallback="special://skin/backgrounds/pictures/">$INFO[Skin.String(PicturesHomeItem.MultiFanart)]</icon>
             </item>
             <item id="7">
@@ -1892,6 +1893,7 @@
                 <icon fallback="special://skin/backgrounds/livetv/">$INFO[Skin.String(LiveTVHomeItem.MultiFanart)]</icon>
                 <property name="InfoLine">$INFO[Skin.String(LiveTVHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(LiveTVHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(LiveTVHomeItem.Color)]</property>
             </item>
             <item id="3">
                 <label fallback="31501">$INFO[Skin.String(MusicHomeItem.Label)]</label>
@@ -1904,6 +1906,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Headphone.png">$INFO[Skin.String(MusicHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(MusicHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(MusicHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(MusicHomeItem.Color)]</property>
             </item>
             <item id="10">
                 <label fallback="31502">$INFO[Skin.String(MovieHomeItem.Label)]</label>
@@ -1916,6 +1919,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Film.png">$INFO[Skin.String(MovieHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(MovieHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(MovieHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(MovieHomeItem.Color)]</property>
             </item>
             <item id="33">
                 <label fallback="20389">$INFO[Skin.String(MusicVideosHomeItem.Label)]</label>
@@ -1928,6 +1932,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Media.png">$INFO[Skin.String(MusicVideosHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(MusicVideosHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(MusicVideosHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(MusicVideosHomeItem.Color)]</property>
             </item>
             <item id="11">
                 <label fallback="31503">$INFO[Skin.String(TVShowHomeItem.Label)]</label>
@@ -1940,6 +1945,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Television.png">$INFO[Skin.String(TVShowHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(TVShowHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(TVShowHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(TVShowHomeItem.Color)]</property>
             </item>
             <item id="25">
                 <onclick>Skin.SetString(MenuItem,TVGuideHomeItem)</onclick>
@@ -1952,6 +1958,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Calendar.png">$INFO[Skin.String(TVGuideHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(TVGuideHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(TVGuideHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(TVGuideHomeItem.Color)]</property>
             </item>
             <item id="27">
                 <onclick>Skin.SetString(MenuItem,FeaturedHomeItem)</onclick>
@@ -1964,6 +1971,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Home.png">$INFO[Skin.String(FeaturedHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(FeaturedHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(FeaturedHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(FeaturedHomeItem.Color)]</property>
             </item>
             <item id="101">
                 <label fallback="CUSTOM1">$INFO[Skin.String(CustomHomeItem1.Label)]</label>
@@ -1976,6 +1984,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem1.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem1.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem1.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem1.Color)]</property>
             </item>
             <item id="102">
                 <label fallback="CUSTOM2">$INFO[Skin.String(CustomHomeItem2.Label)]</label>
@@ -1988,6 +1997,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem2.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem2.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem2.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem2.Color)]</property>
             </item>
             <item id="103">
                 <label fallback="CUSTOM3">$INFO[Skin.String(CustomHomeItem3.Label)]</label>
@@ -2000,6 +2010,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem3.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem3.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem3.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem3.Color)]</property>
             </item>
             <item id="104">
                 <label fallback="CUSTOM4">$INFO[Skin.String(CustomHomeItem4.Label)]</label>
@@ -2012,6 +2023,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem4.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem4.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem4.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem4.Color)]</property>
             </item>
             <item id="105">
                 <label fallback="CUSTOM5">$INFO[Skin.String(CustomHomeItem5.Label)]</label>
@@ -2024,6 +2036,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem5.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem5.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem5.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem5.Color)]</property>
             </item>
             <item id="106">
                 <label fallback="CUSTOM6">$INFO[Skin.String(CustomHomeItem6.Label)]</label>
@@ -2036,6 +2049,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Question.png">$INFO[Skin.String(CustomHomeItem6.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(CustomHomeItem6.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(CustomHomeItem6.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(CustomHomeItem6.Color)]</property>
             </item>
             <item id="2">
                 <label fallback="31504">$INFO[Skin.String(VideosHomeItem.Label)]</label>
@@ -2048,6 +2062,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Camcorder.png">$INFO[Skin.String(VideosHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(VideosHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(VideosHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(VideosHomeItem.Color)]</property>
             </item>
             <item id="1">
                 <label fallback="31505">$INFO[Skin.String(ProgramsHomeItem.Label)]</label>
@@ -2060,6 +2075,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Computer.png">$INFO[Skin.String(ProgramsHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(ProgramsHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(ProgramsHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(ProgramsHomeItem.Color)]</property>
             </item>
             <item id="5">
                 <onclick>Skin.SetString(MenuItem,SettingsHomeItem)</onclick>
@@ -2072,6 +2088,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Controlpanel.png">$INFO[Skin.String(SettingsHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(SettingsHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(SettingsHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(SettingsHomeItem.Color)]</property>
             </item>
             <item id="8">
                 <label fallback="137">$INFO[Skin.String(SearchHomeItem.Label)]</label>
@@ -2084,6 +2101,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Search.png">$INFO[Skin.String(SearchHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(SearchHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(SearchHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(SearchHomeItem.Color)]</property>
             </item>
             <item id="12">
                 <onclick>Skin.SetString(MenuItem,ShutdownHomeItem)</onclick>
@@ -2096,6 +2114,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Power.png">$INFO[Skin.String(ShutdownHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(ShutdownHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(ShutdownHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(ShutdownHomeItem.Color)]</property>
             </item>
             <item id="13">
                 <onclick>Skin.SetString(MenuItem,FavouritesHomeItem)</onclick>
@@ -2108,6 +2127,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Star.png">$INFO[Skin.String(FavouritesHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(FavouritesHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(FavouritesHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(FavouritesHomeItem.Color)]</property>
             </item>
             <item id="14">
                 <onclick>Skin.SetString(MenuItem,PlayDiscHomeItem)</onclick>
@@ -2120,6 +2140,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/CD-DVD.png">$INFO[Skin.String(PlayDiscHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(PlayDiscHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(PlayDiscHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(PlayDiscHomeItem.Color)]</property>
             </item>
             <item id="6">
                 <onclick>Skin.SetString(MenuItem,WeatherHomeItem)</onclick>
@@ -2132,6 +2153,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Weather.png">$INFO[Skin.String(WeatherHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(WeatherHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(WeatherHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(WeatherHomeItem.Color)]</property>
             </item>
             <item id="26">
                 <label fallback="31457">$INFO[Skin.String(ComicsHomeItem.Label)]</label>
@@ -2144,6 +2166,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Book.png">$INFO[Skin.String(ComicsHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(ComicsHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(ComicsHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(ComicsHomeItem.Color)]</property>
             </item>
             <item id="50">
                 <label fallback="31053">$INFO[Skin.String(FullscreenHomeItem.Label)]</label>
@@ -2154,6 +2177,7 @@
                 <property name="BigIcon" fallback="special://skin/extras/BigIcons/Fullscreen.png">$INFO[Skin.String(FullscreenHomeItem.Icon)]</property>
                 <property name="InfoLine">$INFO[Skin.String(FullscreenHomeItem.InfoLine)]</property>
                 <property name="SubMenu">$INFO[Skin.String(FullscreenHomeItem.SubMenu)]</property>
+                <property name="Color">$INFO[Skin.String(FullscreenHomeItem.Color)]</property>
                 <onclick>Skin.SetString(MenuItem,FullscreenHomeItem)</onclick>
                 <onclick>ActivateWindow(1122)</onclick>
             </item>

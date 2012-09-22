@@ -860,9 +860,9 @@
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_videoplaylist,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_mainmenu,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_weather,FF6db9e5)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_color,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_color,FFAAAAAA)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_settings,FF6db9e5)</onload>
-        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(font_color,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(font_color,FF060606)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(font_videolibrary,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(font_music,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(font_programs,FF6db9e5)</onload>
