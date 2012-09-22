@@ -190,6 +190,11 @@
                         <onclick>Skin.SetString(ItemToEdit.Path,ActivateWindow(music,$INFO[Skin.String(ItemToEdit.TempPath)],return))</onclick>
                         <onclick>Dialog.Close(1142)</onclick>
                     </item>
+                    <item>
+                        <label>movies submenu</label>
+                        <onclick>Dialog.Close(1142)</onclick>
+                        <onclick>ActivateWindow(1159)</onclick>
+                    </item>
                 </content>
             </control>
         </control>
