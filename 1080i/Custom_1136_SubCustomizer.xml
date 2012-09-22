@@ -9,6 +9,15 @@
     <onload>Skin.Reset(ItemToEdit.Type)</onload>
     <onload>Skin.Reset(ItemToEdit.Icon)</onload>
     <onload>Skin.Reset(ItemToEdit.Widget)</onload>
+    
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Type,$INFO[Skin.String(MoviesSub7.Type)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Label,$INFO[Skin.String(MoviesSub7.Label)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Path,$INFO[Skin.String(MoviesSub7.Path)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub7.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub7.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub7.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub7.InfoLine)])</onload>
+    
     <onload condition="Stringcompare(Skin.String(MenuItem),CustomSub1_1)">Skin.SetString(ItemToEdit.Type,$INFO[Skin.String(CustomSub1_1.Type)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),CustomSub1_1)">Skin.SetString(ItemToEdit.Label,$INFO[Skin.String(CustomSub1_1.Label)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),CustomSub1_1)">Skin.SetString(ItemToEdit.Path,$INFO[Skin.String(CustomSub1_1.Path)])</onload>
@@ -481,6 +490,11 @@
                             <label>$LOCALIZE[31680]</label>
                             <onclick>ActivateWindow(1134)</onclick>
                             <visible>Window.IsActive(1124)</visible>
+                        </control>
+                        <control type="button" id="2143">
+                            <include>Objects_CustomizerSettingsButton</include>
+                            <label>Set InfoLine</label>
+                            <onclick>ActivateWindow(1161)</onclick>
                         </control>
                         <control type="button" id="24">
                             <label>$LOCALIZE[31681]</label>

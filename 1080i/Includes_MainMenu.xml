@@ -711,6 +711,8 @@
             <label>31334</label>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
+            <thumb>$INFO[Skin.String(MoviesSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub3.Widget)]</property>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub3))</visible>
         </item>
         <item>
@@ -727,6 +729,8 @@
         </item>
         <item>
             <label>344</label>
+            <thumb>$INFO[Skin.String(MoviesSub7.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub7.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>SetProperty(BrowseActors,true,home)</onclick>
             <onclick>ActivateWindow(Videos,MovieActors,return)</onclick>
@@ -2533,11 +2537,21 @@
             </item>
             <item>
                 <label>344</label>
-                <onclick condition="IsEmpty(Skin.String(MoviesSub7))">Skin.SetString(MoviesSub7,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(MoviesSub7))">Skin.Reset(MoviesSub7)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(MoviesSub7)]</property>
+                <onclick>Skin.SetString(MenuItem,MoviesSub7)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub7.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub7.Widget)]</property>
+                <property name="DisableIcon">$INFO[Skin.String(MoviesSub7.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
+          <!--  <item>
+                <label>344</label>
+                <onclick condition="IsEmpty(Skin.String(MoviesSub7))">Skin.SetString(MoviesSub7,1)</onclick>
+                <onclick condition="!IsEmpty(Skin.String(MoviesSub7))">Skin.Reset(MoviesSub7)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="DisableIcon">$INFO[Skin.String(MoviesSub7)]</property>
+                <visible>Substring(Control.GetLabel(4327),movies)</visible>
+            </item>-->
             <item>
                 <label>20348</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub8))">Skin.SetString(MoviesSub8,1)</onclick>
