@@ -20,7 +20,6 @@
     <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),shutdown)">SetProperty(SubmenuType,shutdown,1124)</onload>
     <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),pvr)">SetProperty(SubmenuType,pvr,1124)</onload>
     <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),videos)">SetProperty(SubmenuType,videos,1124)</onload>
-    <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),programs)">SetProperty(SubmenuType,programs,1124)</onload>
 
     <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),custom1)">SetProperty(custom1,custom1,1124)</onload>
     <onload condition="SubString(Skin.String(ItemToEdit.SubMenu),custom2)">SetProperty(custom2,custom2,1124)"</onload>
@@ -35,16 +34,16 @@
     <controls>
         <control type="label" id="12111">
             <label>$INFO[Window(1124).Property(SubmenuType)]$INFO[Window(1124).Property(custom1)]$INFO[Window(1124).Property(custom2)]$INFO[Window(1124).Property(custom3)]$INFO[Window(1124).Property(custom4)]$INFO[Window(1124).Property(custom5)]$INFO[Window(1124).Property(custom6)]$INFO[Window(1124).Property(custom7)]$INFO[Window(1124).Property(custom8)]$INFO[Window(1124).Property(custom9)]$INFO[Window(1124).Property(custom10)] </label>
-<!--             <animation effect="fade" start="100" end="0" time="0" condition="true">conditional</animation>
- -->        </control>
+             <animation effect="fade" start="100" end="0" time="0" condition="true">conditional</animation>
+        </control>
         <control type="group">
             <posx>280</posx>
             <posy>-60</posy>
             <control type="image">
                 <posx>230</posx>
-                <posy>200</posy>
+                <posy>120</posy>
                 <width>940</width>
-                <height>700</height>
+                <height>780</height>
                 <texture border="20">osd/osd_settings_back_glow.png</texture>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <visible>!Skin.HasSetting(DisableGlowbar)</visible>
@@ -53,12 +52,35 @@
             </control>
             <control type="image">
                 <posx>230</posx>
-                <posy>200</posy>
+                <posy>120</posy>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
                 <width>940</width>
-                <height>700</height>
+                <height>780</height>
                 <texture border="20">osd/osd_settings_back.png</texture>
             </control>
+                        <control type="label">
+                            <posy>180</posy>
+                            <posx>100</posx>
+                            <width>746</width>
+                            <height>40</height>
+                            <align>center</align>
+                            <aligny>center</aligny>
+                            <font>Font_Reg18_Caps</font>
+                            <textcolor>white2</textcolor>
+                            <label>Default Sets</label>
+                        </control>
+            
+                        <control type="label">
+                            <posy>180</posy>
+                            <posx>550</posx>
+                            <width>746</width>
+                            <height>40</height>
+                            <align>center</align>
+                            <aligny>center</aligny>
+                            <font>Font_Reg18_Caps</font>
+                            <textcolor>white2</textcolor>
+                            <label>Optional Custom Sets</label>
+                        </control>
             <include>Animation_OpenCloseZoom</include>
             <control type="panel" id="4">
                 <posx>250</posx>
@@ -67,6 +89,7 @@
                 <height>540</height>
                 <itemgap>0</itemgap>
                 <aligny>center</aligny>
+                <onback>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onback>
                 <scrolltime>0</scrolltime>
                 <orientation>vertical</orientation>
                 <onright>5</onright>
@@ -141,61 +164,49 @@
                 </focusedlayout>
                 <content>
                     <item>
-                        <label>No Submenu</label>
-                        <onclick>Skin.Reset(ItemToEdit.SubMenu,1124)</onclick>
-                        <onclick>Dialog.Close(1150)</onclick>
-                    </item>
-                    <item>
-                        <label>No Predefined Items</label>
+                        <label>No Default Items</label>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>Movie Submenu</label>
-                        <property name="Sub">movies</property>
+                        <label>Default Movie Items</label>
                         <onclick>SetProperty(SubmenuType,movies,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>TV Show Submenu</label>
+                        <label>Default TV Show Items</label>
                         <onclick>SetProperty(SubmenuType,tv,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>Music Submenu</label>
+                        <label>Default Music Items</label>
                         <onclick>SetProperty(SubmenuType,music,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>Settings Submenu</label>
+                        <label>Default Settings Items</label>
                         <onclick>SetProperty(SubmenuType,settings,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>Shutdown Submenu</label>
+                        <label>Default Shutdown Items</label>
                         <onclick>SetProperty(SubmenuType,shutdown,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                    <item>
-                        <label>PVR Submenu</label>
+                        <label>Default PVR Items</label>
                         <onclick>SetProperty(SubmenuType,pvr,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
                     <item>
-                        <label>Video Submenu</label>
+                        <label>Default Video Items</label>
                         <onclick>SetProperty(SubmenuType,videos,1124)</onclick>
-                        <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
-                        <onclick>Dialog.Close(1150)</onclick>
-                    </item>
-                    <item>
-                        <label>Programs Submenu</label>
-                        <onclick>SetProperty(SubmenuType,programs,1124)</onclick>
                         <onclick>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onclick>
                         <onclick>Dialog.Close(1150)</onclick>
                     </item>
@@ -211,6 +222,7 @@
                         <scrolltime>0</scrolltime>
                         <onleft>4</onleft>
                         <onright>4</onright>
+                        <onback>Skin.SetString(ItemToEdit.SubMenu,$INFO[Control.Getlabel(12111)])</onback>
                         <orientation>vertical</orientation>
                         <visible>!Window.IsActive(1134)</visible>
                         <include>Animation_VisibleChange200</include>
