@@ -635,7 +635,7 @@
                         <include condition="Substring(Skin.String(widget2list),rss5 )">RSS5Widget2Content</include>
                         <include condition="Substring(Skin.String(widget2list),rss6 )">RSS6Widget2Content1124</include>
                         <include condition="Substring(Skin.String(widget2list),rss6 )">RSS6Widget2Content</include>
-                    </content>
+                    </content> 
                 </control>
             </control>
         </control>

@@ -4276,53 +4276,52 @@
             <visible>!IsEmpty(Window(home).Property(RSS4.RSS.4.Title))</visible>
         </item>
     </include>
-    <include name="RSS5WidgetContent">
+    <include name="RSS4WidgetContent">
         <item>
-            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.5.Media)])</onclick>
-            <label>$INFO[Window(home).Property(RSS5.RSS.5.Title)]</label>
-            <icon>$INFO[Window(home).Property(RSS5.RSS.5.Image.1)]</icon>
-            <property name="Plot">$INFO[Window(Home).Property(RSS5.RSS.5.Desc)]</property>
-            <property name="Date">$INFO[Window(home).Property(RSS5.RSS.5.Date)]</property>
-            <property name="Channel">$INFO[Window(home).Property(RSS5.RSS.5.Channel)]</property>
-            <property name="Media">$INFO[Window(home).Property(RSS5.RSS.5.Media)]</property>
-            <visible>Substring(Control.GetLabel(4321),rss5)</visible>
-            <visible>!IsEmpty(Window(home).Property(RSS5.RSS.5.Title))</visible>
+            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS4.RSS.5.Media)])</onclick>
+            <label>$INFO[Window(home).Property(RSS4.RSS.5.Title)]</label>
+            <icon>$INFO[Window(home).Property(RSS4.RSS.5.Image.1)]</icon>
+            <property name="Plot">$INFO[Window(Home).Property(RSS4.RSS.5.Desc)]</property>
+            <property name="Date">$INFO[Window(home).Property(RSS4.RSS.5.Date)]</property>
+            <property name="Channel">$INFO[Window(home).Property(RSS4.RSS.5.Channel)]</property>
+            <property name="Media">$INFO[Window(home).Property(RSS4.RSS.5.Media)]</property>
+            <visible>Substring(Control.GetLabel(4321),rss4)</visible>
+            <visible>!IsEmpty(Window(home).Property(RSS4.RSS.5.Title))</visible>
         </item>
         <item>
-            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.6.Media)])</onclick>
-            <label>$INFO[Window(home).Property(RSS5.RSS.6.Title)]</label>
-            <icon>$INFO[Window(home).Property(RSS5.RSS.6.Image.1)]</icon>
-            <property name="Plot">$INFO[Window(Home).Property(RSS5.RSS.6.Desc)]</property>
-            <property name="Date">$INFO[Window(home).Property(RSS5.RSS.6.Date)]</property>
-            <property name="Channel">$INFO[Window(home).Property(RSS5.RSS.6.Channel)]</property>
-            <property name="Media">$INFO[Window(home).Property(RSS5.RSS.6.Media)]</property>
-            <visible>Substring(Control.GetLabel(4321),rss5)</visible>
-            <visible>!IsEmpty(Window(home).Property(RSS5.RSS.6.Title))</visible>
+            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS4.RSS.6.Media)])</onclick>
+            <label>$INFO[Window(home).Property(RSS4.RSS.6.Title)]</label>
+            <icon>$INFO[Window(home).Property(RSS4.RSS.6.Image.1)]</icon>
+            <property name="Plot">$INFO[Window(Home).Property(RSS4.RSS.6.Desc)]</property>
+            <property name="Date">$INFO[Window(home).Property(RSS4.RSS.6.Date)]</property>
+            <property name="Channel">$INFO[Window(home).Property(RSS4.RSS.6.Channel)]</property>
+            <property name="Media">$INFO[Window(home).Property(RSS4.RSS.6.Media)]</property>
+            <visible>Substring(Control.GetLabel(4321),rss4)</visible>
+            <visible>!IsEmpty(Window(home).Property(RSS4.RSS.6.Title))</visible>
         </item>
         <item>
-            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.7.Media)])</onclick>
-            <label>$INFO[Window(home).Property(RSS5.RSS.7.Title)]</label>
-            <icon>$INFO[Window(home).Property(RSS5.RSS.7.Image.1)]</icon>
-            <property name="Plot">$INFO[Window(Home).Property(RSS5.RSS.7.Desc)]</property>
-            <property name="Date">$INFO[Window(home).Property(RSS5.RSS.7.Date)]</property>
-            <property name="Channel">$INFO[Window(home).Property(RSS5.RSS.7.Channel)]</property>
-            <property name="Media">$INFO[Window(home).Property(RSS5.RSS.7.Media)]</property>
-            <visible>Substring(Control.GetLabel(4321),rss5)</visible>
-            <visible>!IsEmpty(Window(home).Property(RSS5.RSS.7.Title))</visible>
+            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS4.RSS.7.Media)])</onclick>
+            <label>$INFO[Window(home).Property(RSS4.RSS.7.Title)]</label>
+            <icon>$INFO[Window(home).Property(RSS4.RSS.7.Image.1)]</icon>
+            <property name="Plot">$INFO[Window(Home).Property(RSS4.RSS.7.Desc)]</property>
+            <property name="Date">$INFO[Window(home).Property(RSS4.RSS.7.Date)]</property>
+            <property name="Channel">$INFO[Window(home).Property(RSS4.RSS.7.Channel)]</property>
+            <property name="Media">$INFO[Window(home).Property(RSS4.RSS.7.Media)]</property>
+            <visible>Substring(Control.GetLabel(4321),rss4)</visible>
+            <visible>!IsEmpty(Window(home).Property(RSS4.RSS.7.Title))</visible>
         </item>
         <item>
-            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.8.Media)])</onclick>
-            <label>$INFO[Window(home).Property(RSS5.RSS.8.Title)]</label>
-            <icon>$INFO[Window(home).Property(RSS5.RSS.8.Image.1)]</icon>
-            <property name="Plot">$INFO[Window(Home).Property(RSS5.RSS.8.Desc)]</property>
-            <property name="Date">$INFO[Window(home).Property(RSS5.RSS.8.Date)]</property>
-            <property name="Channel">$INFO[Window(home).Property(RSS5.RSS.8.Channel)]</property>
-            <property name="Media">$INFO[Window(home).Property(RSS5.RSS.8.Media)]</property>
-            <visible>Substring(Control.GetLabel(4321),rss5)</visible>
-            <visible>!IsEmpty(Window(home).Property(RSS5.RSS.8.Title))</visible>
+            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS4.RSS.8.Media)])</onclick>
+            <label>$INFO[Window(home).Property(RSS4.RSS.8.Title)]</label>
+            <icon>$INFO[Window(home).Property(RSS4.RSS.8.Image.1)]</icon>
+            <property name="Plot">$INFO[Window(Home).Property(RSS4.RSS.8.Desc)]</property>
+            <property name="Date">$INFO[Window(home).Property(RSS4.RSS.8.Date)]</property>
+            <property name="Channel">$INFO[Window(home).Property(RSS4.RSS.8.Channel)]</property>
+            <property name="Media">$INFO[Window(home).Property(RSS4.RSS.8.Media)]</property>
+            <visible>Substring(Control.GetLabel(4321),rss4)</visible>
+            <visible>!IsEmpty(Window(home).Property(RSS4.RSS.8.Title))</visible>
         </item>
     </include>
-    
     <include name="RSS5WidgetContent1124">
         <item>
             <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.1.Media)])</onclick>
@@ -4415,7 +4414,6 @@
             <visible>!IsEmpty(Window(home).Property(RSS5.RSS.8.Title))</visible>
         </item>
     </include>
-    
     <include name="RSS6WidgetContent1124">
         <item>
             <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS6.RSS.1.Media)])</onclick>
@@ -4507,7 +4505,7 @@
             <visible>Substring(Control.GetLabel(4321),rss6)</visible>
             <visible>!IsEmpty(Window(home).Property(RSS6.RSS.8.Title))</visible>
         </item>
-    </include>
+    </include>    
     <include name="GooglePanelWidget">
         <control type="group">
             <control type="group">

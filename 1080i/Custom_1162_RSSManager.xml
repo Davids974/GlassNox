@@ -80,7 +80,7 @@
                         <onclick>Skin.SetString(CustomHomeFeedTitle6)</onclick>
                         <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                         <label2>[COLOR white]$INFO[Skin.String(CustomHomeFeedTitle6)][/COLOR]</label2>
-                    </control>
+                    </control>                    
                 </control>
                 <control type="group">
                     <control type="grouplist" id="4">
@@ -140,7 +140,7 @@
                             <onclick>ActivateWindow(1160)</onclick>
                             <onclick>Dialog.Close(1162)</onclick>
                         </control>
-                        <control type="button" id="13">
+                        <control type="button" id="12">
                             <label>Slot 6</label>
                             <include>Objects_CustomizerSettingsButton</include>
                             <onclick condition="IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss6,1124)</onclick>
@@ -148,7 +148,7 @@
                             <onclick>SetProperty(RSSWidget,RSSWidget6,1124)</onclick>
                             <onclick>ActivateWindow(1160)</onclick>
                             <onclick>Dialog.Close(1162)</onclick>
-                        </control>
+                        </control>                        
                     </control>
                 </control>
             </control>
