@@ -803,6 +803,9 @@
         <value condition="Substring(Container(9000).ListItem.Property(Widget),rss1)">$INFO[Skin.String(CustomHomeFeedTitle1)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget),rss2)">$INFO[Skin.String(CustomHomeFeedTitle2)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget),rss3)">$INFO[Skin.String(CustomHomeFeedTitle3)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget),rss4)">$INFO[Skin.String(CustomHomeFeedTitle4)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget),rss5)">$INFO[Skin.String(CustomHomeFeedTitle5)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget),rss6)">$INFO[Skin.String(CustomHomeFeedTitle6)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget),wunderground)">Weather Wunderground</value>
     </variable>
     <variable name="WidgetTypeLabelVar1124">
@@ -830,6 +833,9 @@
         <value condition="Substring(Skin.String(ItemToEdit.Widget),rss1)">$INFO[Skin.String(CustomHomeFeedTitle1)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget),rss2)">$INFO[Skin.String(CustomHomeFeedTitle2)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget),rss3)">$INFO[Skin.String(CustomHomeFeedTitle3)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget),rss4)">$INFO[Skin.String(CustomHomeFeedTitle4)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget),rss5)">$INFO[Skin.String(CustomHomeFeedTitle5)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget),rss6)">$INFO[Skin.String(CustomHomeFeedTitle6)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget),featuredmusic)">$LOCALIZE[42274]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget),featuredtv)">$LOCALIZE[42273]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget),featuredmovies)">$LOCALIZE[42272]</value>
@@ -864,6 +870,9 @@
         <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss1)">$INFO[Skin.String(CustomHomeFeedTitle1)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss2)">$INFO[Skin.String(CustomHomeFeedTitle2)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss3)">$INFO[Skin.String(CustomHomeFeedTitle3)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss4)">$INFO[Skin.String(CustomHomeFeedTitle4)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss5)">$INFO[Skin.String(CustomHomeFeedTitle5)]</value>
+        <value condition="Substring(Container(9000).ListItem.Property(Widget2),rss6)">$INFO[Skin.String(CustomHomeFeedTitle6)]</value>
         <value condition="Substring(Container(9000).ListItem.Property(Widget2),wunderground)">Weather Wunderground</value>
     </variable>
     <variable name="Widget2TypeLabelVar1124">
@@ -891,6 +900,9 @@
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss1)">$INFO[Skin.String(CustomHomeFeedTitle1)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss2)">$INFO[Skin.String(CustomHomeFeedTitle2)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss3)">$INFO[Skin.String(CustomHomeFeedTitle3)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss4)">$INFO[Skin.String(CustomHomeFeedTitle4)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss5)">$INFO[Skin.String(CustomHomeFeedTitle5)]</value>
+        <value condition="Substring(Skin.String(ItemToEdit.Widget2),rss6)">$INFO[Skin.String(CustomHomeFeedTitle6)]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),featuredmusic)">$LOCALIZE[42274]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),featuredtv)">$LOCALIZE[42273]</value>
         <value condition="Substring(Skin.String(ItemToEdit.Widget2),featuredmovies)">$LOCALIZE[42272]</value>

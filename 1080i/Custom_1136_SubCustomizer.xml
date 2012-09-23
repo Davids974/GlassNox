@@ -421,13 +421,13 @@
     <onunload>Skin.Reset(ItemToEdit.Widget)</onunload>
     <controls>
         <control type="group">
-            <visible>!Window.IsActive(1137) + !Window.IsActive(1133) + !Window.IsActive(1134) + !Window.IsActive(1138) + !Window.IsActive(1142) + !Window.IsActive(1143) + !Window.IsActive(1144) + !Window.IsActive(1145) + !Window.IsActive(1155)</visible>
+            <visible>!Window.IsActive(1137) + !Window.IsActive(1133) + !Window.IsActive(1134) + !Window.IsActive(1138) + !Window.IsActive(1142) + !Window.IsActive(1143) + !Window.IsActive(1144) + !Window.IsActive(1145) + !Window.IsActive(1155) +!Window.IsActive(1162)</visible>
             <include>Animation_DialogPopup</include>
             <control type="image">
                 <posx>456</posx>
                 <posy>200</posy>
                 <width>1010</width>
-                <height>450</height>
+                <height>500</height>
                 <texture>osd/osd_settings_back_glow.png</texture>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <visible>!Skin.HasSetting(DisableGlowbar)</visible>
@@ -439,7 +439,7 @@
                 <posy>200</posy>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
                 <width>1010</width>
-                <height>450</height>
+                <height>500</height>
                 <texture>osd/osd_settings_back.png</texture>
             </control>
             <control type="group">
@@ -516,7 +516,7 @@
                             <onclick>Skin.Reset(ItemToEdit.Label)</onclick>
                             <onclick>Skin.Reset(ItemToEdit.Path)</onclick>
                             <onclick>ActivateWindow(1142)</onclick>
-                            <visible>-</visible>
+                            <visible>Substring(Skin.String(MenuItem),Custom,left) | Substring(Skin.String(MenuItem),Quick,left)</visible>
                         </control>
                         <control type="button" id="2141">
                             <include>Objects_CustomizerSettingsButton</include>

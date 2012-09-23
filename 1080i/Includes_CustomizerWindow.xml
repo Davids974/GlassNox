@@ -1993,6 +1993,24 @@
                             <icon>$INFO[Window(home).Property(RSS3.RSS.1.Image.1)]</icon>
                             <visible>Substring(Control.GetLabel(4321),rss3)</visible>
                         </item>
+                        <item>
+                            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS4.RSS.1.Media)])</onclick>
+                            <label>$INFO[Window(home).Property(RSS4.RSS.1.Title)]</label>
+                            <icon>$INFO[Window(home).Property(RSS4.RSS.1.Image.1)]</icon>
+                            <visible>Substring(Control.GetLabel(4321),rss4)</visible>
+                        </item>
+                        <item>
+                            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS5.RSS.1.Media)])</onclick>
+                            <label>$INFO[Window(home).Property(RSS5.RSS.1.Title)]</label>
+                            <icon>$INFO[Window(home).Property(RSS5.RSS.1.Image.1)]</icon>
+                            <visible>Substring(Control.GetLabel(4321),rss5)</visible>
+                        </item>
+                        <item>
+                            <onclick>XBMC.PlayMedia($INFO[Window(home).Property(RSS6.RSS.1.Media)])</onclick>
+                            <label>$INFO[Window(home).Property(RSS6.RSS.1.Title)]</label>
+                            <icon>$INFO[Window(home).Property(RSS6.RSS.1.Image.1)]</icon>
+                            <visible>Substring(Control.GetLabel(4321),rss6)</visible>
+                        </item>
                     </content>
                 </control>
             </control>

@@ -4,12 +4,21 @@
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget1)">Skin.SetString(CustomHomeFeedURL1,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget2)">Skin.SetString(CustomHomeFeedURL2,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget3)">Skin.SetString(CustomHomeFeedURL3,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget4)">Skin.SetString(CustomHomeFeedURL4,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget5)">Skin.SetString(CustomHomeFeedURL5,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget6)">Skin.SetString(CustomHomeFeedURL6,$INFO[Skin.String(RSSWidgetFeed)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget1)">Skin.SetString(CustomHomeFeedTitle1,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget2)">Skin.SetString(CustomHomeFeedTitle2,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget3)">Skin.SetString(CustomHomeFeedTitle3,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget4)">Skin.SetString(CustomHomeFeedTitle4,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget5)">Skin.SetString(CustomHomeFeedTitle5,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget6)">Skin.SetString(CustomHomeFeedTitle6,$INFO[Skin.String(RSSWidgetTitle)])</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget1)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS1)</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget2)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS2)</onunload>
     <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget3)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS3)</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget4)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS4)</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget5)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS5)</onunload>
+    <onunload condition="StringCompare(Window(1124).Property(RSSWidget),RSSWidget6)">XBMC.RunScript(script.rssclient,guiless,feed=$INFO[Skin.String(RSSWidgetFeed)],imagecaching=false,window=10000,limit=8,prefix=RSS6)</onunload>
     <onunload>Skin.Reset(RSSWidgetFeed)</onunload>
     <onunload condition="IsEmpty(Window(1124).Property(NoStyleSelect)">ActivateWindow(1137)</onunload>
     <onunload>ClearProperty(NoStyleSelect,1124)</onunload>

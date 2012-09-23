@@ -31,7 +31,7 @@
                     <posx>875</posx>
                     <posy>240</posy>
                     <width>1172</width>
-                    <height>540</height>
+                    <height>240</height>
                     <itemgap>0</itemgap>
                     <aligny>center</aligny>
                     <onleft>4</onleft>
@@ -60,13 +60,34 @@
                         <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                         <label2>[COLOR white]$INFO[Skin.String(CustomHomeFeedTitle3)][/COLOR]</label2>
                     </control>
+                    <control type="button" id="24">
+                        <include>Objects_CustomizerInfoButton</include>
+                        <label>Label:</label>
+                        <onclick>Skin.SetString(CustomHomeFeedTitle4)</onclick>
+                        <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
+                        <label2>[COLOR white]$INFO[Skin.String(CustomHomeFeedTitle4)][/COLOR]</label2>
+                    </control>
+                    <control type="button" id="25">
+                        <include>Objects_CustomizerInfoButton</include>
+                        <label>Label:</label>
+                        <onclick>Skin.SetString(CustomHomeFeedTitle5)</onclick>
+                        <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
+                        <label2>[COLOR white]$INFO[Skin.String(CustomHomeFeedTitle5)][/COLOR]</label2>
+                    </control>
+                    <control type="button" id="26">
+                        <include>Objects_CustomizerInfoButton</include>
+                        <label>Label:</label>
+                        <onclick>Skin.SetString(CustomHomeFeedTitle6)</onclick>
+                        <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
+                        <label2>[COLOR white]$INFO[Skin.String(CustomHomeFeedTitle6)][/COLOR]</label2>
+                    </control>
                 </control>
                 <control type="group">
                     <control type="grouplist" id="4">
                         <posx>475</posx>
                         <posy>240</posy>
                         <width>1172</width>
-                        <height>540</height>
+                        <height>240</height>
                         <itemgap>0</itemgap>
                         <aligny>center</aligny>
                         <onright>20</onright>
@@ -98,6 +119,33 @@
                             <onclick condition="IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss3,1124)</onclick>
                             <onclick condition="!IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss3_2,1124)</onclick>
                             <onclick>SetProperty(RSSWidget,RSSWidget3,1124)</onclick>
+                            <onclick>ActivateWindow(1160)</onclick>
+                            <onclick>Dialog.Close(1162)</onclick>
+                        </control>
+                        <control type="button" id="10">
+                            <label>Slot 4</label>
+                            <include>Objects_CustomizerSettingsButton</include>
+                            <onclick condition="IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss4,1124)</onclick>
+                            <onclick condition="!IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss4_2,1124)</onclick>
+                            <onclick>SetProperty(RSSWidget,RSSWidget4,1124)</onclick>
+                            <onclick>ActivateWindow(1160)</onclick>
+                            <onclick>Dialog.Close(1162)</onclick>
+                        </control>
+                        <control type="button" id="11">
+                            <label>Slot 5</label>
+                            <include>Objects_CustomizerSettingsButton</include>
+                            <onclick condition="IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss5,1124)</onclick>
+                            <onclick condition="!IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss5_2,1124)</onclick>
+                            <onclick>SetProperty(RSSWidget,RSSWidget5,1124)</onclick>
+                            <onclick>ActivateWindow(1160)</onclick>
+                            <onclick>Dialog.Close(1162)</onclick>
+                        </control>
+                        <control type="button" id="13">
+                            <label>Slot 6</label>
+                            <include>Objects_CustomizerSettingsButton</include>
+                            <onclick condition="IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss6,1124)</onclick>
+                            <onclick condition="!IsEmpty(Window(1124).Property(Widget2))">SetProperty(CustomYesNoDialog,rss6_2,1124)</onclick>
+                            <onclick>SetProperty(RSSWidget,RSSWidget6,1124)</onclick>
                             <onclick>ActivateWindow(1160)</onclick>
                             <onclick>Dialog.Close(1162)</onclick>
                         </control>
