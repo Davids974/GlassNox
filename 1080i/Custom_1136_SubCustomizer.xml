@@ -10,13 +10,50 @@
     <onload>Skin.Reset(ItemToEdit.Icon)</onload>
     <onload>Skin.Reset(ItemToEdit.Widget)</onload>
     
-    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Type,$INFO[Skin.String(MoviesSub7.Type)])</onload>
-    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Label,$INFO[Skin.String(MoviesSub7.Label)])</onload>
-    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Path,$INFO[Skin.String(MoviesSub7.Path)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub1.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub1.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub1.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub1.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub2)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub2.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub2)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub2.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub2)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub2.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub2)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub2.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub3)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub3.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub3)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub3.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub3)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub3.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub3)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub3.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub4)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub4.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub4)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub4.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub4)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub4.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub4)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub4.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub5)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub5.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub5)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub5.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub5)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub5.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub5)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub5.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub6)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub6.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub6)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub6.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub6)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub6.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub6)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub6.InfoLine)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub7.MultiFanart)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub7.Disable)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub7.Widget)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub7)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub7.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub8)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub8.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub8)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub8.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub8)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub8.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub8)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub8.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub9)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub9.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub9)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub9.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub9)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub9.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub9)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub9.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub10)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub10.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub10)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub10.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub10)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub10.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub10)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub10.InfoLine)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub11)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub11.MultiFanart)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub11)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub11.Disable)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub11)">Skin.SetString(ItemToEdit.Widget,$INFO[Skin.String(MoviesSub11.Widget)])</onload>
+    <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub11)">Skin.SetString(ItemToEdit.InfoLine,$INFO[Skin.String(MoviesSub11.InfoLine)])</onload>
     
     <onload condition="Stringcompare(Skin.String(MenuItem),CustomSub1_1)">Skin.SetString(ItemToEdit.Type,$INFO[Skin.String(CustomSub1_1.Type)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),CustomSub1_1)">Skin.SetString(ItemToEdit.Label,$INFO[Skin.String(CustomSub1_1.Label)])</onload>
@@ -479,6 +516,7 @@
                             <onclick>Skin.Reset(ItemToEdit.Label)</onclick>
                             <onclick>Skin.Reset(ItemToEdit.Path)</onclick>
                             <onclick>ActivateWindow(1142)</onclick>
+                            <visible>-</visible>
                         </control>
                         <control type="button" id="2141">
                             <include>Objects_CustomizerSettingsButton</include>

@@ -678,16 +678,20 @@
         </item>
     </include>
     <include name="CinemaSubMenuItem">
-        <item>
+		<item>
             <label>$LOCALIZE[31284]</label>
+            <thumb>$INFO[Skin.String(MoviesSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub1.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>XBMC.RunScript(script.cinema.experience,movietitles)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies)</visible>
         </item>
     </include>
     <include name="RandomMovieScriptButton">
-        <item>
+		<item>
             <label>590</label>
+            <thumb>$INFO[Skin.String(MoviesSub10.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub10.Widget)]</property>
             <onclick>RunScript(script.randommovie, prompt=True)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies)</visible>
         </item>
@@ -696,6 +700,8 @@
         <include condition="system.hasaddon(script.cinema.experience) + IsEmpty(Skin.String(MoviesSub1))">CinemaSubMenuItem</include>
         <item>
             <label>$LOCALIZE[31162]</label>
+            <thumb>$INFO[Skin.String(MoviesSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub2.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick condition="!IsEmpty(Skin.String(HomeMenuSubMoviesTrailer))">XBMC.RunAddon($INFO[Skin.String(HomeMenuSubMoviesTrailer)])</onclick>
             <onclick condition="IsEmpty(Skin.String(HomeMenuSubMoviesTrailer))">Skin.SetAddon(HomeMenuSubMoviesTrailer,xbmc.addon.video)</onclick>
@@ -703,26 +709,32 @@
         </item>
         <item>
             <label>369</label>
+            <thumb>$INFO[Skin.String(MoviesSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub4.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub4))</visible>
         </item>
         <item>
             <label>31334</label>
-            <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
-            <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
             <thumb>$INFO[Skin.String(MoviesSub3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub3.Widget)]</property>
+            <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
+            <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub3))</visible>
         </item>
         <item>
             <label>135</label>
+            <thumb>$INFO[Skin.String(MoviesSub5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub5.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieGenres,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub5))</visible>
         </item>
         <item>
             <label>652</label>
+            <thumb>$INFO[Skin.String(MoviesSub6.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub6.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieYears,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub6))</visible>
@@ -738,6 +750,8 @@
         </item>
         <item>
             <label>20348</label>
+            <thumb>$INFO[Skin.String(MoviesSub8.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub8.Widget)]</property>
             <onclick>SetProperty(BrowseActors,true,home)</onclick>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieDirectors,return)</onclick>
@@ -745,11 +759,15 @@
         </item>
         <item>
             <label>24069</label>
+            <thumb>$INFO[Skin.String(MoviesSub9.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub9.Widget)]</property>
             <onclick>UpdateLibrary(video)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub9))</visible>
         </item>
         <item>
             <label>42245</label>
+            <thumb>$INFO[Skin.String(MoviesSub11.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MoviesSub11.Widget)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick condition="!System.HasAddon(plugin.moviesets)">ActivateWindow(Videos,MovieSets,return)</onclick>
             <onclick condition="System.HasAddon(plugin.moviesets)">XBMC.RunAddon(plugin.moviesets)</onclick>
@@ -2496,6 +2514,9 @@
                 <onclick condition="!System.HasAddon(script.cinema.experience)">Notification($LOCALIZE[42000],$LOCALIZE[42005])</onclick>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub1))">Skin.SetString(MoviesSub1,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub1))">Skin.Reset(MoviesSub1)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub1.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub1.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub1)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2504,6 +2525,9 @@
                 <onclick condition="IsEmpty(Skin.String(MoviesSub2))">Skin.SetString(MoviesSub2,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub2))">Skin.Reset(MoviesSub2)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub2))">Skin.SetAddon(HomeMenuSubMoviesTrailer,xbmc.addon.video)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub2.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub2.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub2)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2511,6 +2535,9 @@
                 <label>31334</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub3))">Skin.SetString(MoviesSub3,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub3))">Skin.Reset(MoviesSub3)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub3.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub3.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub3)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2518,6 +2545,9 @@
                 <label>369</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub4))">Skin.SetString(MoviesSub4,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub4))">Skin.Reset(MoviesSub4)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub4.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub4.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub4)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2525,6 +2555,9 @@
                 <label>135</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub5))">Skin.SetString(MoviesSub5,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub5))">Skin.Reset(MoviesSub5)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub5.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub5.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub5)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2532,6 +2565,9 @@
                 <label>652</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub6))">Skin.SetString(MoviesSub6,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub6))">Skin.Reset(MoviesSub6)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub6.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub6.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub6)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2544,18 +2580,13 @@
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub7.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
-          <!--  <item>
-                <label>344</label>
-                <onclick condition="IsEmpty(Skin.String(MoviesSub7))">Skin.SetString(MoviesSub7,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(MoviesSub7))">Skin.Reset(MoviesSub7)</onclick>
-                <onclick>ActivateWindow(1136)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(MoviesSub7)]</property>
-                <visible>Substring(Control.GetLabel(4327),movies)</visible>
-            </item>-->
             <item>
                 <label>20348</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub8))">Skin.SetString(MoviesSub8,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub8))">Skin.Reset(MoviesSub8)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub8.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub8.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub8)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2563,6 +2594,9 @@
                 <label>24069</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub9))">Skin.SetString(MoviesSub9,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub9))">Skin.Reset(MoviesSub9)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub9.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub9.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub9)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2570,6 +2604,9 @@
                 <label>42245</label>
                 <onclick condition="IsEmpty(Skin.String(MoviesSub11))">Skin.SetString(MoviesSub11,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub11))">Skin.Reset(MoviesSub11)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub11.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub11.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub11)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
@@ -2578,6 +2615,9 @@
                 <onclick condition="IsEmpty(Skin.String(MoviesSub10))">Skin.SetString(MoviesSub10,1)</onclick>
                 <onclick condition="!IsEmpty(Skin.String(MoviesSub10))">Skin.Reset(MoviesSub10)</onclick>
                 <onclick condition="!System.HasAddon(script.randommovie)">Notification($LOCALIZE[42000],$LOCALIZE[42006]</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <icon fallback="special://skin/backgrounds/movies/">$INFO[Skin.String(MoviesSub10.MultiFanart)]</icon>
+                <property name="Widget">$INFO[Skin.String(MoviesSub10.Widget)]</property>
                 <property name="DisableIcon">$INFO[Skin.String(MoviesSub10)]</property>
                 <visible>Substring(Control.GetLabel(4327),movies)</visible>
             </item>
