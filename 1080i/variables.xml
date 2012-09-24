@@ -444,6 +444,7 @@
         <value condition="Skin.HasSetting(NoVideoLibraryFanart)  + ![Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes)]">special://skin/backgrounds/movies/</value>
         <value condition="Container.Content(genres)">$INFO[ListItem.Label,special://skin/extras/genre/video/fanart/,.jpg]</value>
         <value condition="Container.Content(years)">$INFO[ListItem.Label,special://skin/extras/year/video/fanart/,.jpg]</value>
+        <value condition="Container.Content(countries)">$INFO[ListItem.Label,special://skin/extras/countries/video/fanart/,.jpg]</value>
         <value condition="!IsEmpty(Listitem.Property(Fanart_Image))">$INFO[Listitem.Property(Fanart_Image)]</value>
         <value condition="Container.Content(movies)">special://skin/backgrounds/fallback_movies.jpg</value>
         <value condition="Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Episodes)">special://skin/backgrounds/fallback_tvshows.jpg</value>
