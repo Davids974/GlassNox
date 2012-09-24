@@ -1,5 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
+	<include name="DefaultPicturesSubMenu"> 
+        <item>
+            <label fallback="24001">$INFO[Skin.String(PicturesSub1.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub1.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;addons://sources/image/&quot;)</onclick>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub1))</visible>
+        </item>
+        <item>
+            <label fallback="42291">$INFO[Skin.String(PicturesSub2.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub2.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?method=&apos;folders&apos;&amp;folderid=&apos;&apos;&amp;onlypics=&apos;non&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showfolder&apos;&amp;name=&apos;Parcourir+par+Dossiers&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub2))</visible>
+        </item>
+        <item>
+            <label fallback="42292">$INFO[Skin.String(PicturesSub3.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub3.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?category=&apos;&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showcategory&apos;&amp;name=&apos;Affichage+par+cat%C3%A9gorie&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub3))</visible>
+        </item>
+		<item>
+            <label fallback="42290">$INFO[Skin.String(PicturesSub4.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub4.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?collect=&apos;&apos;&amp;method=&apos;show&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showcollection&apos;&amp;name=&apos;Collections&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub4))</visible>
+        </item>
+        <item>
+            <label fallback="53004">$INFO[Skin.String(PicturesSub5.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub5.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?period=&apos;year&apos;&amp;value=&apos;&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showdate&apos;&amp;name=&apos;Parcourir+par+Dates&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub5))</visible>
+        </item>
+		<item>
+            <label fallback="53005">$INFO[Skin.String(PicturesSub6.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub6.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub6.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?period=&apos;&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showperiod&apos;&amp;name=&apos;P%C3%A9riodes&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub6))</visible>
+        </item>
+		<item>
+            <label fallback="53006">$INFO[Skin.String(PicturesSub7.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub7.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub7.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?tags=&apos;&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showtagtypes&apos;&amp;name=&apos;Parcourir+par+%C3%A9tiquettes&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub7))</visible>
+        </item>
+		<item>
+            <label fallback="53007">$INFO[Skin.String(PicturesSub8.Label)]</label>
+            <thumb>$INFO[Skin.String(PicturesSub8.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(PicturesSub8.Widget)]</property>
+            <onclick>ActivateWindow(10002,&quot;plugin://plugin.image.mypicsdb/?kw=&apos;&apos;&amp;viewmode=&apos;view&apos;&amp;action=&apos;showkeywords&apos;&amp;name=&apos;Parcourir+par+Mots-cl%C3%A9s&apos;&quot;)</onclick>
+            <visible>system.HasAddon(plugin.image.mypicsdb)</visible>
+            <visible>Substring(Control.GetLabel(4327),pictures) + IsEmpty(Skin.String(PicturesSub8))</visible>
+        </item>
+    </include>
     <include name="Custom1Subs">
         <item>
             <label>$INFO[Skin.String(CustomSub1_1.Label)]</label>
@@ -1631,6 +1696,8 @@
             </control>
         </focusedlayout>
         <content>
+			<!--Pictures-->
+			<include condition="Substring(Skin.String(submenulist),pictures)">DefaultPicturesSubMenu</include>
             <!--Videos-->
             <include condition="Substring(Skin.String(submenulist),videos)">DefaultVideosSubMenu</include>
             <!--Music-->
