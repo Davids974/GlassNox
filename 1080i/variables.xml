@@ -1011,6 +1011,7 @@
     </variable>
     <variable name="InfoLineVar">
         <value condition="Window.IsActive(1122)">$INFO[Skin.String(ItemToEdit.InfoLine)]</value>
+        <value condition="!IsEmpty(Container(9010).ListItem.Property(InfoLine))">$INFO[Container(9010).ListItem.Property(InfoLine)]</value>
         <value>$INFO[Container(9000).ListItem.Property(InfoLine)]</value>
     </variable>
     <variable name="SubMenuVar">
