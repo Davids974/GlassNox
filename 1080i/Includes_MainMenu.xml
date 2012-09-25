@@ -586,54 +586,73 @@
         </item>
     </include>
     <include name="DefaultMusicSubMenu">
-        <item>
-            <label>133</label>
+		<item>
+            <label fallback="133">$INFO[Skin.String(MusicSub1.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub1.Widget)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub1.Color)]</property>
             <onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub1))</visible>
         </item>
         <item>
-            <label>132</label>
+            <label fallback="132">$INFO[Skin.String(MusicSub2.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub2.Widget)]</property>
             <onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub2))</visible>
         </item>
-        <item>
-            <label>134</label>
+		<item>
+            <label fallback="134">$INFO[Skin.String(MusicSub3.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub3.Widget)]</property>
             <onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub3))</visible>
         </item>
-        <item>
-            <label>744</label>
+		<item>
+            <label fallback="744">$INFO[Skin.String(MusicSub4.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub4.Widget)]</property>
             <onclick>ActivateWindow(MusicFiles)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub4))</visible>
         </item>
-        <item>
-            <label>14022</label>
+		<item>
+            <label fallback="14022">$INFO[Skin.String(MusicSub5.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub5.Widget)]</property>
             <onclick>ActivateWindow(MusicLibrary)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub5))</visible>
         </item>
-        <item>
-            <label>24001</label>
+		<item>
+            <label fallback="24001">$INFO[Skin.String(MusicSub7.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub7.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub7.Widget)]</property>
             <onclick condition="Library.HasContent(Music)">ActivateWindow(MusicLibrary,Addons,return)</onclick>
             <onclick condition="!Library.HasContent(Music)">ActivateWindow(MusicFiles,Addons,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub7))</visible>
         </item>
-        <item>
-            <label>$LOCALIZE[31040]</label>
+		<item>
+            <label fallback="31040">$INFO[Skin.String(MusicSub8.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub8.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub8.Widget)]</property>
             <onclick>ActivateWindow(500)</onclick>
-            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub8)) + Player.HasAudio</visible>
+            <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub8))</visible>
         </item>
-        <item>
-            <label>31334</label>
+		<item>
+            <label fallback="31334">$INFO[Skin.String(MusicSub9.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub9.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub9.Widget)]</property>
             <onclick>XBMC.ActivateWindow(MusicLibrary,RecentlyAddedAlbums)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub9))</visible>
         </item>
-        <item>
-            <label>31333</label>
-            <onclick>XBMC.ActivateWindow(MusicLibrary,RecentlyPlayedAlbums)</onclick>
+		<item>
+            <label fallback="31333">$INFO[Skin.String(MusicSub10.Label)]</label>
+            <thumb>$INFO[Skin.String(MusicSub10.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(MusicSub10.Widget)]</property>
+             <onclick>XBMC.ActivateWindow(MusicLibrary,RecentlyPlayedAlbums)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub10))</visible>
         </item>
     </include>
