@@ -337,7 +337,7 @@
         <onleft>Dialog.Close(1126)</onleft>
         <onright>Dialog.Close(1126)</onright>
         <onright>SetFocus(50)</onright>
-        <font>Font_Reg15_Caps</font>
+        <font>Font_Bold15_Caps</font>
         <include>Animation_CommonFade</include>
         <radiowidth>98</radiowidth>
         <radioposx>508</radioposx>
@@ -1290,7 +1290,7 @@
             <font>Font_Reg19_Caps</font>
             <textcolor>FF363636</textcolor>
             <shadowcolor>88e5e5e5</shadowcolor>
-            <label>[UPPERCASE]$LOCALIZE[21396]: $INFO[player.chapter]$INFO[player.chaptercount, / ][/UPPERCASE]</label>
+            <label>$LOCALIZE[21396]: $INFO[player.chapter]$INFO[player.chaptercount, / ]</label>
             <visible>player.chaptercount + ![Player.Forwarding | Player.Rewinding]</visible>
         </control>
         <control type="image">
@@ -1508,7 +1508,7 @@
                     <aligny>center</aligny>
                     <font>Font_Reg19</font>
                     <textcolor>white2</textcolor>
-                    <label>[UPPERCASE][B]$INFO[VideoPlayer.ChannelName][/B][/UPPERCASE]</label>
+                    <label>[B]$INFO[VideoPlayer.ChannelName][/B]</label>
                     <scroll>true</scroll>
                 </control>
             </control>

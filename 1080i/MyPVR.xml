@@ -187,9 +187,9 @@
                 <label>$INFO[Container.ListItem.EndTime]</label>
             </control>
             <control type="progress">
-                <posx>100</posx>
+                <posx>105</posx>
                 <posy>7</posy>
-                <width>600</width>
+                <width>590</width>
                 <height>21</height>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <texturebg border="12,0,12,0">dialogs/progress/progress_back.png</texturebg>
@@ -204,10 +204,10 @@
                 <posy>45</posy>
                 <width>800</width>
                 <height>30</height>
-                <font>Font_Reg22</font>
+                <font>Font_Bold22_Caps</font>
                 <align>center</align>
                 <aligny>center</aligny>
-                <label>[UPPERCASE][B]$INFO[Container.ListItem.Title][/B][/UPPERCASE]</label>
+                <label>$INFO[Container.ListItem.Title]</label>
                 <scroll>yes</scroll>
             </control>
             <control type="label">
