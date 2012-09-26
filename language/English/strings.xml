@@ -532,4 +532,13 @@
 <!--     <string id="42296">bars</string>
  -->    <string id="42297">Press DOWN for extended info</string>
     <string id="42298">Alternative main menu font</string>
+    
+    <!--GlassNox-->
+	<string id="53001">Inherit background</string> 
+	<string id="53002">Hit Left or Right to Move</string></string> 
+	<string id="53003">Unit settings</string></string> 
+	<string id="53004">Date</string>
+	<string id="53005">Date Range</string>
+	<string id="53006">Tags</string>
+	<string id="53007">Keywords</string>
 </strings>

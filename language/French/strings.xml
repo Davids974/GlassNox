@@ -490,4 +490,13 @@
   <string id="312576">Première</string>
   <string id="312577">Info non disponible</string>
   <string id="312581">N/D</string>
+  
+  <!--GlassNox-->
+  <string id="53001">Fond d'écran hérité</string>
+  <string id="53002">Droite ou gauche pour régler</string>
+  <string id="53003">Réglage fin</string>
+  <string id="53004">Dates</string>
+  <string id="53005">Périodes</string>
+  <string id="53006">Etiquettes</string>
+  <string id="53007">Mots-clés</string>
 </strings>
