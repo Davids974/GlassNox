@@ -358,6 +358,8 @@
             <label>$INFO[Skin.String(CustomSub5_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub5_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub5_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub5_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub5_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub5_3.Type),4) + !stringcompare(Skin.String(CustomSub5_3.Type),5) + !stringcompare(Skin.String(CustomSub5_3.Type),6) + !stringcompare(Skin.String(CustomSub5_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub5_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub5_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub5_3.Path)],return)</onclick>
@@ -368,6 +370,8 @@
             <label>$INFO[Skin.String(CustomSub5_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub5_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub5_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub5_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub5_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub5_4.Type),4) + !stringcompare(Skin.String(CustomSub5_4.Type),5) + !stringcompare(Skin.String(CustomSub5_4.Type),6) + !stringcompare(Skin.String(CustomSub5_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub5_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub5_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub5_4.Path)],return)</onclick>
@@ -378,6 +382,8 @@
             <label>$INFO[Skin.String(CustomSub5_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub5_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub5_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub5_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub5_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub5_5.Type),4) + !stringcompare(Skin.String(CustomSub5_5.Type),5) + !stringcompare(Skin.String(CustomSub5_5.Type),6) + !stringcompare(Skin.String(CustomSub5_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub5_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub5_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub5_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub5_5.Path)],return)</onclick>
@@ -390,6 +396,8 @@
             <label>$INFO[Skin.String(CustomSub6_1.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub6_1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub6_1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub6_1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub6_1.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub6_1.Type),4) + !stringcompare(Skin.String(CustomSub6_1.Type),5) + !stringcompare(Skin.String(CustomSub6_1.Type),6) + !stringcompare(Skin.String(CustomSub6_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub6_1.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub6_1.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_1.Path)],return)</onclick>
@@ -400,6 +408,8 @@
             <label>$INFO[Skin.String(CustomSub6_2.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub6_2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub6_2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub6_2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub6_2.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub6_2.Type),4) + !stringcompare(Skin.String(CustomSub6_2.Type),5) + !stringcompare(Skin.String(CustomSub6_2.Type),6) + !stringcompare(Skin.String(CustomSub6_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub6_2.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub6_2.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_2.Path)],return)</onclick>
@@ -410,6 +420,8 @@
             <label>$INFO[Skin.String(CustomSub6_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub6_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub6_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub6_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub6_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub6_3.Type),4) + !stringcompare(Skin.String(CustomSub6_3.Type),5) + !stringcompare(Skin.String(CustomSub6_3.Type),6) + !stringcompare(Skin.String(CustomSub6_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub6_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub6_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_3.Path)],return)</onclick>
@@ -420,6 +432,8 @@
             <label>$INFO[Skin.String(CustomSub6_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub6_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub6_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub6_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub6_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub6_4.Type),4) + !stringcompare(Skin.String(CustomSub6_4.Type),5) + !stringcompare(Skin.String(CustomSub6_4.Type),6) + !stringcompare(Skin.String(CustomSub6_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub6_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub6_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_4.Path)],return)</onclick>
@@ -430,6 +444,8 @@
             <label>$INFO[Skin.String(CustomSub6_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub6_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub6_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub6_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub6_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub6_5.Type),4) + !stringcompare(Skin.String(CustomSub6_5.Type),5) + !stringcompare(Skin.String(CustomSub6_5.Type),6) + !stringcompare(Skin.String(CustomSub6_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub6_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub6_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub6_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub6_5.Path)],return)</onclick>
@@ -442,6 +458,8 @@
             <label>$INFO[Skin.String(CustomSub7_1.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub7_1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub7_1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub7_1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub7_1.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub7_1.Type),4) + !stringcompare(Skin.String(CustomSub7_1.Type),5) + !stringcompare(Skin.String(CustomSub7_1.Type),6) + !stringcompare(Skin.String(CustomSub7_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_1.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_1.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_1.Path)],return)</onclick>
@@ -452,6 +470,8 @@
             <label>$INFO[Skin.String(CustomSub7_2.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub7_2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub7_2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub7_2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub7_2.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub7_2.Type),4) + !stringcompare(Skin.String(CustomSub7_2.Type),5) + !stringcompare(Skin.String(CustomSub7_2.Type),6) + !stringcompare(Skin.String(CustomSub7_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_2.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_2.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_2.Path)],return)</onclick>
@@ -462,6 +482,8 @@
             <label>$INFO[Skin.String(CustomSub7_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub7_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub7_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub7_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub7_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub7_3.Type),4) + !stringcompare(Skin.String(CustomSub7_3.Type),5) + !stringcompare(Skin.String(CustomSub7_3.Type),6) + !stringcompare(Skin.String(CustomSub7_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_3.Path)],return)</onclick>
@@ -472,6 +494,8 @@
             <label>$INFO[Skin.String(CustomSub7_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub7_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub7_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub7_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub7_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub7_4.Type),4) + !stringcompare(Skin.String(CustomSub7_4.Type),5) + !stringcompare(Skin.String(CustomSub7_4.Type),6) + !stringcompare(Skin.String(CustomSub7_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_4.Path)],return)</onclick>
@@ -482,6 +506,8 @@
             <label>$INFO[Skin.String(CustomSub7_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub7_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub7_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub7_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub7_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub7_5.Type),4) + !stringcompare(Skin.String(CustomSub7_5.Type),5) + !stringcompare(Skin.String(CustomSub7_5.Type),6) + !stringcompare(Skin.String(CustomSub7_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub7_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub7_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub7_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub7_5.Path)],return)</onclick>
@@ -494,6 +520,8 @@
             <label>$INFO[Skin.String(CustomSub8_1.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub8_1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub8_1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub8_1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub8_1.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub8_1.Type),4) + !stringcompare(Skin.String(CustomSub8_1.Type),5) + !stringcompare(Skin.String(CustomSub8_1.Type),6) + !stringcompare(Skin.String(CustomSub8_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_1.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_1.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_1.Path)],return)</onclick>
@@ -504,6 +532,8 @@
             <label>$INFO[Skin.String(CustomSub8_2.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub8_2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub8_2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub8_2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub8_2.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub8_2.Type),4) + !stringcompare(Skin.String(CustomSub8_2.Type),5) + !stringcompare(Skin.String(CustomSub8_2.Type),6) + !stringcompare(Skin.String(CustomSub8_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_2.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_2.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_2.Path)],return)</onclick>
@@ -514,6 +544,8 @@
             <label>$INFO[Skin.String(CustomSub8_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub8_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub8_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub8_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub8_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub8_3.Type),4) + !stringcompare(Skin.String(CustomSub8_3.Type),5) + !stringcompare(Skin.String(CustomSub8_3.Type),6) + !stringcompare(Skin.String(CustomSub8_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_3.Path)],return)</onclick>
@@ -524,6 +556,8 @@
             <label>$INFO[Skin.String(CustomSub8_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub8_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub8_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub8_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub8_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub8_4.Type),4) + !stringcompare(Skin.String(CustomSub8_4.Type),5) + !stringcompare(Skin.String(CustomSub8_4.Type),6) + !stringcompare(Skin.String(CustomSub8_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_4.Path)],return)</onclick>
@@ -534,6 +568,8 @@
             <label>$INFO[Skin.String(CustomSub8_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub8_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub8_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub8_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub8_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub8_5.Type),4) + !stringcompare(Skin.String(CustomSub8_5.Type),5) + !stringcompare(Skin.String(CustomSub8_5.Type),6) + !stringcompare(Skin.String(CustomSub8_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub8_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub8_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub8_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub8_5.Path)],return)</onclick>
@@ -546,6 +582,8 @@
             <label>$INFO[Skin.String(CustomSub9_1.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub9_1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub9_1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub9_1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub9_1.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub9_1.Type),4) + !stringcompare(Skin.String(CustomSub9_1.Type),5) + !stringcompare(Skin.String(CustomSub9_1.Type),6) + !stringcompare(Skin.String(CustomSub9_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_1.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_1.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_1.Path)],return)</onclick>
@@ -556,6 +594,8 @@
             <label>$INFO[Skin.String(CustomSub9_2.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub9_2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub9_2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub9_2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub9_2.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub9_2.Type),4) + !stringcompare(Skin.String(CustomSub9_2.Type),5) + !stringcompare(Skin.String(CustomSub9_2.Type),6) + !stringcompare(Skin.String(CustomSub9_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_2.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_2.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_2.Path)],return)</onclick>
@@ -566,6 +606,8 @@
             <label>$INFO[Skin.String(CustomSub9_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub9_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub9_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub9_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub9_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub9_3.Type),4) + !stringcompare(Skin.String(CustomSub9_3.Type),5) + !stringcompare(Skin.String(CustomSub9_3.Type),6) + !stringcompare(Skin.String(CustomSub9_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_3.Path)],return)</onclick>
@@ -576,6 +618,8 @@
             <label>$INFO[Skin.String(CustomSub9_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub9_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub9_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub9_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub9_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub9_4.Type),4) + !stringcompare(Skin.String(CustomSub9_4.Type),5) + !stringcompare(Skin.String(CustomSub9_4.Type),6) + !stringcompare(Skin.String(CustomSub9_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_4.Path)],return)</onclick>
@@ -586,6 +630,8 @@
             <label>$INFO[Skin.String(CustomSub9_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub9_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub9_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub9_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub9_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub9_5.Type),4) + !stringcompare(Skin.String(CustomSub9_5.Type),5) + !stringcompare(Skin.String(CustomSub9_5.Type),6) + !stringcompare(Skin.String(CustomSub9_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub9_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub9_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub9_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub9_5.Path)],return)</onclick>
@@ -598,6 +644,8 @@
             <label>$INFO[Skin.String(CustomSub10_1.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub10_1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub10_1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub10_1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub10_1.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub10_1.Type),4) + !stringcompare(Skin.String(CustomSub10_1.Type),5) + !stringcompare(Skin.String(CustomSub10_1.Type),6) + !stringcompare(Skin.String(CustomSub10_1.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_1.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_1.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_1.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_1.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_1.Path)],return)</onclick>
@@ -608,6 +656,8 @@
             <label>$INFO[Skin.String(CustomSub10_2.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub10_2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub10_2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub10_2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub10_2.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub10_2.Type),4) + !stringcompare(Skin.String(CustomSub10_2.Type),5) + !stringcompare(Skin.String(CustomSub10_2.Type),6) + !stringcompare(Skin.String(CustomSub10_2.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_2.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_2.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_2.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_2.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_2.Path)],return)</onclick>
@@ -618,6 +668,8 @@
             <label>$INFO[Skin.String(CustomSub10_3.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub10_3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub10_3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub10_3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub10_3.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub10_3.Type),4) + !stringcompare(Skin.String(CustomSub10_3.Type),5) + !stringcompare(Skin.String(CustomSub10_3.Type),6) + !stringcompare(Skin.String(CustomSub10_3.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_3.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_3.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_3.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_3.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_3.Path)],return)</onclick>
@@ -628,6 +680,8 @@
             <label>$INFO[Skin.String(CustomSub10_4.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub10_4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub10_4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub10_4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub10_4.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub10_4.Type),4) + !stringcompare(Skin.String(CustomSub10_4.Type),5) + !stringcompare(Skin.String(CustomSub10_4.Type),6) + !stringcompare(Skin.String(CustomSub10_4.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_4.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_4.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_4.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_4.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_4.Path)],return)</onclick>
@@ -638,6 +692,8 @@
             <label>$INFO[Skin.String(CustomSub10_5.Label)]</label>
             <thumb>$INFO[Skin.String(CustomSub10_5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(CustomSub10_5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(CustomSub10_5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(CustomSub10_5.Color)]</property>
             <onclick condition="!stringcompare(Skin.String(CustomSub10_5.Type),4) + !stringcompare(Skin.String(CustomSub10_5.Type),5) + !stringcompare(Skin.String(CustomSub10_5.Type),6) + !stringcompare(Skin.String(CustomSub10_5.Type),7)">RunAddon($INFO[Skin.String(CustomSub10_5.Path)])</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_5.Type),4)">ActivateWindow(Videos,$INFO[Skin.String(CustomSub10_5.Path)],return)</onclick>
             <onclick condition="stringcompare(Skin.String(CustomSub10_5.Type),5)">ActivateWindow(MusicLibrary,$INFO[Skin.String(CustomSub10_5.Path)],return)</onclick>
@@ -650,6 +706,7 @@
             <label fallback="133">$INFO[Skin.String(MusicSub1.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub1.InfoLine)]</property>
             <property name="Color">$INFO[Skin.String(MusicSub1.Color)]</property>
             <onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
@@ -659,6 +716,8 @@
             <label fallback="132">$INFO[Skin.String(MusicSub2.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub2.Color)]</property>
             <onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub2))</visible>
@@ -667,6 +726,8 @@
             <label fallback="134">$INFO[Skin.String(MusicSub3.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub3.Color)]</property>
             <onclick>ActivateWindow(MusicLibrary,Songs,return)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub3))</visible>
@@ -675,6 +736,8 @@
             <label fallback="744">$INFO[Skin.String(MusicSub4.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub4.Color)]</property>
             <onclick>ActivateWindow(MusicFiles)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub4))</visible>
         </item>
@@ -682,6 +745,8 @@
             <label fallback="14022">$INFO[Skin.String(MusicSub5.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub5.Color)]</property>
             <onclick>ActivateWindow(MusicLibrary)</onclick>
             <visible>Library.HasContent(Music)</visible>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub5))</visible>
@@ -690,6 +755,8 @@
             <label fallback="24001">$INFO[Skin.String(MusicSub7.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub7.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub7.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub7.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub7.Color)]</property>
             <onclick condition="Library.HasContent(Music)">ActivateWindow(MusicLibrary,Addons,return)</onclick>
             <onclick condition="!Library.HasContent(Music)">ActivateWindow(MusicFiles,Addons,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub7))</visible>
@@ -698,6 +765,8 @@
             <label fallback="31040">$INFO[Skin.String(MusicSub8.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub8.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub8.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub8.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub8.Color)]</property>
             <onclick>ActivateWindow(500)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub8))</visible>
         </item>
@@ -705,6 +774,8 @@
             <label fallback="31334">$INFO[Skin.String(MusicSub9.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub9.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub9.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub9.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub9.Color)]</property>
             <onclick>XBMC.ActivateWindow(MusicLibrary,RecentlyAddedAlbums)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub9))</visible>
         </item>
@@ -712,71 +783,127 @@
             <label fallback="31333">$INFO[Skin.String(MusicSub10.Label)]</label>
             <thumb>$INFO[Skin.String(MusicSub10.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MusicSub10.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MusicSub10.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MusicSub10.Color)]</property>
              <onclick>XBMC.ActivateWindow(MusicLibrary,RecentlyPlayedAlbums)</onclick>
             <visible>Substring(Control.GetLabel(4327),music) + IsEmpty(Skin.String(MusicSub10))</visible>
         </item>
     </include>
     <include name="DefaultVideosSubMenu">
-        <item>
-            <label>136</label>
+		<item>
+            <label fallback="136">$INFO[Skin.String(VideosSub1.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub1.Color)]</property>
             <onclick>ActivateWindow(Videos,Playlists,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub1))</visible>
         </item>
-        <item>
-            <label>31502</label>
+		<item>
+            <label fallback="31502">$INFO[Skin.String(VideosSub2.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub2.Color)]</property>
             <onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
             <visible>Library.HasContent(Movies)</visible>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub2))</visible>
         </item>
         <item>
-            <label>31503</label>
+            <label fallback="31503">$INFO[Skin.String(VideosSub3.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub3.Color)]</property>
             <onclick>ActivateWindow(Videos,TvShowTitles,return)</onclick>
             <visible>Library.HasContent(TVShows)</visible>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub3))</visible>
         </item>
-        <item>
-            <label>20389</label>
+		<item>
+            <label fallback="20389">$INFO[Skin.String(VideosSub4.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub4.Color)]</property>
             <onclick>ActivateWindow(Videos,MusicVideoTitles,return)</onclick>
             <visible>Library.HasContent(MusicVideos)</visible>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub4))</visible>
         </item>
-        <item>
-            <label>744</label>
+		<item>
+            <label fallback="744">$INFO[Skin.String(VideosSub5.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub5.Color)]</property>
             <onclick>ActivateWindow(Videos,Files)</onclick>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub5))</visible>
         </item>
-        <item>
-            <label>31507</label>
+		<item>
+            <label fallback="31507">$INFO[Skin.String(VideosSub6.Label)]</label>
+            <thumb>$INFO[Skin.String(VideosSub6.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(VideosSub6.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(VideosSub6.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(VideosSub6.Color)]</property>
             <onclick>ActivateWindow(Videos,Addons,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),videos) + IsEmpty(Skin.String(VideosSub6))</visible>
         </item>
     </include>
     <include name="DefaultSystemSubMenu">
-        <item>
-            <label>5</label>
+		<item>
+            <label fallback="5">$INFO[Skin.String(SystemSub1.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub1.Color)]</property>
             <onclick>ActivateWindow(Settings)</onclick>
             <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub1))</visible>
         </item>
-        <item>
-            <label>7</label>
+		<item>
+            <label fallback="7">$INFO[Skin.String(SystemSub2.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub2.Color)]</property>
             <onclick>ActivateWindow(FileManager)</onclick>
             <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub2))</visible>
         </item>
         <item>
-            <label>13200</label>
+            <label fallback="Skin">$INFO[Skin.String(SystemSub6.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub6.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub6.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub6.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub6.Color)]</property>
+            <onclick>ActivateWindow(1111)</onclick>
+            <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub6))</visible>
+        </item>
+		<item>
+            <label fallback="13200">$INFO[Skin.String(SystemSub3.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub3.Color)]</property>
             <onclick>ActivateWindow(Profiles)</onclick>
             <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub3))</visible>
         </item>
-        <item>
-            <label>130</label>
+		<item>
+            <label fallback="130">$INFO[Skin.String(SystemSub4.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub4.Color)]</property>
             <onclick>ActivateWindow(SystemInfo)</onclick>
             <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub4))</visible>
         </item>
-        <item>
-            <label>24001</label>
+		<item>
+            <label fallback="24001">$INFO[Skin.String(SystemSub5.Label)]</label>
+            <thumb>$INFO[Skin.String(SystemSub5.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(SystemSub5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(SystemSub5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(SystemSub5.Color)]</property>
             <onclick>ActivateWindow(AddonBrowser)</onclick>
             <visible>Substring(Control.GetLabel(4327),settings) + IsEmpty(Skin.String(SystemSub5))</visible>
         </item>
+
     </include>
     <include name="DefaultShutdownSubMenu">
         <item>
@@ -826,6 +953,8 @@
             <label fallback="31284">$INFO[Skin.String(MoviesSub1.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub1.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub1.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>XBMC.RunScript(script.cinema.experience,movietitles)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies)</visible>
@@ -836,6 +965,8 @@
             <label fallback="590">$INFO[Skin.String(MoviesSub2.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub10.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub10.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub10.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub10.Color)]</property>
             <onclick>RunScript(script.randommovie, prompt=True)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies)</visible>
         </item>
@@ -846,6 +977,8 @@
             <label fallback="31162">$INFO[Skin.String(MoviesSub3.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub2.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub2.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick condition="!IsEmpty(Skin.String(HomeMenuSubMoviesTrailer))">XBMC.RunAddon($INFO[Skin.String(HomeMenuSubMoviesTrailer)])</onclick>
             <onclick condition="IsEmpty(Skin.String(HomeMenuSubMoviesTrailer))">Skin.SetAddon(HomeMenuSubMoviesTrailer,xbmc.addon.video)</onclick>
@@ -855,6 +988,8 @@
             <label fallback="369">$INFO[Skin.String(MoviesSub4.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub4.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub4.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub4))</visible>
@@ -863,6 +998,8 @@
             <label fallback="31334">$INFO[Skin.String(MoviesSub5.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub3.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub3.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub3))</visible>
@@ -871,6 +1008,8 @@
             <label fallback="135">$INFO[Skin.String(MoviesSub6.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub5.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub5.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub5.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub5.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieGenres,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub5))</visible>
@@ -879,6 +1018,8 @@
             <label fallback="652">$INFO[Skin.String(MoviesSub6.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub6.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub6.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub6.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub6.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieYears,return)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub6))</visible>
@@ -887,6 +1028,8 @@
             <label fallback="344">$INFO[Skin.String(MoviesSub7.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub7.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub7.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub7.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub7.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>SetProperty(BrowseActors,true,home)</onclick>
             <onclick>ActivateWindow(Videos,MovieActors,return)</onclick>
@@ -896,6 +1039,8 @@
             <label fallback="20348">$INFO[Skin.String(MoviesSub8.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub8.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub8.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub8.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub8.Color)]</property>
             <onclick>SetProperty(BrowseActors,true,home)</onclick>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick>ActivateWindow(Videos,MovieDirectors,return)</onclick>
@@ -905,6 +1050,8 @@
 			<label fallback="24069">$INFO[Skin.String(MoviesSub9.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub9.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub9.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub9.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub9.Color)]</property>
             <onclick>UpdateLibrary(video)</onclick>
             <visible>Substring(Control.GetLabel(4327),movies) + IsEmpty(Skin.String(MoviesSub9))</visible>
         </item>
@@ -912,6 +1059,8 @@
             <label fallback="42245">$INFO[Skin.String(MoviesSub11.Label)]</label>
             <thumb>$INFO[Skin.String(MoviesSub11.MultiFanart)]</thumb>
             <property name="Widget">$INFO[Skin.String(MoviesSub11.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(MoviesSub11.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(MoviesSub11.Color)]</property>
             <onclick>SetProperty(DontRunTVShowScripts,True,Home)</onclick>
             <onclick condition="!System.HasAddon(plugin.moviesets)">ActivateWindow(Videos,MovieSets,return)</onclick>
             <onclick condition="System.HasAddon(plugin.moviesets)">XBMC.RunAddon(plugin.moviesets)</onclick>

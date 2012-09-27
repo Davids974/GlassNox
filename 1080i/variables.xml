@@ -151,24 +151,23 @@
         <value condition="Window.IsActive(weather) + !IsEmpty(Skin.String(panel_weather))">$INFO[Skin.String(panel_weather)]</value>
         <value condition="[Window.IsActive(1115) | Window.IsActive(script-globalsearch-main.xml)] + !IsEmpty(Skin.String(panel_featured))">$INFO[Skin.String(panel_featured)]</value>
         <value condition="[Window.IsActive(1111) | Window.IsActive(settings) | Window.IsActive(systeminfo) | Window.IsActive(picturessettings) | Window.IsActive(programssettings) | Window.IsActive(weathersettings) | Window.IsActive(musicsettings) | Window.IsActive(systemsettings) | Window.IsActive(videossettings) | Window.IsActive(networksettings) | Window.IsActive(appearancesettings) | Window.IsActive(profiles) | Window.IsActive(filemanager) | Window.IsActive(10020)] + !IsEmpty(Skin.String(panel_settings))">$INFO[Skin.String(panel_settings)]</value>
-        <value condition="Window.IsActive(600) + !IsEmpty(Skin.String(panel_PVR))">$INFO[Skin.String(panel_PVR)]</value>
         <value>FF6db9e5</value>
     </variable>
     <variable name="WhitePanelAreaColorVar">
-        <value condition="[Window.IsActive(1128) | Window.IsActive(1138)] + !IsEmpty(Skin.String(panel_color))">$INFO[Skin.String(panel_color)]</value>
-        <value condition="[Window.IsActive(fullscreeninfo) | Window.IsActive(fullscreenvideo) | Window.IsActive(videoosd) | Window.IsActive(videos) | Window.IsActive(script-NextAired-TVGuide.xml) | Window.IsActive(osdvideosettings) | Window.IsActive(osdaudiosettings)| Window.IsActive(videobookmarks)] + !IsEmpty(Skin.String(white_panel_videolibrary))">$INFO[Skin.String(white_panel_videolibrary)]</value>
-        <value condition="[Window.IsActive(musiclibrary) | Window.IsActive(musicosd) | Window.IsActive(musicfiles) | Window.IsActive(visualisation)] + !IsEmpty(Skin.String(white_panel_music))">$INFO[Skin.String(white_panel_music)]</value>
-        <value condition="[Window.IsActive(programs) | Window.IsActive(script-Rom_Collection_Browser-main.xml)] + !IsEmpty(Skin.String(white_panel_programs))">$INFO[Skin.String(white_panel_programs)]</value>
-        <value condition="Window.IsActive(pictures) + !IsEmpty(Skin.String(white_panel_pictures))">$INFO[Skin.String(white_panel_pictures)]</value>
-        <value condition="[Window.IsActive(startup) | Window.IsActive(home) | Window.IsActive(1124) | Window.IsActive(1158)] + !IsEmpty(Skin.String(white_panel_mainmenu))">$INFO[Skin.String(white_panel_mainmenu)]</value>
-        <value condition="Window.IsActive(addonbrowser) + !IsEmpty(Skin.String(white_panel_addons))">$INFO[Skin.String(white_panel_addons)]</value>
-        <value condition="Window.IsActive(musicplaylist) + !IsEmpty(Skin.String(white_panel_musicplaylist))">$INFO[Skin.String(white_panel_musicplaylist)]</value>
-        <value condition="Window.IsActive(videoplaylist) + !IsEmpty(Skin.String(white_panel_videoplaylist))">$INFO[Skin.String(white_panel_videoplaylist)]</value>
-        <value condition="Window.IsActive(weather) + !IsEmpty(Skin.String(white_panel_weather))">$INFO[Skin.String(white_panel_weather)]</value>
-        <value condition="[Window.IsActive(1115) | Window.IsActive(script-globalsearch-main.xml)] + !IsEmpty(Skin.String(white_panel_featured))">$INFO[Skin.String(white_panel_featured)]</value>
-        <value condition="[Window.IsActive(1111) | Window.IsActive(settings) | Window.IsActive(systeminfo) | Window.IsActive(picturessettings) | Window.IsActive(programssettings) | Window.IsActive(weathersettings) | Window.IsActive(musicsettings) | Window.IsActive(systemsettings) | Window.IsActive(videossettings) | Window.IsActive(networksettings) | Window.IsActive(appearancesettings) | Window.IsActive(profiles) | Window.IsActive(filemanager) | Window.IsActive(10020)] + !IsEmpty(Skin.String(white_panel_settings))">$INFO[Skin.String(white_panel_settings)]</value>
-        <value condition="Window.IsActive(600) + !IsEmpty(Skin.String(white_panel_PVR))">$INFO[Skin.String(white_panel_PVR)]</value>
-        <value>FF6db9e5</value>
+		<value condition="[Window.IsActive(1128) | Window.IsActive(1138)] + !IsEmpty(Skin.String(panel_color))">$INFO[Skin.String(panel_color)]</value>
+        <value condition="[Window.IsActive(fullscreeninfo) | Window.IsActive(fullscreenvideo) | Window.IsActive(videoosd) | Window.IsActive(videos) | Window.IsActive(script-NextAired-TVGuide.xml) | Window.IsActive(osdvideosettings) | Window.IsActive(osdaudiosettings)| Window.IsActive(videobookmarks)] + !IsEmpty(Skin.String(panel_white_videolibrary))">$INFO[Skin.String(panel_white_videolibrary)]</value>
+        <value condition="[Window.IsActive(musiclibrary) | Window.IsActive(musicosd) | Window.IsActive(musicfiles) | Window.IsActive(visualisation)] + !IsEmpty(Skin.String(panel_white_music))">$INFO[Skin.String(panel_white_music)]</value>
+        <value condition="[Window.IsActive(programs) | Window.IsActive(script-Rom_Collection_Browser-main.xml)] + !IsEmpty(Skin.String(panel_white_programs))">$INFO[Skin.String(panel_white_programs)]</value>
+        <value condition="Window.IsActive(pictures) + !IsEmpty(Skin.String(panel_white_pictures))">$INFO[Skin.String(panel_white_pictures)]</value>
+        <value condition="[Window.IsActive(startup) | Window.IsActive(home) | Window.IsActive(1124) | Window.IsActive(1158)] + !IsEmpty(Skin.String(panel_white_mainmenu))">$INFO[Skin.String(panel_white_mainmenu)]</value>
+        <value condition="Window.IsActive(addonbrowser) + !IsEmpty(Skin.String(panel_white_addons))">$INFO[Skin.String(panel_white_addons)]</value>
+        <value condition="Window.IsActive(musicplaylist) + !IsEmpty(Skin.String(panel_white_musicplaylist))">$INFO[Skin.String(panel_white_musicplaylist)]</value>
+        <value condition="Window.IsActive(videoplaylist) + !IsEmpty(Skin.String(panel_white_videoplaylist))">$INFO[Skin.String(panel_white_videoplaylist)]</value>
+        <value condition="Window.IsActive(weather) + !IsEmpty(Skin.String(panel_white_weather))">$INFO[Skin.String(panel_white_weather)]</value>
+        <value condition="[Window.IsActive(1115) | Window.IsActive(script-globalsearch-main.xml)] + !IsEmpty(Skin.String(panel_white_featured))">$INFO[Skin.String(panel_white_featured)]</value>
+        <value condition="[Window.IsActive(1111) | Window.IsActive(settings) | Window.IsActive(systeminfo) | Window.IsActive(picturessettings) | Window.IsActive(programssettings) | Window.IsActive(weathersettings) | Window.IsActive(musicsettings) | Window.IsActive(systemsettings) | Window.IsActive(videossettings) | Window.IsActive(networksettings) | Window.IsActive(appearancesettings) | Window.IsActive(profiles) | Window.IsActive(filemanager) | Window.IsActive(10020)] + !IsEmpty(Skin.String(panel_white_settings))">$INFO[Skin.String(panel_white_settings)]</value>
+        <value condition="Window.IsActive(600) + !IsEmpty(Skin.String(panel_white_PVR))">$INFO[Skin.String(panel_white_PVR)]</value>
+        <value>FFFFFFFF</value>
     </variable>
     <variable name="SpotColorVar">
         <value condition="!Skin.HasTheme(Black)">$VAR[ColorDiffuseVar]</value>
@@ -201,7 +200,7 @@
     <!--    <value condition="Skin.HasTheme(White)">FFFFFFFF</value>-->
 		
         <value condition="Skin.HasSetting(colordialogs)+Skin.HasTheme(Black)">$VAR[PanelAreaColorVar]</value>
-        <value condition="Skin.HasSetting(colordialogs)+!IsEmpty(Skin.String(panel_color))">$VAR[WhitePanelAreaColorVar]</value>
+        <value condition="Skin.HasSetting(colordialogs)">$VAR[WhitePanelAreaColorVar]</value>
         <value>FFFFFFFF</value>
     </variable>
     <variable name="ColorDiffuseBackgroundVar">
