@@ -9,7 +9,7 @@
     <onload>Skin.Reset(ItemToEdit.Type)</onload>
     <onload>Skin.Reset(ItemToEdit.Icon)</onload>
     <onload>Skin.Reset(ItemToEdit.Widget)</onload>
-    
+
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub1.MultiFanart)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(MoviesSub1.Label)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),MoviesSub1)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(MoviesSub1.Disable)])</onload>
@@ -416,6 +416,7 @@
     <onload condition="Stringcompare(Skin.String(MenuItem),QuickList1_9)">Skin.SetString(ItemToEdit.Path,$INFO[Skin.String(QuickList1_9.Path)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),QuickList1_9)">Skin.SetString(ItemToEdit.MultiFanart,$INFO[Skin.String(QuickList1_9.MultiFanart)])</onload>
     <onload condition="Stringcompare(Skin.String(MenuItem),QuickList1_9)">Skin.SetString(ItemToEdit.Disable,$INFO[Skin.String(QuickList1_9.Disable)])</onload>
+   
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Type,$INFO[Skin.String(ItemToEdit.Type)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].MultiFanart,$INFO[Skin.String(ItemToEdit.MultiFanart)])</onunload>
     <onunload>Skin.SetString($INFO[Skin.String(MenuItem)].Label,$INFO[Skin.String(ItemToEdit.Label)])</onunload>

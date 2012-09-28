@@ -1,68 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <includes>
     <!-- MikeBZH44 start : Animation to open current case -->
-    <include name="ShowcaseOpenCase1sec">
+    <include name="ShowcaseAutoOpenCase1sec">
         <animation type="focus" reversible="false">
             <effect type="rotatey" delay="1333" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="6333" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
-    <include name="ShowcaseOpenCase2sec">
+    <include name="ShowcaseAutoOpenCase2sec">
         <animation type="focus" reversible="false">
             <effect type="rotatey" delay="2666" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="7666" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
-    <include name="ShowcaseOpenCase3sec">
+    <include name="ShowcaseAutoOpenCase3sec">
         <animation type="focus" reversible="false">
             <effect type="rotatey" delay="3999" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="8999" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
-    <include name="ShowcaseOpenCase4sec">
+    <include name="ShowcaseAutoOpenCase4sec">
         <animation type="focus" reversible="false">
-            <effect type="rotatey" delay="4999" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="5333" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="10333" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
-    <include name="ShowcaseOpenCase5sec">
+    <include name="ShowcaseAutoOpenCase5sec">
         <animation type="focus" reversible="false">
-            <effect type="rotatey" delay="5999" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="6666" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="11666" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
-    <include name="ShowcaseOpenCaseNoCoverflow">
+    <include name="ShowcaseAutoOpenCaseManual">
+        <animation type="conditional" reversible="false" condition="Control.IsVisible(7550)">
+            <effect type="rotatey" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="5000" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
+        </animation>
+    </include>
+    <include name="ShowcaseOpenCaseManual">
         <animation type="conditional" reversible="true" condition="Control.HasFocus(962)">
             <effect type="rotatey" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
     <include name="ShowcaseCloseCase">
-        <animation type="unfocus" reversible="true" condition="[Control.IsVisible(7550)]">
+        <animation type="unfocus" reversible="true" condition="Control.IsVisible(7550)">
             <effect type="rotatey" center="90" start="75" end="0" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
     <include name="ShowcaseOpenCloseCase">
-        <include condition="Skin.HasSetting(Nox.autoopencase) + Skin.HasSetting(Nox.1sec)">ShowcaseOpenCase1sec</include>
-        <include condition="Skin.HasSetting(Nox.autoopencase) + Skin.HasSetting(Nox.2sec)">ShowcaseOpenCase2sec</include>
-        <include condition="Skin.HasSetting(Nox.autoopencase) + Skin.HasSetting(Nox.3sec)">ShowcaseOpenCase3sec</include>
-        <include condition="Skin.HasSetting(Nox.autoopencase) + Skin.HasSetting(Nox.4sec)">ShowcaseOpenCase4sec</include>
-        <include condition="Skin.HasSetting(Nox.autoopencase) + Skin.HasSetting(Nox.5sec)">ShowcaseOpenCase5sec</include>
-        <include condition="!Skin.HasSetting(Nox.autoopencase)">ShowcaseOpenCaseNoCoverflow</include>
-        <include condition="Skin.HasSetting(Nox.autoopencase)">ShowcaseCloseCase</include>
+        <include condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + Skin.HasSetting(1sec)">ShowcaseAutoOpenCase1sec</include>
+        <include condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + Skin.HasSetting(2sec)">ShowcaseAutoOpenCase2sec</include>
+        <include condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + Skin.HasSetting(3sec)">ShowcaseAutoOpenCase3sec</include>
+        <include condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + Skin.HasSetting(4sec)">ShowcaseAutoOpenCase4sec</include>
+        <include condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + Skin.HasSetting(5sec)">ShowcaseAutoOpenCase5sec</include>
+        <include condition="Skin.HasSetting(autoopencase) + !Skin.HasSetting(infopaneauto)">ShowcaseAutoOpenCaseManual</include>
+        <include condition="!Skin.HasSetting(autoopencase)">ShowcaseOpenCaseManual</include>
     </include>
     <include name="ShowcaseOpenCaseCoverflow">
-        <animation type="conditional" reversible="false" condition="Skin.HasSetting(Nox.autoopencase) + [Control.IsVisible(197) | Control.IsVisible(198)]">
+        <animation type="conditional" reversible="false" condition="Skin.HasSetting(autoopencase) + Skin.HasSetting(infopaneauto) + !Skin.HasSetting(infopaneoff) + [Control.IsVisible(197) | Control.IsVisible(198)]">
             <effect type="rotatey" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="5000" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
         </animation>
-        <animation type="conditional" reversible="true" condition="!Skin.HasSetting(Nox.autoopencase) + Control.HasFocus(962)">
+        <animation type="conditional" reversible="false" condition="Skin.HasSetting(autoopencase) + !Skin.HasSetting(infopaneauto) + !Skin.HasSetting(infopaneoff) + Control.IsVisible(7550)">
+            <effect type="rotatey" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
+            <effect type="rotatey" delay="5000" center="90" start="0" end="-75" time="1000" tween="quadratic" easing="out"/>
+        </animation>
+        <animation type="conditional" reversible="true" condition="!Skin.HasSetting(autoopencase) + Control.HasFocus(962)">
             <effect type="rotatey" center="90" start="0" end="75" time="1000" tween="quadratic" easing="out"/>
         </animation>
     </include>
     <!-- MikeBZH44 end -->
     <include name="SourceCases">
-        <itemlayout height="525" width="294" condition="[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
+        <itemlayout height="525" width="294" condition="[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
             <control type="group">
-                <visible>[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)</visible>
+                <visible>[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)</visible>
                 <animation effect="fade" time="0" delay="800">Visible</animation>
                 <control type="image">
                     <include>MovieShowcaseBackVarsCases</include>
                     <texture background="true" fallback="thumbs/boxes/default_case.png">thumbs/boxes/tvshows/$VAR[GlobalCaseVar]</texture>
-                    <visible>![Skin.HasSetting(Nox.nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
+                    <visible>![Skin.HasSetting(nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
                 </control>
                 <control type="image">
                     <include>MovieShowcaseThumbCases</include>
@@ -72,7 +88,7 @@
                 <control type="image">
                     <include>MovieShowcaseBackReflectionVarsCases</include>
                     <texture background="true" flipy="true" fallback="thumbs/boxes/default_case.png" diffuse="thumbs/boxes/movieposter_mask_reflect.png">thumbs/boxes/tvshows/$VAR[GlobalCaseVar]</texture>
-                    <visible>![Skin.HasSetting(Nox.nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
+                    <visible>![Skin.HasSetting(nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
                 </control>
                 <control type="image">
                     <include>MovieShowcaseThumbReflectionCasesCover</include>
@@ -81,11 +97,11 @@
                 <control type="image">
                     <include>WatchedOverlayShowCaseCases</include>
                     <include>OverlayVisibility0</include>
-                    <visible>![Skin.HasSetting(Nox.nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
+                    <visible>![Skin.HasSetting(nosagacase) + SubString(ListItem.Path,videodb://1/7/)]</visible>
                 </control>
             </control>
         </itemlayout>
-        <focusedlayout height="525" width="294" condition="[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
+        <focusedlayout height="525" width="294" condition="[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
             <control type="group">
                 <animation effect="fade" time="0" delay="800">Visible</animation>
                 <!-- MikeBZH44 start : Display Bluray/3D or DVD background case -->
@@ -101,26 +117,17 @@
                 </control>
                 <!-- MikeBZH44 start : Display Movie disc / Bluray disc / DVD disc / Default disc -->
                 <control type="image">
-                    <posx>109</posx>
-                    <posy>110</posy>
-                    <width>195</width>
-                    <height>195</height>
+                    <include>MovieShowcaseCDArtCase</include>
                     <texture background="true" fallback="common/cdart/bd.png">$INFO[ListItem.path,,disc.png]</texture>
                     <visible>stringcompare(ListItem.VideoResolution,3d) | stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)</visible>
                 </control>
                 <control type="image">
-                    <posx>109</posx>
-                    <posy>110</posy>
-                    <width>195</width>
-                    <height>195</height>
+                    <include>MovieShowcaseCDArtCase</include>
                     <texture background="true" fallback="common/cdart/dvd.png">$INFO[ListItem.path,,disc.png]</texture>
                     <visible>stringcompare(ListItem.VideoResolution,480) | stringcompare(ListItem.VideoResolution,540) | stringcompare(ListItem.VideoResolution,576)</visible>
                 </control>
                 <control type="image">
-                    <posx>109</posx>
-                    <posy>110</posy>
-                    <width>195</width>
-                    <height>195</height>
+                    <include>MovieShowcaseCDArtCase</include>
                     <texture background="true">common/cdart/default.png</texture>
                     <visible>![stringcompare(ListItem.VideoResolution,3d) | stringcompare(ListItem.VideoResolution,480) | stringcompare(ListItem.VideoResolution,540) | stringcompare(ListItem.VideoResolution,576) | stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)]</visible>
                 </control>
@@ -169,11 +176,11 @@
                 </control>
             </control>
         </focusedlayout>
-        <itemlayout height="525" width="100" condition="![[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></itemlayout>
-        <focusedlayout height="525" width="969" condition="![[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></focusedlayout>
+        <itemlayout height="525" width="100" condition="![[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></itemlayout>
+        <focusedlayout height="525" width="969" condition="![[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></focusedlayout>
     </include>
     <include name="ClearCases">
-        <itemlayout height="525" width="294" condition="[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
+        <itemlayout height="525" width="294" condition="[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
             <control type="group">
                 <animation effect="fade" time="0" delay="800">Visible</animation>
                 <!-- MikeBZH44 start : Display background case -->
@@ -213,7 +220,7 @@
                 </control>
             </control>
         </itemlayout>
-        <focusedlayout height="525" width="294" condition="[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
+        <focusedlayout height="525" width="294" condition="[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)">
             <control type="group">
                 <animation effect="fade" time="0" delay="800">Visible</animation>
                 <!-- MikeBZH44 start : Display background case -->
@@ -223,26 +230,17 @@
                 </control>
                 <!-- MikeBZH44 start : Display Movie disc / Bluray disc / DVD disc / Default disc -->
                 <control type="image">
-                    <posx>122</posx>
-                    <posy>109</posy>
-                    <width>206</width>
-                    <height>206</height>
+                    <include>MovieShowcaseCDArtBox</include>
                     <texture background="true" fallback="common/cdart/bd.png">$INFO[ListItem.path,,disc.png]</texture>
                     <visible>stringcompare(ListItem.VideoResolution,3d) | stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)</visible>
                 </control>
                 <control type="image">
-                    <posx>122</posx>
-                    <posy>109</posy>
-                    <width>206</width>
-                    <height>206</height>
+                    <include>MovieShowcaseCDArtBox</include>
                     <texture background="true" fallback="common/cdart/dvd.png">$INFO[Container(504).ListItemNoWrap(0).path,,disc.png]</texture>
                     <visible>stringcompare(ListItem.VideoResolution,480) | stringcompare(ListItem.VideoResolution,540) | stringcompare(ListItem.VideoResolution,576)</visible>
                </control>
                <control type="image">
-                    <posx>122</posx>
-                    <posy>109</posy>
-                    <width>206</width>
-                    <height>206</height>
+                    <include>MovieShowcaseCDArtBox</include>
                     <texture background="true">common/cdart/default.png</texture>
                     <visible>![stringcompare(ListItem.VideoResolution,3d) | stringcompare(ListItem.VideoResolution,480) | stringcompare(ListItem.VideoResolution,540) | stringcompare(ListItem.VideoResolution,576) | stringcompare(ListItem.VideoResolution,720) | stringcompare(ListItem.VideoResolution,1080)]</visible>
                 </control>
@@ -292,8 +290,8 @@
                 </control>
             </control>
         </focusedlayout>
-        <itemlayout height="525" width="100" condition="![[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></itemlayout>
-        <focusedlayout height="525" width="969" condition="![[[Skin.HasSetting(Nox.noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(Nox.noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></focusedlayout>
+        <itemlayout height="525" width="100" condition="![[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></itemlayout>
+        <focusedlayout height="525" width="969" condition="![[[Skin.HasSetting(noflowdvd) + ![Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]] | [Skin.HasSetting(noflowdvdtv) + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]]] + !Control.IsVisible(6004)]"></focusedlayout>
     </include>
     <include name="contents504list">
         <visible>[!Container.Content(episodes) | SubString(Container.FolderPath,videodb://5/)] + !Container.Content(addons) + !Container.Content(genres) + !Container.Content(years)</visible>
@@ -305,9 +303,9 @@
         <onright>504</onright>
         <onup>7000</onup>
         <!-- MikeBZH44 start -->
-        <ondown condition="Skin.HasSetting(Nox.autoopencase) + Control.IsVisible(61)">61</ondown>
-        <ondown condition="Skin.HasSetting(Nox.autoopencase) + !Control.IsVisible(61)">109</ondown>
-        <ondown condition="!Skin.HasSetting(Nox.autoopencase)">962</ondown>
+        <ondown condition="Skin.HasSetting(autoopencase) + Control.IsVisible(61)">61</ondown>
+        <ondown condition="Skin.HasSetting(autoopencase) + !Control.IsVisible(61)">109</ondown>
+        <ondown condition="!Skin.HasSetting(autoopencase)">962</ondown>
         <!-- MikeBZH44 end -->
         <viewtype label="$LOCALIZE[31151]">bigwrap</viewtype>
         <pagecontrol>61</pagecontrol>
@@ -316,8 +314,8 @@
         <orientation>horizontal</orientation>
         <preloaditems>2</preloaditems>
         <include>Animation_OpenCloseZoom_New</include>
-        <include condition="Skin.HasSetting(Nox.usecases)">SourceCases</include>
-        <include condition="!Skin.HasSetting(Nox.usecases)">ClearCases</include>
+        <include condition="Skin.HasSetting(usecases)">SourceCases</include>
+        <include condition="!Skin.HasSetting(usecases)">ClearCases</include>
     </include>
     <include name="scdfixed">
         <control type="fixedlist" id="504">
@@ -333,11 +331,11 @@
         <control type="group">
             <visible>Control.IsVisible(504)</visible>
             <control type="group">
-                <include condition="!Skin.HasSetting(usecases)">ShowcaseMoviesDVD</include>
+				<include condition="!Skin.HasSetting(usecases)">ShowcaseMoviesDVD</include>
                 <include condition="Skin.HasSetting(usecases)">ShowcaseMoviesCases</include>
             </control>
-            <include condition="!Skin.HasSetting(Nox.showcasewrap)">scdfixed</include>
-            <include condition="Skin.HasSetting(Nox.showcasewrap)">scdwrap</include>
+            <include condition="!Skin.HasSetting(showcasewrap)">scdfixed</include>
+            <include condition="Skin.HasSetting(showcasewrap)">scdwrap</include>
         </control>
     </include>
 </includes>

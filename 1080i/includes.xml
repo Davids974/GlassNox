@@ -869,6 +869,20 @@
         <orientation>vertical</orientation>
     </include>
     <include name="AutoConfig">
+		<onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_programs,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_music,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_videolibrary,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_PVR,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_pictures,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_featured,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_addons,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_musicplaylist,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_videoplaylist,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_mainmenu,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_weather,FF6db9e5)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_color,FFAAAAAA)</onload>
+        <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_white_settings,FF6db9e5)</onload>
+		
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_programs,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_music,FF6db9e5)</onload>
         <onload condition="!Skin.HasSetting(firstrun)">Skin.SetString(diffuse_videolibrary,FF6db9e5)</onload>
