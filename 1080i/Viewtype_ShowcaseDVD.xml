@@ -333,9 +333,8 @@
         <control type="group">
             <visible>Control.IsVisible(504)</visible>
             <control type="group">
-                <!--<animation effect="slide" end="0,30"  time="400" easing="inout" tween="cubic" condition="Skin.HasSetting(Nox.showcaseinfoon) + Container.Content(movies) | Skin.HasSetting(Nox.showcaseinfoontv) + Container.Content(tvshows) | !Skin.HasSetting(Nox.showcaseextrainfo)">Conditional</animation>-->
-                <include condition="!Skin.HasSetting(Nox.usecases)">ShowcaseMoviesDVD</include>
-                <include condition="Skin.HasSetting(Nox.usecases)">ShowcaseMoviesCases</include>
+                <include condition="!Skin.HasSetting(usecases)">ShowcaseMoviesDVD</include>
+                <include condition="Skin.HasSetting(usecases)">ShowcaseMoviesCases</include>
             </control>
             <include condition="!Skin.HasSetting(Nox.showcasewrap)">scdfixed</include>
             <include condition="Skin.HasSetting(Nox.showcasewrap)">scdwrap</include>
