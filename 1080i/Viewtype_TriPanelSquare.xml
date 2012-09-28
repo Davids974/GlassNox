@@ -254,11 +254,11 @@
 
                 
                 <control type="image">
-                    <width>854</width>
-                    <posy>37</posy>
-                    <posx>47</posx>
-                    <height>750</height>
-                    <texture border="0,70,0,200">wall/wall_bg_glow.png</texture>
+                    <width>864</width>
+                    <posy>44</posy>
+                    <posx>42</posx>
+                    <height>737</height>
+                    <texture border="33,33,33,148">wall/wall_bg_glow.png</texture>
                 <include>PanelGlowFade</include>
                     <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                     <visible>!Skin.HasSetting(DisableGlowbar)</visible>
@@ -295,9 +295,10 @@
                     <scrolltime tween="sine" easing="out">200</scrolltime>
                     <itemlayout condition="!Skin.HasSetting(tripanelbiglist)" height="52">
                          <control type="image">
-                            <width>842</width>
+                             <posy>-8</posy>
+                             <width>842</width>
                             <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
-                            <height>52</height>
+                            <height>60</height>
                             <texture>settings/listselect_nf.png</texture>
                         </control>
                         <control type="group">
@@ -360,9 +361,10 @@
                     </itemlayout>
                     <focusedlayout condition="!Skin.HasSetting(tripanelbiglist)" height="52">
                          <control type="image">
-                            <width>842</width>
+                             <posy>-8</posy>
+                             <width>842</width>
                             <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
-                            <height>52</height>
+                            <height>60</height>
                             <texture>settings/listselect_nf.png</texture>
                         </control>
                         <control type="group">
@@ -432,9 +434,10 @@
                     </focusedlayout>
                     <itemlayout condition="Skin.HasSetting(tripanelbiglist)" height="104">
                          <control type="image">
-                            <width>842</width>
+                             <posy>44</posy>
+                             <width>842</width>
                             <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
-                            <height>104</height>
+                            <height>60</height>
                             <texture>settings/listselect_nf.png</texture>
                         </control>
                         <control type="group">
@@ -507,9 +510,10 @@
                     </itemlayout>
                     <focusedlayout condition="Skin.HasSetting(tripanelbiglist)" height="104">
                          <control type="image">
-                            <width>842</width>
+                             <posy>44</posy>
+                             <width>842</width>
                             <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
-                            <height>104</height>
+                            <height>60</height>
                             <texture>settings/listselect_nf.png</texture>
                         </control>
                         <control type="group">
