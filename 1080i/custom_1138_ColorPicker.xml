@@ -148,6 +148,7 @@
                         <icon>common/ocean.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF69f5ee)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF69f5ee)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF69f5ee)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF69f5ee)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF0089c5)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00a1dd)</onclick>
@@ -164,6 +165,7 @@
                         <icon>common/neon.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF03F2FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF03F2FF)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF03F2FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF03F2FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF009dc8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00b6dc)</onclick>
@@ -180,6 +182,7 @@
                         <icon>common/waterspout.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFA4F4F9)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFA4F4F9)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFA4F4F9)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFA4F4F9)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF00b9ce)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00d5e0)</onclick>
@@ -196,6 +199,7 @@
                         <icon>common/lightblue.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF0087ff)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF0087ff)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF0087ff)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF0087ff)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF0055c4)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF0062db)</onclick>
@@ -212,6 +216,7 @@
                         <icon>common/blue.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF00BFFF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF00BFFF)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF00BFFF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF00BFFF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF0089c5)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00a1dd)</onclick>
@@ -228,6 +233,7 @@
                         <icon>common/darkblue.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF0000FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF0000FF)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF0000FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF0000FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF0000b6)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF0000da)</onclick>
@@ -244,6 +250,7 @@
                         <icon>common/palegreen.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,ffB8FBB8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,ffB8FBB8)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,ffB8FBB8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,ffB8FBB8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF00c28d)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00d89a)</onclick>
@@ -260,6 +267,7 @@
                         <icon>common/green.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF04B431)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF04B431)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF04B431)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF04B431)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF00c760)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00da66)</onclick>
@@ -277,6 +285,7 @@
                         <icon>common/lightgreen.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF6cf884)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF6cf884)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF6cf884)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF6cf884)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF00c760)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00da66)</onclick>
@@ -293,6 +302,7 @@
                         <icon>common/neongreen.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF39FF14)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF39FF14)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF39FF14)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF39FF14)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF00c400)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF00d600)</onclick>
@@ -309,6 +319,7 @@
                         <icon>common/lime.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFc5fa05)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFc5fa05)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFc5fa05)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFc5fa05)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFbdca00)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFcfe200)</onclick>
@@ -325,6 +336,7 @@
                         <icon>common/yellow.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFF3F781)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFF3F781)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFF3F781)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFF3F781)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFffc100)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFffd300)</onclick>
@@ -341,6 +353,7 @@
                         <icon>common/khaki.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,fff0e68c)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,fff0e68c)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,fff0e68c)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,fff0e68c)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFfffe65)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFfffd83)</onclick>
@@ -357,6 +370,7 @@
                         <icon>common/gold.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFFFD700)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFFFD700)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFFFD700)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFFFD700)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFe89600)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFf2b200)</onclick>
@@ -373,6 +387,7 @@
                         <icon>common/goldenrod.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,ffDAA520)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,ffDAA520)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,ffDAA520)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,ffDAA520)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFcf5800)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFda6600)</onclick>
@@ -389,6 +404,7 @@
                         <icon>common/orange.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFFFA500)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFFFA500)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFFFA500)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFFFA500)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFc83300)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFdf4100)</onclick>
@@ -405,6 +421,7 @@
                         <icon>common/red-orange.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFFF4500)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFFF4500)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFFF4500)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFFF4500)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFc50003)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFdb1103)</onclick>
@@ -421,6 +438,7 @@
                         <icon>common/red.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFB20000)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFB20000)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFB20000)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFB20000)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFb80002)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFde0004)</onclick>
@@ -437,6 +455,7 @@
                         <icon>common/purple.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF9370D8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FF9370D8)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF9370D8)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF760dff</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFfffe65)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FF954aff)</onclick>
@@ -453,6 +472,7 @@
                         <icon>common/fuchsia.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFFF00FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFFF00FF)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFFF00FF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFFF00FF)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFc100bd)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFff27aa)</onclick>
@@ -469,6 +489,7 @@
                         <icon>common/pink.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFfa98e0)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFfa98e0)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFfa98e0)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFfa98e0)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFff00a1)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFfff00cc)</onclick>
@@ -485,6 +506,7 @@
                         <icon>common/black.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FF000000)</onclick>
                         <onclick condition="!StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(ItemToEdit.Color,FF000000)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FF000000)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FF020202)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF060606)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,FFFF111111)</onclick>
@@ -501,6 +523,7 @@
                         <icon>common/white.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFFFFFFF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFFFFFFF)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFFFFFFF)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFFFFFFF)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FFe5e5e5)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,abFFFFFF)</onclick>
@@ -518,6 +541,7 @@
                         <icon>common/silver.png</icon>
                         <onclick condition="StringCompare(Window(1124).Property(diffuse),color)">Skin.SetString(diffuse_color,FFC9C0BB)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(background),menuitem)">Skin.SetString(ItemToEdit.Color,FFC9C0BB)</onclick>
+                        <onclick condition="StringCompare(Window(1124).Property(background),IconsColor)">Skin.SetString(ItemToEdit.IconColor,FFC9C0BB)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font_color,FFC9C0BB)</onclick>
 						<onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font2_color,FF60605f)</onclick>
                         <onclick condition="StringCompare(Window(1124).Property(skincolor),font)">Skin.SetString(font3_color,ff898989)</onclick>
@@ -553,9 +577,16 @@
                    <item>
                        <label>31630</label>
                         <icon>common/color.png</icon>
-                        <onclick condition="System.HasAddon(script.color.picker)">RunScript(script.color.picker,Skin.SetString(ItemToEdit.color),SetStringInRealTime=true)</onclick>
+                        <onclick condition="System.HasAddon(script.color.picker)">RunScript(script.color.picker,Skin.SetString(ItemToEdit.Color),SetStringInRealTime=true)</onclick>
                         <onclick condition="!System.HasAddon(script.color.picker)">Notification($LOCALIZE[42000],$LOCALIZE[42010])</onclick>
                         <visible>StringCompare(Window(1124).Property(background),menuitem)</visible>
+                    </item>
+                    <item>
+                       <label>31630</label>
+                        <icon>common/color.png</icon>
+                        <onclick condition="System.HasAddon(script.color.picker)">RunScript(script.color.picker,Skin.SetString(ItemToEdit.IconColor),SetStringInRealTime=true)</onclick>
+                        <onclick condition="!System.HasAddon(script.color.picker)">Notification($LOCALIZE[42000],$LOCALIZE[42010])</onclick>
+                        <visible>StringCompare(Window(1124).Property(background),IconsColor)</visible>
                     </item>
                     <item>
                         <label>42227</label>
