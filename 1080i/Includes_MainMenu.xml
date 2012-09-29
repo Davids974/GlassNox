@@ -1101,48 +1101,48 @@
     </include>
     <include name="DefaultSubLiveTV">
 		<item>
-            <label fallback="19023">$INFO[Skin.String(PVRSub1.Label)]</label>
-            <thumb>$INFO[Skin.String(PVRSub1.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(PVRSub1.Widget)]</property>
-            <property name="InfoLine">$INFO[Skin.String(PVRSub1.InfoLine)]</property>
-            <property name="Color">$INFO[Skin.String(PVRSub1.Color)]</property>
+            <label fallback="19023">$INFO[Skin.String(LiveTVSub1.Label)]</label>
+            <thumb>$INFO[Skin.String(LiveTVSub1.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(LiveTVSub1.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(LiveTVSub1.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(LiveTVSub1.Color)]</property>
             <onclick>ActivateWindow(PVR)</onclick>
             <onclick>Setfocus(32)</onclick>
             <onclick>Setfocus(11)</onclick>
-            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(PVRSub1))</visible>
+            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(LiveTVSub1))</visible>
         </item>
 		<item>
-            <label fallback="19024">$INFO[Skin.String(PVRSub2.Label)]</label>
-            <thumb>$INFO[Skin.String(PVRSub2.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(PVRSub2.Widget)]</property>
-            <property name="InfoLine">$INFO[Skin.String(PVRSub2.InfoLine)]</property>
-            <property name="Color">$INFO[Skin.String(PVRSub2.Color)]</property>
+            <label fallback="19024">$INFO[Skin.String(LiveTVSub2.Label)]</label>
+            <thumb>$INFO[Skin.String(LiveTVSub2.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(LiveTVSub2.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(LiveTVSub2.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(LiveTVSub2.Color)]</property>
             <onclick>ActivateWindow(PVR)</onclick>
             <onclick>Setfocus(33)</onclick>
             <onclick>Setfocus(12)</onclick>
-            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(PVRSub2))</visible>
+            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(LiveTVSub2))</visible>
         </item>
         <item>
-            <label fallback="19163">$INFO[Skin.String(PVRSub3.Label)]</label>
-            <thumb>$INFO[Skin.String(PVRSub3.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(PVRSub3.Widget)]</property>
-            <property name="InfoLine">$INFO[Skin.String(PVRSub3.InfoLine)]</property>
-            <property name="Color">$INFO[Skin.String(PVRSub3.Color)]</property>
+            <label fallback="19163">$INFO[Skin.String(LiveTVSub3.Label)]</label>
+            <thumb>$INFO[Skin.String(LiveTVSub3.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(LiveTVSub3.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(LiveTVSub3.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(LiveTVSub3.Color)]</property>
             <onclick>ActivateWindow(PVR)</onclick>
             <onclick>Setfocus(34)</onclick>
             <onclick>Setfocus(13)</onclick>
-            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(PVRSub3))</visible>
+            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(LiveTVSub3))</visible>
         </item>
 		<item>
-            <label fallback="19040">$INFO[Skin.String(PVRSub4.Label)]</label>
-            <thumb>$INFO[Skin.String(PVRSub4.MultiFanart)]</thumb>
-            <property name="Widget">$INFO[Skin.String(PVRSub4.Widget)]</property>
-            <property name="InfoLine">$INFO[Skin.String(PVRSub4.InfoLine)]</property>
-            <property name="Color">$INFO[Skin.String(PVRSub4.Color)]</property>
+            <label fallback="19040">$INFO[Skin.String(LiveTVSub4.Label)]</label>
+            <thumb>$INFO[Skin.String(LiveTVSub4.MultiFanart)]</thumb>
+            <property name="Widget">$INFO[Skin.String(LiveTVSub4.Widget)]</property>
+            <property name="InfoLine">$INFO[Skin.String(LiveTVSub4.InfoLine)]</property>
+            <property name="Color">$INFO[Skin.String(LiveTVSub4.Color)]</property>
             <onclick>ActivateWindow(PVR)</onclick>
             <onclick>Setfocus(35)</onclick>
             <onclick>Setfocus(14)</onclick>
-            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(PVRSub4))</visible>
+            <visible>Substring(Control.GetLabel(4327),pvr) + IsEmpty(Skin.String(LiveTVSub4))</visible>
         </item>
     </include>
     <include name="DefaultTVShowsSubMenu">
@@ -3311,53 +3311,59 @@
                 <property name="DisableIcon">$INFO[Skin.String(ShutdownSub5.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),shutdown)</visible>
             </item>
-            <item>
-                <label>13010</label>
-                <onclick condition="IsEmpty(Skin.String(ShutdownSub5))">Skin.SetString(ShutdownSub5,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(ShutdownSub5))">Skin.Reset(ShutdownSub5)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(ShutdownSub5)]</property>
-                <visible>Substring(Control.GetLabel(4327),shutdown)</visible>
-            </item>
-            <item>
-                <label>20126</label>
-                <onclick condition="IsEmpty(Skin.String(ShutdownSub6))">Skin.SetString(ShutdownSub6,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(ShutdownSub6))">Skin.Reset(ShutdownSub6)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(ShutdownSub6)]</property>
+			<item>
+                <label fallback="20126">$INFO[Skin.String(ShutdownSub6.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,ShutdownSub6)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(ShutdownSub6.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/shutdown/">$INFO[Skin.String(ShutdownSub6.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(ShutdownSub6.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),shutdown) + [System.HasLoginScreen | IntegerGreaterThan(System.ProfileCount,1)] + System.Loggedon</visible>
             </item>
-            <item>
-                <label>13009</label>
-                <onclick condition="IsEmpty(Skin.String(ShutdownSub7))">Skin.SetString(ShutdownSub7,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(ShutdownSub7))">Skin.Reset(ShutdownSub7)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(ShutdownSub7)]</property>
+			<item>
+                <label fallback="13009">$INFO[Skin.String(ShutdownSub7.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,ShutdownSub7)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(ShutdownSub7.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/shutdown/">$INFO[Skin.String(ShutdownSub7.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(ShutdownSub7.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),shutdown) + System.ShowExitButton</visible>
             </item>
-            <item>
-                <label>19023</label>
-                <onclick condition="IsEmpty(Skin.String(LiveTVSub1))">Skin.SetString(LiveTVSub1,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(LiveTVSub1))">Skin.Reset(LiveTVSub1)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub1)]</property>
+            <!--livetv (pvr)-->
+			<item>
+                <label fallback="19023">$INFO[Skin.String(LiveTVSub1.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,LiveTVSub1)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(LiveTVSub1.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/livetv/">$INFO[Skin.String(LiveTVSub1.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub1.Disable)]</property>
+                <visible>Substring(Control.GetLabel(4327),pvr)</visible>
+            </item>
+			<item>
+                <label fallback="19024">$INFO[Skin.String(LiveTVSub2.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,LiveTVSub2)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(LiveTVSub2.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/livetv/">$INFO[Skin.String(LiveTVSub2.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub2.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),pvr)</visible>
             </item>
             <item>
-                <label>19024</label>
-                <onclick condition="IsEmpty(Skin.String(LiveTVSub2))">Skin.SetString(LiveTVSub2,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(LiveTVSub2))">Skin.Reset(LiveTVSub2)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub2)]</property>
+                <label fallback="19163">$INFO[Skin.String(LiveTVSub3.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,LiveTVSub3)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(LiveTVSub3.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/livetv/">$INFO[Skin.String(LiveTVSub3.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub3.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),pvr)</visible>
             </item>
             <item>
-                <label>19163</label>
-                <onclick condition="IsEmpty(Skin.String(LiveTVSub3))">Skin.SetString(LiveTVSub3,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(LiveTVSub3))">Skin.Reset(LiveTVSub3)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub3)]</property>
-                <visible>Substring(Control.GetLabel(4327),pvr)</visible>
-            </item>
-            <item>
-                <label>19040</label>
-                <onclick condition="IsEmpty(Skin.String(LiveTVSub4))">Skin.SetString(LiveTVSub4,1)</onclick>
-                <onclick condition="!IsEmpty(Skin.String(LiveTVSub4))">Skin.Reset(LiveTVSub4)</onclick>
-                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub4)]</property>
+                <label fallback="19040">$INFO[Skin.String(LiveTVSub4.Label)]</label>
+                <onclick>Skin.SetString(MenuItem,LiveTVSub4)</onclick>
+                <onclick>ActivateWindow(1136)</onclick>
+                <property name="Widget">$INFO[Skin.String(LiveTVSub4.Widget)]</property>
+                <icon fallback="special://skin/backgrounds/livetv/">$INFO[Skin.String(LiveTVSub4.MultiFanart)]</icon>
+                <property name="DisableIcon">$INFO[Skin.String(LiveTVSub4.Disable)]</property>
                 <visible>Substring(Control.GetLabel(4327),pvr)</visible>
             </item>
             <!--Custom-->
