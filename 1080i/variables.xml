@@ -209,6 +209,11 @@
         <value condition="!IsEmpty(Container(9000).ListItem.Property(Color))">$INFO[Container(9000).ListItem.Property(Color)]</value>
         <value>A0FFFFFF</value>
     </variable>
+    <variable name="ColorDiffuseIconColorVar">
+		<value condition="Window.IsActive(1124)+ !IsEmpty(Skin.String(ItemToEdit.IconColor))">$INFO[Skin.String(ItemToEdit.IconColor)]</value>
+        <value condition="!IsEmpty(Container(9000).ListItem.Property(IconColor))">$INFO[Container(9000).ListItem.Property(IconColor)]</value>
+        <value>A0FFFFFF</value>
+    </variable>
     <variable name="ExtendedColorDiffuseVar">
         <value condition="!Skin.HasTheme(Black)">FFFFFFFF</value>
         <value condition="!Skin.HasSetting(randomcolor) + ![Skin.HasSetting(DisableGlowbar) + !Skin.HasSetting(ExtendedGlowMode)]">$VAR[AreaColorVar]</value>

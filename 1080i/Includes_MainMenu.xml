@@ -1741,7 +1741,7 @@
                     <width>88</width>
                     <height>88</height>
                     <texture background="true">$INFO[ListItem.Property(BigIcon)]</texture>
-                    <colordiffuse>$VAR[HomeMenuTextFocusVar]</colordiffuse>
+                    <colordiffuse>$VAR[ColorDiffuseIconColorVar]</colordiffuse>
                     <visible>Control.HasFocus(9000)</visible>
                 </control>
                 <control type="label">
